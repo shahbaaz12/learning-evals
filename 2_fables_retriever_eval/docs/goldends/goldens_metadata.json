@@ -1,0 +1,13 @@
+{
+  "status": "ai_prepared_pending_human_review",
+  "prepared_by": "AI assistant; labels selected by reading chunks.json, without querying the retriever",
+  "question_count": 24,
+  "source": "Classic_Fables_Collection.pdf",
+  "chunks_file": "../dataset/chunks.json",
+  "chunks_sha256": "4a845c0db88e061fbf6e2eabdf04ffc64ea9731c41093de2dcfc8d6c7c386112",
+  "chunk_size": 600,
+  "chunk_overlap": 100,
+  "relevance_policy": "Include every chunk that directly supports a factual part of the question's reference answer. Mere shared characters, words, setting, or a loosely related moral do not make a chunk relevant. Overlapping chunks can both be relevant if each contains supporting evidence.",
+  "scoring": "Recall@k uses question and relevant_chunk_ids only. reference_answer and evidence aid label review; they are not an LLM judging rubric.",
+  "review_note": "Evidence confirms that listed chunks contain support; it does not by itself prove that no other relevant chunk was omitted. Review against the complete 43-chunk collection."
+}

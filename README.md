@@ -9,8 +9,9 @@ generate predictions, measure results, inspect failures, and compare improvement
 | Project | What it teaches |
 | --- | --- |
 | [1. Email categorization](1_email_categorization_eval/readme.md) | Golden datasets, LLM classification, exact-match accuracy, and failure analysis |
+| [2. Fables retriever evaluation](2_fables_retriever_eval/readme.md) | PDF chunking, Chroma retrieval, programmatic recall and precision, and comparing values of k |
 
-Planned projects cover retriever evaluation, human evaluation, LLM judges,
+Planned projects cover human evaluation, LLM judges,
 model selection, and a RAG evaluation suite. They will be built one at a time.
 
 ## Setup
@@ -27,7 +28,7 @@ code .
 
 All numbered project folders share the root `.venv` and dependencies declared
 in `pyproject.toml`. `uv.lock` records the resolved versions. `requirements.txt`
-is the initial dependency list; use `uv sync` for the complete project environment.
+lists the direct dependencies; use `uv sync` for the locked project environment.
 
 Create a `.env` file at the repository root for the current Groq-based classifier:
 

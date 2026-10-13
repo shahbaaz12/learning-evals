@@ -10,11 +10,17 @@ python-dotenv
 pandas
 matplotlib
 
+# PDF extraction
+pypdf
+
 # RAG components
+langchain
 langchain-core
+langchain-groq
 langchain-openai
 langchain-text-splitters
 langchain-chroma
+langchain-huggingface
 chromadb
 
 # Cross-encoder reranking

@@ -1,0 +1,422 @@
+{
+  "saved_at": "2026-10-13T23:27:46.952012+05:30",
+  "k": 5,
+  "chunk_size": 600,
+  "chunk_overlap": 100,
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "question_count": 24,
+  "average_recall": 0.9513888888888888,
+  "average_precision": 0.34166666666666673,
+  "results": [
+    {
+      "id": "q001",
+      "question": "In The Boy Who Cried Wolf, why did the villagers stay home when a real wolf appeared?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:2:3"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:2:3",
+        "Classic_Fables_Collection:2:0",
+        "Classic_Fables_Collection:2:1",
+        "Classic_Fables_Collection:11:41",
+        "Classic_Fables_Collection:2:2"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q002",
+      "question": "In The Boy Who Cried Wolf, how did the villagers respond to the first two false alarms?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:2:0",
+        "Classic_Fables_Collection:2:1",
+        "Classic_Fables_Collection:2:2"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:2:3",
+        "Classic_Fables_Collection:2:0",
+        "Classic_Fables_Collection:2:2",
+        "Classic_Fables_Collection:2:1",
+        "Classic_Fables_Collection:11:41"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q003",
+      "question": "In The Fox and the Grapes, what alternative did the sparrow suggest?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:3:5"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:3:6",
+        "Classic_Fables_Collection:3:7",
+        "Classic_Fables_Collection:3:5",
+        "Classic_Fables_Collection:3:4",
+        "Classic_Fables_Collection:8:29"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q004",
+      "question": "What did the fox say about the unreachable grapes, and what did he later realize about that claim?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:3:6",
+        "Classic_Fables_Collection:3:7"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:3:7",
+        "Classic_Fables_Collection:3:6",
+        "Classic_Fables_Collection:3:4",
+        "Classic_Fables_Collection:3:5",
+        "Classic_Fables_Collection:2:3"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q005",
+      "question": "In The Ant and the Grasshopper, what foods did the ant carry into her storehouse during summer?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:4:8"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:4:8",
+        "Classic_Fables_Collection:4:10",
+        "Classic_Fables_Collection:4:11",
+        "Classic_Fables_Collection:4:9",
+        "Classic_Fables_Collection:7:22"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q006",
+      "question": "How did the ant respond to the hungry grasshopper, and how did his behavior change the following summer?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:4:11",
+        "Classic_Fables_Collection:4:12"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:4:11",
+        "Classic_Fables_Collection:4:8",
+        "Classic_Fables_Collection:4:10",
+        "Classic_Fables_Collection:4:9",
+        "Classic_Fables_Collection:8:29"
+      ],
+      "missed_chunk_ids": [
+        "Classic_Fables_Collection:4:12"
+      ],
+      "recall": 0.5
+    },
+    {
+      "id": "q007",
+      "question": "In The Lion and the Mouse, why did the lion release the mouse despite doubting she could help him?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:5:14"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:5:16",
+        "Classic_Fables_Collection:5:15",
+        "Classic_Fables_Collection:5:14",
+        "Classic_Fables_Collection:5:13",
+        "Classic_Fables_Collection:7:23"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q008",
+      "question": "How did the mouse help the lion escape from the hunters' net?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:5:15",
+        "Classic_Fables_Collection:5:16"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:5:15",
+        "Classic_Fables_Collection:5:14",
+        "Classic_Fables_Collection:5:16",
+        "Classic_Fables_Collection:5:13",
+        "Classic_Fables_Collection:8:29"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q009",
+      "question": "In The Goose That Laid Golden Eggs, what did the farmer buy with the money from the first golden egg?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:6:17"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:6:17",
+        "Classic_Fables_Collection:6:18",
+        "Classic_Fables_Collection:6:19",
+        "Classic_Fables_Collection:6:20",
+        "Classic_Fables_Collection:9:30"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q010",
+      "question": "Why did the farmer kill the goose, and what did he find inside?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:6:18",
+        "Classic_Fables_Collection:6:19"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:6:19",
+        "Classic_Fables_Collection:6:18",
+        "Classic_Fables_Collection:6:17",
+        "Classic_Fables_Collection:8:29",
+        "Classic_Fables_Collection:8:26"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q011",
+      "question": "What interrupted the mice's feast in The Town Mouse and the Country Mouse?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:7:22",
+        "Classic_Fables_Collection:7:23"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:7:22",
+        "Classic_Fables_Collection:7:25",
+        "Classic_Fables_Collection:7:21",
+        "Classic_Fables_Collection:7:23",
+        "Classic_Fables_Collection:7:24"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q012",
+      "question": "Why did the country mouse prefer his plain meals at home to the town's rich food?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:7:23",
+        "Classic_Fables_Collection:7:24",
+        "Classic_Fables_Collection:7:25"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:7:22",
+        "Classic_Fables_Collection:7:25",
+        "Classic_Fables_Collection:7:21",
+        "Classic_Fables_Collection:7:24",
+        "Classic_Fables_Collection:7:23"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q013",
+      "question": "In The Crow and the Pitcher, why could the crow not reach the water with his beak at first?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:8:26"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:8:26",
+        "Classic_Fables_Collection:8:27",
+        "Classic_Fables_Collection:8:28",
+        "Classic_Fables_Collection:8:29",
+        "Classic_Fables_Collection:3:6"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q014",
+      "question": "In The Crow and the Pitcher, how did adding pebbles change the water level?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:8:27",
+        "Classic_Fables_Collection:8:28"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:8:28",
+        "Classic_Fables_Collection:8:26",
+        "Classic_Fables_Collection:8:27",
+        "Classic_Fables_Collection:8:29",
+        "Classic_Fables_Collection:4:11"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q015",
+      "question": "In The Milkmaid and Her Pail, how did Mira imagine turning the milk money into a festival dress?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:9:30",
+        "Classic_Fables_Collection:9:31"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:9:32",
+        "Classic_Fables_Collection:9:30",
+        "Classic_Fables_Collection:9:31",
+        "Classic_Fables_Collection:9:33",
+        "Classic_Fables_Collection:6:18"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q016",
+      "question": "What caused Mira to spill the milk, and what did she do differently on her next trip?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:9:32",
+        "Classic_Fables_Collection:9:33"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:9:32",
+        "Classic_Fables_Collection:9:33",
+        "Classic_Fables_Collection:9:30",
+        "Classic_Fables_Collection:3:7",
+        "Classic_Fables_Collection:9:31"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q017",
+      "question": "In The Wind and the Sun, what was the rule for winning the contest?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:10:34"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:10:37",
+        "Classic_Fables_Collection:10:34",
+        "Classic_Fables_Collection:10:35",
+        "Classic_Fables_Collection:10:36",
+        "Classic_Fables_Collection:4:9"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q018",
+      "question": "How did the traveler react to the Wind's blasts compared with the Sun's warmth?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:10:35",
+        "Classic_Fables_Collection:10:36"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:10:37",
+        "Classic_Fables_Collection:10:35",
+        "Classic_Fables_Collection:10:36",
+        "Classic_Fables_Collection:10:34",
+        "Classic_Fables_Collection:8:29"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q019",
+      "question": "In The Wolf in Sheep's Clothing, what disguise did the wolf use and why did the shepherd initially accept it?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:11:38",
+        "Classic_Fables_Collection:11:39"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:11:41",
+        "Classic_Fables_Collection:11:42",
+        "Classic_Fables_Collection:11:38",
+        "Classic_Fables_Collection:11:39",
+        "Classic_Fables_Collection:11:40"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q020",
+      "question": "How did the disguised wolf escape, and what did he lose?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:11:41"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:11:41",
+        "Classic_Fables_Collection:11:42",
+        "Classic_Fables_Collection:11:39",
+        "Classic_Fables_Collection:3:6",
+        "Classic_Fables_Collection:2:3"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q021",
+      "question": "What advice did the sparrow give the fox, and what did the lizard initially say about the crow's problem?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:3:5",
+        "Classic_Fables_Collection:8:27"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:3:6",
+        "Classic_Fables_Collection:8:29",
+        "Classic_Fables_Collection:3:5",
+        "Classic_Fables_Collection:3:7",
+        "Classic_Fables_Collection:8:27"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q022",
+      "question": "What repeated small actions did the mouse take at the hunters' net and the crow take at the pitcher?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:5:15",
+        "Classic_Fables_Collection:8:27",
+        "Classic_Fables_Collection:8:28"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:8:26",
+        "Classic_Fables_Collection:8:29",
+        "Classic_Fables_Collection:5:16",
+        "Classic_Fables_Collection:8:27",
+        "Classic_Fables_Collection:5:15"
+      ],
+      "missed_chunk_ids": [
+        "Classic_Fables_Collection:8:28"
+      ],
+      "recall": 0.6666666666666666
+    },
+    {
+      "id": "q023",
+      "question": "What did the farmer lose by killing the goose, and what did the wolf lose when his disguise failed?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:11:41",
+        "Classic_Fables_Collection:6:19"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:6:19",
+        "Classic_Fables_Collection:11:41",
+        "Classic_Fables_Collection:11:42",
+        "Classic_Fables_Collection:2:3",
+        "Classic_Fables_Collection:6:18"
+      ],
+      "missed_chunk_ids": [],
+      "recall": 1.0
+    },
+    {
+      "id": "q024",
+      "question": "What practical changes did the grasshopper and Mira make after their mistakes?",
+      "relevant_chunk_ids": [
+        "Classic_Fables_Collection:4:11",
+        "Classic_Fables_Collection:4:12",
+        "Classic_Fables_Collection:9:33"
+      ],
+      "retrieved_chunk_ids": [
+        "Classic_Fables_Collection:4:11",
+        "Classic_Fables_Collection:4:10",
+        "Classic_Fables_Collection:9:32",
+        "Classic_Fables_Collection:9:33",
+        "Classic_Fables_Collection:8:29"
+      ],
+      "missed_chunk_ids": [
+        "Classic_Fables_Collection:4:12"
+      ],
+      "recall": 0.6666666666666666
+    }
+  ]
+}

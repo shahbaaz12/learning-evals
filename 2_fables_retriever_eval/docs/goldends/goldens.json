@@ -1,0 +1,306 @@
+[
+  {
+    "id": "q001",
+    "question": "In The Boy Who Cried Wolf, why did the villagers stay home when a real wolf appeared?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:2:3"
+    ],
+    "reference_answer": "They remembered the boy's two tricks and assumed that he was seeking another laugh.",
+    "evidence": {
+      "Classic_Fables_Collection:2:3": "remembered the two tricks. They stayed by their homes, thinking he wanted another laugh."
+    }
+  },
+  {
+    "id": "q002",
+    "question": "In The Boy Who Cried Wolf, how did the villagers respond to the first two false alarms?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:2:0",
+      "Classic_Fables_Collection:2:1",
+      "Classic_Fables_Collection:2:2"
+    ],
+    "reference_answer": "They left their work and rushed to help, but found no wolf. After the repeated trick, they became angry.",
+    "evidence": {
+      "Classic_Fables_Collection:2:0": "The villagers dropped their tools and hurried up the path with sticks and stones.",
+      "Classic_Fables_Collection:2:1": "This time their faces were less frightened than angry.",
+      "Classic_Fables_Collection:2:2": "This time their faces were less frightened than angry."
+    }
+  },
+  {
+    "id": "q003",
+    "question": "In The Fox and the Grapes, what alternative did the sparrow suggest?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:3:5"
+    ],
+    "reference_answer": "The sparrow suggested trying another way around the vine.",
+    "evidence": {
+      "Classic_Fables_Collection:3:5": "Perhaps another way around the vine"
+    }
+  },
+  {
+    "id": "q004",
+    "question": "What did the fox say about the unreachable grapes, and what did he later realize about that claim?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:3:6",
+      "Classic_Fables_Collection:3:7"
+    ],
+    "reference_answer": "He said they were probably sour and he did not want them. Later he realized that this only protected his pride; admitting disappointment would leave more room to learn.",
+    "evidence": {
+      "Classic_Fables_Collection:3:6": "They are probably sour anyway. I would not want them.",
+      "Classic_Fables_Collection:3:7": "it had only protected his pride for a moment."
+    }
+  },
+  {
+    "id": "q005",
+    "question": "In The Ant and the Grasshopper, what foods did the ant carry into her storehouse during summer?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:4:8"
+    ],
+    "reference_answer": "She carried seeds, crumbs, and dry grains.",
+    "evidence": {
+      "Classic_Fables_Collection:4:8": "She carried seeds, crumbs, and dry grains through a narrow path to her underground storehouse."
+    }
+  },
+  {
+    "id": "q006",
+    "question": "How did the ant respond to the hungry grasshopper, and how did his behavior change the following summer?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:4:11",
+      "Classic_Fables_Collection:4:12"
+    ],
+    "reference_answer": "She gave him a warm meal and taught him to gather and store food. He continued singing but also worked beside the ants.",
+    "evidence": {
+      "Classic_Fables_Collection:4:11": "gave him a warm meal.",
+      "Classic_Fables_Collection:4:12": "But between songs, he worked beside the ants."
+    }
+  },
+  {
+    "id": "q007",
+    "question": "In The Lion and the Mouse, why did the lion release the mouse despite doubting she could help him?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:5:14"
+    ],
+    "reference_answer": "The mouse's fear touched him, so he lifted his paw and let her go.",
+    "evidence": {
+      "Classic_Fables_Collection:5:14": "Still, the mouse's fear touched him, and the day was peaceful."
+    }
+  },
+  {
+    "id": "q008",
+    "question": "How did the mouse help the lion escape from the hunters' net?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:5:15",
+      "Classic_Fables_Collection:5:16"
+    ],
+    "reference_answer": "She used her sharp teeth to gnaw through the knots until a gap opened wide enough for the lion to push through.",
+    "evidence": {
+      "Classic_Fables_Collection:5:15": "The mouse gnawed one knot, then another, then another.",
+      "Classic_Fables_Collection:5:16": "At last a gap opened wide enough for him to push through."
+    }
+  },
+  {
+    "id": "q009",
+    "question": "In The Goose That Laid Golden Eggs, what did the farmer buy with the money from the first golden egg?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:6:17"
+    ],
+    "reference_answer": "He used it to repair the roof and buy food for many weeks.",
+    "evidence": {
+      "Classic_Fables_Collection:6:17": "repair the roof and buy food for many weeks."
+    }
+  },
+  {
+    "id": "q010",
+    "question": "Why did the farmer kill the goose, and what did he find inside?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:6:18",
+      "Classic_Fables_Collection:6:19"
+    ],
+    "reference_answer": "He believed the goose held many golden eggs and wanted them all immediately. He found only the inside of an ordinary goose, with no hidden gold.",
+    "evidence": {
+      "Classic_Fables_Collection:6:18": "Surely the goose holds many golden eggs inside her.",
+      "Classic_Fables_Collection:6:19": "But inside he found only what any ordinary goose would have."
+    }
+  },
+  {
+    "id": "q011",
+    "question": "What interrupted the mice's feast in The Town Mouse and the Country Mouse?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:7:22",
+      "Classic_Fables_Collection:7:23"
+    ],
+    "reference_answer": "Servants entered and the mice hid beneath a cabinet. Afterward, a cat leaped out, forcing them to escape through a crack in the wall.",
+    "evidence": {
+      "Classic_Fables_Collection:7:22": "The mice fled beneath a cabinet as servants entered the room.",
+      "Classic_Fables_Collection:7:23": "a cat leaped from behind a chair."
+    }
+  },
+  {
+    "id": "q012",
+    "question": "Why did the country mouse prefer his plain meals at home to the town's rich food?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:7:23",
+      "Classic_Fables_Collection:7:24",
+      "Classic_Fables_Collection:7:25"
+    ],
+    "reference_answer": "The danger in town made him fearful and unable to sleep. He valued the safety and peace of home more than luxurious food.",
+    "evidence": {
+      "Classic_Fables_Collection:7:23": "The country mouse stayed another night, but he could not sleep.",
+      "Classic_Fables_Collection:7:24": "One valued abundance and excitement; the other valued safety and peace.",
+      "Classic_Fables_Collection:7:25": "a simple meal enjoyed without fear can taste better than a feast guarded by danger"
+    }
+  },
+  {
+    "id": "q013",
+    "question": "In The Crow and the Pitcher, why could the crow not reach the water with his beak at first?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:8:26"
+    ],
+    "reference_answer": "The water was at the bottom and the pitcher's narrow neck kept his beak from reaching it.",
+    "evidence": {
+      "Classic_Fables_Collection:8:26": "the narrow neck of the pitcher kept his beak from reaching it."
+    }
+  },
+  {
+    "id": "q014",
+    "question": "In The Crow and the Pitcher, how did adding pebbles change the water level?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:8:27",
+      "Classic_Fables_Collection:8:28"
+    ],
+    "reference_answer": "Each added pebble raised the water a little. Repeated additions made it climb toward the pitcher's narrow mouth.",
+    "evidence": {
+      "Classic_Fables_Collection:8:27": "The crow picked one up and dropped it into the water.",
+      "Classic_Fables_Collection:8:28": "the water climbed toward its narrow mouth."
+    }
+  },
+  {
+    "id": "q015",
+    "question": "In The Milkmaid and Her Pail, how did Mira imagine turning the milk money into a festival dress?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:9:30",
+      "Classic_Fables_Collection:9:31"
+    ],
+    "reference_answer": "She planned to buy eggs, hatch chickens, sell their eggs, and build up enough money for a dress.",
+    "evidence": {
+      "Classic_Fables_Collection:9:30": "I will sell the milk and buy a basket of eggs",
+      "Classic_Fables_Collection:9:31": "The chickens will lay more eggs, and I will sell those too."
+    }
+  },
+  {
+    "id": "q016",
+    "question": "What caused Mira to spill the milk, and what did she do differently on her next trip?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:9:32",
+      "Classic_Fables_Collection:9:33"
+    ],
+    "reference_answer": "She shook her head proudly while daydreaming, causing the pail to slip. On her next trip she steadied it with one hand.",
+    "evidence": {
+      "Classic_Fables_Collection:9:32": "Without thinking, Mira gave her head a quick, proud shake.",
+      "Classic_Fables_Collection:9:33": "This time she walked with one hand steadying the milk."
+    }
+  },
+  {
+    "id": "q017",
+    "question": "In The Wind and the Sun, what was the rule for winning the contest?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:10:34"
+    ],
+    "reference_answer": "The winner would be whoever could make the traveler remove his cloak.",
+    "evidence": {
+      "Classic_Fables_Collection:10:34": "whoever could make the traveler remove his cloak would be declared stronger."
+    }
+  },
+  {
+    "id": "q018",
+    "question": "How did the traveler react to the Wind's blasts compared with the Sun's warmth?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:10:35",
+      "Classic_Fables_Collection:10:36"
+    ],
+    "reference_answer": "The Wind made him hold his cloak more tightly. The Sun's warmth helped him relax, loosen the cloak, and finally remove it.",
+    "evidence": {
+      "Classic_Fables_Collection:10:35": "every blast made the traveler hold on more firmly.",
+      "Classic_Fables_Collection:10:36": "he took it off entirely and folded it over his arm."
+    }
+  },
+  {
+    "id": "q019",
+    "question": "In The Wolf in Sheep's Clothing, what disguise did the wolf use and why did the shepherd initially accept it?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:11:38",
+      "Classic_Fables_Collection:11:39"
+    ],
+    "reference_answer": "He wore a sheep's fleece. The shepherd saw a woolly shape and did not notice the wolf's eyes beneath it.",
+    "evidence": {
+      "Classic_Fables_Collection:11:38": "the wolf found the fleece of a sheep caught on a thorn bush.",
+      "Classic_Fables_Collection:11:39": "The shepherd saw only another woolly shape and did not notice the wolf's eyes beneath the fleece."
+    }
+  },
+  {
+    "id": "q020",
+    "question": "How did the disguised wolf escape, and what did he lose?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:11:41"
+    ],
+    "reference_answer": "He tore free of the borrowed fleece and fled into the forest, losing both his disguise and his chance to attack the flock.",
+    "evidence": {
+      "Classic_Fables_Collection:11:41": "He lost both his disguise and his chance at the flock."
+    }
+  },
+  {
+    "id": "q021",
+    "question": "What advice did the sparrow give the fox, and what did the lizard initially say about the crow's problem?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:3:5",
+      "Classic_Fables_Collection:8:27"
+    ],
+    "reference_answer": "The sparrow suggested another way around the vine. The lizard initially suggested that reaching the water might be impossible.",
+    "evidence": {
+      "Classic_Fables_Collection:3:5": "Perhaps another way around the vine",
+      "Classic_Fables_Collection:8:27": "Perhaps it is impossible"
+    }
+  },
+  {
+    "id": "q022",
+    "question": "What repeated small actions did the mouse take at the hunters' net and the crow take at the pitcher?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:5:15",
+      "Classic_Fables_Collection:8:27",
+      "Classic_Fables_Collection:8:28"
+    ],
+    "reference_answer": "The mouse gnawed one knot after another. The crow repeatedly dropped pebbles into the pitcher.",
+    "evidence": {
+      "Classic_Fables_Collection:5:15": "The mouse gnawed one knot, then another, then another.",
+      "Classic_Fables_Collection:8:27": "The crow picked one up and dropped it into the water.",
+      "Classic_Fables_Collection:8:28": "The pitcher gradually filled with stones"
+    }
+  },
+  {
+    "id": "q023",
+    "question": "What did the farmer lose by killing the goose, and what did the wolf lose when his disguise failed?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:6:19",
+      "Classic_Fables_Collection:11:41"
+    ],
+    "reference_answer": "The farmer destroyed the goose and found no hidden treasure. The wolf lost his disguise and his chance at the flock.",
+    "evidence": {
+      "Classic_Fables_Collection:6:19": "There was no hidden treasure, no storehouse of gold, and no way to bring the bird back.",
+      "Classic_Fables_Collection:11:41": "He lost both his disguise and his chance at the flock."
+    }
+  },
+  {
+    "id": "q024",
+    "question": "What practical changes did the grasshopper and Mira make after their mistakes?",
+    "relevant_chunk_ids": [
+      "Classic_Fables_Collection:4:11",
+      "Classic_Fables_Collection:4:12",
+      "Classic_Fables_Collection:9:33"
+    ],
+    "reference_answer": "The grasshopper began preparing and working between songs. Mira kept one hand on her pail on her next trip and became more careful with her work.",
+    "evidence": {
+      "Classic_Fables_Collection:4:11": "I will still sing",
+      "Classic_Fables_Collection:4:12": "But between songs, he worked beside the ants.",
+      "Classic_Fables_Collection:9:33": "This time she walked with one hand steadying the milk."
+    }
+  }
+]
