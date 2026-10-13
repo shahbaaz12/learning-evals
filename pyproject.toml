@@ -1,7 +1,7 @@
 [project]
 name = "eval-genius"
 version = "0.1.0"
-description = "Add your description here"
+description = "Notebook-based projects for learning LLM evaluation with golden datasets, deterministic scoring, and failure analysis."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
