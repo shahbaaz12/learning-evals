@@ -1,0 +1,252 @@
+[
+  {
+    "id": "email_001",
+    "subject": "Please stop the calls after delivery",
+    "body": "Dear team,\n\nI've received three calls from the delivery partner after my order was completed. None were about the order, and I've asked him not to call again. Please investigate this and make sure my contact details are not used this way.\n\nThank you."
+  },
+  {
+    "id": "email_002",
+    "subject": "The packaging held up well",
+    "body": "Hi,\n\nMy soup and noodles came through a fairly bumpy ride without spilling. The paper bag was easy to recycle too. Whoever decided to keep the hot and cold items apart got that right.\n\nThanks,\nSamar"
+  },
+  {
+    "id": "email_003",
+    "subject": "A thought about menu descriptions",
+    "body": "Hello,\n\nA suggestion for the menus: a short description of what comes with a thali would help me choose. Some restaurants list the main dish but not the sides. I haven't had an issue with an order; it would just make browsing easier.\n\nRegards,\nAditya"
+  },
+  {
+    "id": "email_004",
+    "subject": "Who sets the packaging charge?",
+    "body": "Hello,\n\nI noticed a packaging charge while browsing a restaurant's menu. Is that set by the restaurant or by your platform? Just trying to understand the bill before I order.\n\nRegards,\nYusuf"
+  },
+  {
+    "id": "email_005",
+    "subject": "Good experience with support yesterday",
+    "body": "Hello team,\n\nThere was some confusion about an order yesterday, but the support person explained what had happened and sorted it out during the same chat. Everything is resolved now. I appreciated getting a clear answer instead of having to repeat myself.\n\nBest,\nNisha"
+  },
+  {
+    "id": "email_006",
+    "subject": "The meal was cold by the time it arrived",
+    "body": "Hi team,\n\nThe estimated delivery was 35 minutes, but the food arrived after almost two hours. The fries were cold and the burger bun was soggy. I couldn't eat most of it. I'd like this order reviewed for a refund.\n\nSincerely,\nMaya"
+  },
+  {
+    "id": "email_007",
+    "subject": "Readable text makes a difference",
+    "body": "Hi team,\n\nMy father uses a larger text size on his phone, and he was able to order by himself this weekend. The important buttons stayed visible and the bill was readable. That meant more to him than you might think.\n\nThank you,\nIsha"
+  },
+  {
+    "id": "email_008",
+    "subject": "Charged twice for one lunch",
+    "body": "Dear support team,\n\nMy payment screen froze, and after I tapped again I received two debit messages for Rs 412. Only one order appears in the app. Please check the duplicate charge and return the extra payment.\n\nArjun"
+  },
+  {
+    "id": "email_009",
+    "subject": "Refund still not showing",
+    "body": "Hi,\n\nYou confirmed a refund of Rs 267 for my cancelled order nine working days ago. It still isn't in my bank account. I've checked the statement, not just the app balance. Please send the refund reference and look into the delay.\n\nRegards,\nKavya"
+  },
+  {
+    "id": "email_010",
+    "subject": "An option for quieter notifications",
+    "body": "Hello,\n\nCould you consider a quiet notification mode that keeps delivery updates but turns off restaurant offers? I like knowing when my food is nearby; I just don't need the promotional alerts while I'm working. Sharing this as a feature suggestion.\n\nMeera"
+  },
+  {
+    "id": "email_011",
+    "subject": "How does scheduling an order work?",
+    "body": "Hi team,\n\nI'd like to arrange breakfast for tomorrow morning. Can I choose a delivery time in advance, or do I need to place the order when the restaurant opens?\n\nRegards,\nAsha"
+  },
+  {
+    "id": "email_012",
+    "subject": "How long do refunds usually take?",
+    "body": "Hi,\n\nI'm reading through the payment options before using the app. If an order is cancelled and a refund is approved, does it go back to the original payment method, and how long does that normally take?\n\nRegards,\nKabir"
+  },
+  {
+    "id": "email_013",
+    "subject": "Suggestion: half portions",
+    "body": "Hey,\n\nI mostly order for myself and end up saving half the meal for the next day. More half-portion options would be lovely, especially for rice dishes. Just an idea for restaurants that are open to it.\n\nThanks!"
+  },
+  {
+    "id": "email_014",
+    "subject": "Need to understand membership benefits",
+    "body": "Hi support,\n\nI'm considering a membership. Does the delivery benefit apply to every restaurant, and is there a minimum order value? I'd like to understand the conditions before signing up.\n\nRegards,\nGaurav"
+  },
+  {
+    "id": "email_015",
+    "subject": "Ordering for a team lunch",
+    "body": "Dear team,\n\nWe're planning lunch for about 18 people next Friday. Is there a separate process for a large order, or can we order normally through the app? We'd like to know before choosing a restaurant.\n\nRegards,\nMohit"
+  },
+  {
+    "id": "email_016",
+    "subject": "Where can I see ingredients?",
+    "body": "Hello,\n\nBefore ordering, where can I check whether a dish contains peanuts? Does the app display ingredient information, or should I contact the restaurant directly?\n\nThanks,\nDiya"
+  },
+  {
+    "id": "email_017",
+    "subject": "Nice touch on the receipt",
+    "body": "Hey folks,\n\nThe little note showing how much I saved on my order was a nice touch. I usually don't notice these things, but this one was easy to understand. Keep the receipt simple like this.\n\nCheers,\nTara"
+  },
+  {
+    "id": "email_018",
+    "subject": "Great delivery, but the bill needs fixing",
+    "body": "Hi,\n\nThe rider was on time and very polite, so thanks for that. However, I paid for three drinks and received only two. Please refund the missing drink; the rest of the order was fine.\n\nBest,\nAlisha"
+  },
+  {
+    "id": "email_019",
+    "subject": "Thanks for explaining the refund",
+    "body": "Hello,\n\nThe refund from my earlier order has reached my account, so there's nothing pending. Thank you for explaining the steps and keeping me updated. I was worried at first, but it turned out to be straightforward.\n\nRegards,\nFarhan"
+  },
+  {
+    "id": "email_020",
+    "subject": "This ticket keeps getting closed",
+    "body": "Hello,\n\nThis is my third message about the missing dessert in order ORD-80526. Each time I receive an acknowledgement and then the ticket closes without a refund or explanation. Please keep this open until the missing item is dealt with.\n\nRegards,\nShreya"
+  },
+  {
+    "id": "email_021",
+    "subject": "Payment options for a first order",
+    "body": "Hi,\nDo you accept UPI as well as cards? Also, is cash on delivery available for all restaurants or only some of them?\nThanks!"
+  },
+  {
+    "id": "email_022",
+    "subject": "How can I leave a review?",
+    "body": "hi,\nwhere do i leave a rating for a restaurant after an order? i'd also like to know if i can rate the delivery separately.\nthanks,\nBina"
+  },
+  {
+    "id": "email_023",
+    "subject": "Enjoying the regional food choices",
+    "body": "Hi team,\nI found a small place serving the kind of breakfast I grew up eating. I probably wouldn't have discovered it on my own. Really enjoying the wider range of local restaurants lately.\nThanks,\nKarthik"
+  },
+  {
+    "id": "email_024",
+    "subject": "Are gift vouchers available?",
+    "body": "Hi,\n\nI'd like to give a food voucher to a colleague. Do you offer digital gift vouchers, and can the recipient redeem one across more than one order?\n\nThanks,\nSuhani"
+  },
+  {
+    "id": "email_025",
+    "subject": "The tracking updates were reassuring",
+    "body": "Hi,\n\nIt rained heavily during my order yesterday. The delivery took a little longer, but the updates explained the delay and the rider arrived safely. I appreciated being kept informed rather than watching a timer with no explanation.\n\nThanks,\nLeena"
+  },
+  {
+    "id": "email_026",
+    "subject": "Cannot get past the payment screen",
+    "body": "Hi support,\n\nFor the last two days, every attempt to pay ends with 'Something went wrong'. I've restarted the app and tried another payment method, but I still can't place an order. Please help me fix this.\n\nRohit"
+  },
+  {
+    "id": "email_027",
+    "subject": "Feedback on today's delivery",
+    "body": "Hello,\n\nThe delivery person left my meal on the pavement outside the building without calling, even though I was at home. The bag was wet when I found it. Please investigate what happened and refund this order.\n\nRegards,\nSiddharth"
+  },
+  {
+    "id": "email_028",
+    "subject": "One extra detail on ratings",
+    "body": "Hi team,\n\nIt would help to see food ratings and delivery ratings separately when browsing. A great meal can have a slow journey, and vice versa. I don't have a specific order to report, just a thought about how the ratings are presented.\n\nThanks,\nManoj"
+  },
+  {
+    "id": "email_029",
+    "subject": "Cancellation fee for a restaurant cancellation",
+    "body": "Hello,\n\nThe restaurant cancelled order ORD-72413 because an item wasn't available. My statement still shows a cancellation fee, even though I didn't cancel anything. Please remove that charge and return the amount.\n\nRegards,\nAditi"
+  },
+  {
+    "id": "email_030",
+    "subject": "Order says delivered, but nothing arrived",
+    "body": "Hello,\n\nOrder ORD-51608 is marked delivered at 8:42 pm. I've checked with security and outside my door; neither has the food. The delivery partner isn't answering. Can someone find out where it went and sort this out?\n\nRahul"
+  },
+  {
+    "id": "email_031",
+    "subject": "Dinner arrived just when we needed it",
+    "body": "Hi team,\n\nWe ordered dinner for six people yesterday and everything arrived together, still warm. I was expecting at least one mix-up with that many items, but even the extra chutney was there. It made a busy evening much easier.\n\nThanks,\nAnanya"
+  },
+  {
+    "id": "email_032",
+    "subject": "Can I change the tip later?",
+    "body": "Hey,\n\nQuick question: is it possible to add a tip after the food has been delivered, or does it have to be included at checkout?\n\nThanks,\nAnushka"
+  },
+  {
+    "id": "email_033",
+    "subject": "Less cutlery would be nice",
+    "body": "Hello,\n\nI usually eat at home with my own spoons. Making 'no cutlery' the default, with an option to add it, might reduce waste. Everything was fine with my meal today; this is just a suggestion.\n\nArun"
+  },
+  {
+    "id": "email_034",
+    "subject": "A useful search filter idea",
+    "body": "Hey team,\n\nA filter for meals that travel well would be useful. On office days I care more about whether the food stays good in a box than whether the restaurant has fancy photos. Something to consider!\n\nNeil"
+  },
+  {
+    "id": "email_035",
+    "subject": "Two items missing from order ORD-48271",
+    "body": "Hi support,\n\nI ordered two wraps and a brownie, but the bag only contained one wrap. The receipt lists all three items. I paid Rs 389 and have kept a photo of what arrived. Please arrange a refund for the missing wrap and brownie.\n\nThanks,\nPriya"
+  },
+  {
+    "id": "email_036",
+    "subject": "Question about invoices",
+    "body": "Hello,\n\nFor an upcoming office lunch, can I get an invoice with the company name and GST details? If so, where should I enter those details before placing the order?\n\nThank you,\nRitesh"
+  },
+  {
+    "id": "email_037",
+    "subject": "Please pass on my thanks to the delivery partner",
+    "body": "Hi,\nThe person who delivered my lunch today waited patiently while I came down from a meeting. He was polite about it and didn't make me feel rushed. Please pass on my thanks if possible.\nCheers,\nRhea"
+  },
+  {
+    "id": "email_038",
+    "subject": "Easy first order",
+    "body": "hi team,\nused the app for the first time last night. took me a couple of minutes to find dinner and pay, which is exactly what i wanted after a long train journey. food was good too. thanks!"
+  },
+  {
+    "id": "email_039",
+    "subject": "The new order summary is easier to read",
+    "body": "Hi team,\n\nJust wanted to say the checkout screen is much clearer now. Having the item total and charges in one place makes it easier to see what I'm paying before I order. Nice improvement.\n\nDev"
+  },
+  {
+    "id": "email_040",
+    "subject": "Do you deliver to my area?",
+    "body": "Hello,\n\nI'm moving to a new flat in Mysuru next month. Is there a way to check delivery availability for an address before I save it to my account?\n\nThanks,\nVarun"
+  },
+  {
+    "id": "email_041",
+    "subject": "Food container seal was already broken",
+    "body": "Hi team,\n\nThe seal on my curry container was broken when the order arrived, and there was a sour smell when I opened it. I haven't eaten it. Please look into this with the restaurant and arrange a refund.\n\nDeepak"
+  },
+  {
+    "id": "email_042",
+    "subject": "Wrong order in the bag",
+    "body": "hi,\ni ordered paneer rice but received chicken rice. the label has someone else's order number. i'm vegetarian and can't use this meal. please refund it or send the correct order.\norder ORD-63094"
+  },
+  {
+    "id": "email_043",
+    "subject": "Good to see the smaller restaurants",
+    "body": "Hello,\n\nI've been trying the smaller neighbourhood places listed on your app. The photos aren't always polished, but the food has been excellent. I hope these places continue to get some space alongside the big chains.\n\nBest,\nSana"
+  },
+  {
+    "id": "email_044",
+    "subject": "Updating my account number",
+    "body": "Hello,\n\nI'm planning to change my phone number soon. What's the process for updating it on my account, and will my saved addresses and order history stay available?\n\nRegards,\nAkash"
+  },
+  {
+    "id": "email_045",
+    "subject": "A small suggestion for saved addresses",
+    "body": "Hello,\n\nI switch between my parents' house and my flat when ordering. It would be handy if saved addresses could have a colour or a small icon, so I can tell them apart at a glance. The labels work, but something visual would be quicker.\n\nRegards,\nVikram"
+  },
+  {
+    "id": "email_046",
+    "subject": "A question about cancellation",
+    "body": "Hi team,\n\nBefore I place an order, I'd like to know whether there is a short window to cancel if I choose the wrong item. At what stage would a cancellation fee apply?\n\nThanks,\nNeha"
+  },
+  {
+    "id": "email_047",
+    "subject": "Can a friend receive my order?",
+    "body": "Hello,\n\nI want to send dinner to a friend as a surprise. Can I use my account and payment method but put their address and contact number on that order?\n\nBest,\nSimran"
+  },
+  {
+    "id": "email_048",
+    "subject": "Soup spilled inside the bag",
+    "body": "Hi,\n\nThe soup lid had come loose and most of it leaked over the other containers. I've taken pictures before throwing the bag away. This wasn't usable as delivered. Can you refund the soup and the soaked bread?\n\nThanks,\nZoya"
+  },
+  {
+    "id": "email_049",
+    "subject": "Would love a repeat-last-week option",
+    "body": "Hi,\n\nI tend to order the same lunch on Mondays. A shortcut to repeat what I ordered on the same day last week would save a few taps. The current order history is fine, just thought I'd share the idea.\n\nPooja"
+  },
+  {
+    "id": "email_050",
+    "subject": "Advertised discount disappeared at payment",
+    "body": "Hi,\n\nThe cart showed a Rs 100 discount before I approved the payment. The final amount charged did not include it. I checked the restaurant and minimum spend conditions before ordering. Please check why I was charged the full amount.\n\nNikhil"
+  }
+]

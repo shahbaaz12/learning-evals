@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# API keys and local credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Jupyter checkpoints and local tooling caches
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.deepeval/
+.coverage
+.coverage.*
+htmlcov/
+
+# Generated vector indexes and model caches
+chroma_store/
+.cache/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log

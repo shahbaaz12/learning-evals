@@ -1,0 +1,311 @@
+{
+  "summary": {
+    "run_date": "2026-10-12T23:40:06.581893+05:30",
+    "total": 50,
+    "correct": 50,
+    "incorrect": 0,
+    "accuracy_percent": 100.0
+  },
+  "details": [
+    {
+      "id": "email_001",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_002",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_003",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_004",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_005",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_006",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_007",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_008",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_009",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_010",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_011",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_012",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_013",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_014",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_015",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_016",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_017",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_018",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_019",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_020",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_021",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_022",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_023",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_024",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_025",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_026",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_027",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_028",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_029",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_030",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_031",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_032",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_033",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_034",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_035",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_036",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_037",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_038",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_039",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_040",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_041",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_042",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_043",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_044",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_045",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_046",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_047",
+      "expected": "general_query",
+      "predicted": "general_query",
+      "correct": true
+    },
+    {
+      "id": "email_048",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    },
+    {
+      "id": "email_049",
+      "expected": "feedback",
+      "predicted": "feedback",
+      "correct": true
+    },
+    {
+      "id": "email_050",
+      "expected": "complaint",
+      "predicted": "complaint",
+      "correct": true
+    }
+  ]
+}

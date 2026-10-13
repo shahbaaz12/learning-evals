@@ -1,0 +1,8 @@
+[
+  {
+    "id": "email_001",
+    "subject": "Please stop the calls after delivery",
+    "body": "Dear team,\n\nI've received three calls from the delivery partner after my order was completed. None were about the order, and I've asked him not to call again. Please investigate this and make sure my contact details are not used this way.\n\nThank you.",
+    "expected_output": "complaint"
+  }
+]
