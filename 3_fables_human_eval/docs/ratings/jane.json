@@ -1,0 +1,82 @@
+{
+  "rater": "Jane",
+  "response_run_id": null,
+  "rubric_id": "helpfulness_v1",
+  "ratings": [
+    {
+      "question_id": "h001",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h002",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h003",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h004",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h005",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h006",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h007",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h008",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h009",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h010",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h011",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h012",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h013",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h014",
+      "score": null,
+      "reason": null
+    },
+    {
+      "question_id": "h015",
+      "score": null,
+      "reason": null
+    }
+  ]
+}

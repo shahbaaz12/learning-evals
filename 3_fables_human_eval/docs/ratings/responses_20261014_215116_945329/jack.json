@@ -1,0 +1,111 @@
+{
+  "rater": "Jack",
+  "response_run_id": "responses_20261014_215116_945329",
+  "rubric_id": "helpfulness_v1",
+  "rubric_hash": "4658aa107fecb39bf71d451883818ccf03f8a3f55c55dee92d8d53b50ea5ebe7",
+  "ratings": [
+    {
+      "question_id": "h001",
+      "score": 5,
+      "reason": "Answers the question perfectly",
+      "rated_at": "2026-10-14T21:56:18.556617+05:30"
+    },
+    {
+      "question_id": "h002",
+      "score": 5,
+      "reason": "answers correctly",
+      "rated_at": "2026-10-14T21:57:53.943157+05:30"
+    },
+    {
+      "question_id": "h003",
+      "score": 5,
+      "reason": "answers correctly",
+      "rated_at": "2026-10-14T21:58:37.819670+05:30"
+    },
+    {
+      "question_id": "h004",
+      "score": 5,
+      "reason": "answers correctly",
+      "rated_at": "2026-10-14T21:58:59.154164+05:30"
+    },
+    {
+      "question_id": "h005",
+      "score": 5,
+      "reason": "answers correctly",
+      "rated_at": "2026-10-14T21:59:13.461380+05:30"
+    },
+    {
+      "question_id": "h006",
+      "score": 5,
+      "reason": "Simulated generous rating: 5/5 as requested; not an actual review.",
+      "rated_at": "2026-10-14T22:04:55.9888663+05:30",
+      "rating_origin": "simulated"
+    },
+    {
+      "question_id": "h007",
+      "score": 5,
+      "reason": "Simulated generous rating: 5/5 as requested; not an actual review.",
+      "rated_at": "2026-10-14T22:04:55.9888663+05:30",
+      "rating_origin": "simulated"
+    },
+    {
+      "question_id": "h008",
+      "score": 5,
+      "reason": "Simulated generous rating: 5/5 as requested; not an actual review.",
+      "rated_at": "2026-10-14T22:04:55.9888663+05:30",
+      "rating_origin": "simulated"
+    },
+    {
+      "question_id": "h009",
+      "score": 5,
+      "reason": "Simulated generous rating: 5/5 as requested; not an actual review.",
+      "rated_at": "2026-10-14T22:04:55.9888663+05:30",
+      "rating_origin": "simulated"
+    },
+    {
+      "question_id": "h010",
+      "score": 5,
+      "reason": "Simulated generous rating: 5/5 as requested; not an actual review.",
+      "rated_at": "2026-10-14T22:04:55.9888663+05:30",
+      "rating_origin": "simulated"
+    },
+    {
+      "question_id": "h011",
+      "score": 5,
+      "reason": "Simulated generous rating: 5/5 as requested; not an actual review.",
+      "rated_at": "2026-10-14T22:04:55.9888663+05:30",
+      "rating_origin": "simulated"
+    },
+    {
+      "question_id": "h012",
+      "score": 5,
+      "reason": "Simulated generous rating: 5/5 as requested; not an actual review.",
+      "rated_at": "2026-10-14T22:04:55.9888663+05:30",
+      "rating_origin": "simulated"
+    },
+    {
+      "question_id": "h013",
+      "score": 5,
+      "reason": "Simulated generous rating: 5/5 as requested; not an actual review.",
+      "rated_at": "2026-10-14T22:04:55.9888663+05:30",
+      "rating_origin": "simulated"
+    },
+    {
+      "question_id": "h014",
+      "score": 5,
+      "reason": "Simulated generous rating: 5/5 as requested; not an actual review.",
+      "rated_at": "2026-10-14T22:04:55.9888663+05:30",
+      "rating_origin": "simulated"
+    },
+    {
+      "question_id": "h015",
+      "score": 5,
+      "reason": "Simulated generous rating: 5/5 as requested; not an actual review.",
+      "rated_at": "2026-10-14T22:04:55.9888663+05:30",
+      "rating_origin": "simulated"
+    }
+  ],
+  "rating_data_status": "mixed_existing_and_simulated",
+  "simulation_note": "Preserved 5 existing ratings unchanged; 10 remaining ratings were simulated at the user's request.",
+  "simulation_profile": "Always 5"
+}

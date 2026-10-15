@@ -1,0 +1,124 @@
+[
+  {
+    "id": "h001",
+    "type": "explanation",
+    "question": "In The Boy Who Cried Wolf, why did the villagers ignore the final warning even though a real wolf had appeared?",
+    "fable_ids": [
+      "fable_001"
+    ]
+  },
+  {
+    "id": "h002",
+    "type": "explanation",
+    "question": "Why did the ant prepare during summer, and how did she help the grasshopper learn without asking him to give up singing?",
+    "fable_ids": [
+      "fable_003"
+    ]
+  },
+  {
+    "id": "h003",
+    "type": "explanation",
+    "question": "In The Wolf in Sheep's Clothing, explain how the disguise first helped the wolf and then put him in danger. Include how this version ends.",
+    "fable_ids": [
+      "fable_010"
+    ]
+  },
+  {
+    "id": "h004",
+    "type": "lesson",
+    "question": "Explain the fox's reaction to the unreachable grapes to a ten-year-old. What did the fox learn about handling disappointment?",
+    "fable_ids": [
+      "fable_002"
+    ]
+  },
+  {
+    "id": "h005",
+    "type": "lesson",
+    "question": "What does The Lion and the Mouse teach about judging someone by their size? Explain using what both characters did.",
+    "fable_ids": [
+      "fable_004"
+    ]
+  },
+  {
+    "id": "h006",
+    "type": "lesson",
+    "question": "Explain why the farmer lost his steady source of wealth in The Goose That Laid Golden Eggs. What does the story suggest about appreciating enough?",
+    "fable_ids": [
+      "fable_005"
+    ]
+  },
+  {
+    "id": "h007",
+    "type": "comparison",
+    "question": "Compare the fox in The Fox and the Grapes with the crow in The Crow and the Pitcher. How did each react when the first approach failed?",
+    "fable_ids": [
+      "fable_002",
+      "fable_007"
+    ]
+  },
+  {
+    "id": "h008",
+    "type": "comparison",
+    "question": "Compare the ant's preparation with the milkmaid's plans. Why did one lead to a useful result while the other initially fell apart?",
+    "fable_ids": [
+      "fable_003",
+      "fable_008"
+    ]
+  },
+  {
+    "id": "h009",
+    "type": "comparison",
+    "question": "Compare the town mouse's and the country mouse's ideas of a good life. Does this version suggest that one choice is best for everyone? Explain.",
+    "fable_ids": [
+      "fable_006"
+    ]
+  },
+  {
+    "id": "h010",
+    "type": "application",
+    "question": "A student keeps putting off exam preparation because the exam is a month away. Use The Ant and the Grasshopper to suggest two practical actions while still leaving time for enjoyment.",
+    "fable_ids": [
+      "fable_003"
+    ]
+  },
+  {
+    "id": "h011",
+    "type": "application",
+    "question": "A team leader is pressuring a teammate to accept an idea, and the teammate is becoming more defensive. Use The Wind and the Sun to suggest a gentler approach and explain why it might help.",
+    "fable_ids": [
+      "fable_009"
+    ]
+  },
+  {
+    "id": "h012",
+    "type": "application",
+    "question": "A student is stuck on a difficult homework problem and feels that small steps are pointless. Use The Crow and the Pitcher to offer two practical suggestions and explain the connection to the story.",
+    "fable_ids": [
+      "fable_007"
+    ]
+  },
+  {
+    "id": "h013",
+    "type": "missing_information",
+    "question": "What was the shepherd boy's name in The Boy Who Cried Wolf?",
+    "fable_ids": [
+      "fable_001"
+    ]
+  },
+  {
+    "id": "h014",
+    "type": "missing_information",
+    "question": "Exactly how many pebbles did the crow drop into the pitcher before he could drink?",
+    "fable_ids": [
+      "fable_007"
+    ]
+  },
+  {
+    "id": "h015",
+    "type": "missing_information",
+    "question": "How many litres of milk was Mira carrying when she set off for the market?",
+    "fable_ids": [
+      "fable_008"
+    ]
+  }
+]

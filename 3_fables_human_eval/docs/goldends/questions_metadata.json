@@ -1,0 +1,16 @@
+{
+  "status": "ai_prepared_pending_human_review",
+  "question_count": 15,
+  "source": "../dataset/fables.json",
+  "original_document": "../dataset/Classic_Fables_Collection.pdf",
+  "questions_per_type": 3,
+  "reviewers": [
+    "Jack",
+    "Jane",
+    "Jill"
+  ],
+  "reference_answer_required": false,
+  "context_policy": "The RAG retrieves passages using the question only. fable_ids select full reference texts for human reviewers, not for retrieval.",
+  "input_policy": "The chatbot receives the question and retrieved context. Human ratings, fable_ids, and review notes are not chatbot inputs.",
+  "review_note": "Review all questions and the rubric against these exact fable versions before collecting final ratings."
+}

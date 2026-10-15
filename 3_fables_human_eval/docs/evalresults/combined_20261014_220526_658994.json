@@ -1,0 +1,257 @@
+{
+  "scored_at": "2026-10-14T22:05:26.658994+05:30",
+  "response_run_id": "responses_20261014_215116_945329",
+  "rubric_id": "helpfulness_v1",
+  "rubric_hash": "4658aa107fecb39bf71d451883818ccf03f8a3f55c55dee92d8d53b50ea5ebe7",
+  "question_count": 15,
+  "rating_count": 45,
+  "overall_mean": 3.822222222222222,
+  "reviewer_means": {
+    "Jack": 5.0,
+    "Jane": 3.6,
+    "Jill": 2.8666666666666667
+  },
+  "disagreements": [
+    "h001",
+    "h002",
+    "h003",
+    "h004",
+    "h006",
+    "h007",
+    "h008",
+    "h009",
+    "h010",
+    "h011",
+    "h012",
+    "h013",
+    "h014",
+    "h015"
+  ],
+  "details": [
+    {
+      "question_id": "h001",
+      "scores": {
+        "Jack": 5,
+        "Jane": 3,
+        "Jill": 4
+      },
+      "reasons": {
+        "Jack": "Answers the question perfectly",
+        "Jane": "Ok",
+        "Jill": "I feel the answer is good"
+      },
+      "mean": 4.0,
+      "spread": 2
+    },
+    {
+      "question_id": "h002",
+      "scores": {
+        "Jack": 5,
+        "Jane": 4,
+        "Jill": 3
+      },
+      "reasons": {
+        "Jack": "answers correctly",
+        "Jane": "cool",
+        "Jill": "To lengthy"
+      },
+      "mean": 4.0,
+      "spread": 2
+    },
+    {
+      "question_id": "h003",
+      "scores": {
+        "Jack": 5,
+        "Jane": 5,
+        "Jill": 3
+      },
+      "reasons": {
+        "Jack": "answers correctly",
+        "Jane": "good",
+        "Jill": "The ans needs polishing"
+      },
+      "mean": 4.333333333333333,
+      "spread": 2
+    },
+    {
+      "question_id": "h004",
+      "scores": {
+        "Jack": 5,
+        "Jane": 3,
+        "Jill": 4
+      },
+      "reasons": {
+        "Jack": "answers correctly",
+        "Jane": "ok",
+        "Jill": "good answer"
+      },
+      "mean": 4.0,
+      "spread": 2
+    },
+    {
+      "question_id": "h005",
+      "scores": {
+        "Jack": 5,
+        "Jane": 4,
+        "Jill": 4
+      },
+      "reasons": {
+        "Jack": "answers correctly",
+        "Jane": "good",
+        "Jill": "fair"
+      },
+      "mean": 4.333333333333333,
+      "spread": 1
+    },
+    {
+      "question_id": "h006",
+      "scores": {
+        "Jack": 5,
+        "Jane": 4,
+        "Jill": 2
+      },
+      "reasons": {
+        "Jack": "Simulated generous rating: 5/5 as requested; not an actual review.",
+        "Jane": "Simulated random rating for workflow practice; not based on answer quality.",
+        "Jill": "Simulated strict rating for workflow practice; intentionally demanding, not an actual review."
+      },
+      "mean": 3.6666666666666665,
+      "spread": 3
+    },
+    {
+      "question_id": "h007",
+      "scores": {
+        "Jack": 5,
+        "Jane": 4,
+        "Jill": 3
+      },
+      "reasons": {
+        "Jack": "Simulated generous rating: 5/5 as requested; not an actual review.",
+        "Jane": "Simulated random rating for workflow practice; not based on answer quality.",
+        "Jill": "Simulated strict rating for workflow practice; intentionally demanding, not an actual review."
+      },
+      "mean": 4.0,
+      "spread": 2
+    },
+    {
+      "question_id": "h008",
+      "scores": {
+        "Jack": 5,
+        "Jane": 3,
+        "Jill": 2
+      },
+      "reasons": {
+        "Jack": "Simulated generous rating: 5/5 as requested; not an actual review.",
+        "Jane": "Simulated random rating for workflow practice; not based on answer quality.",
+        "Jill": "Simulated strict rating for workflow practice; intentionally demanding, not an actual review."
+      },
+      "mean": 3.3333333333333335,
+      "spread": 3
+    },
+    {
+      "question_id": "h009",
+      "scores": {
+        "Jack": 5,
+        "Jane": 5,
+        "Jill": 3
+      },
+      "reasons": {
+        "Jack": "Simulated generous rating: 5/5 as requested; not an actual review.",
+        "Jane": "Simulated random rating for workflow practice; not based on answer quality.",
+        "Jill": "Simulated strict rating for workflow practice; intentionally demanding, not an actual review."
+      },
+      "mean": 4.333333333333333,
+      "spread": 2
+    },
+    {
+      "question_id": "h010",
+      "scores": {
+        "Jack": 5,
+        "Jane": 2,
+        "Jill": 2
+      },
+      "reasons": {
+        "Jack": "Simulated generous rating: 5/5 as requested; not an actual review.",
+        "Jane": "Simulated random rating for workflow practice; not based on answer quality.",
+        "Jill": "Simulated strict rating for workflow practice; intentionally demanding, not an actual review."
+      },
+      "mean": 3.0,
+      "spread": 3
+    },
+    {
+      "question_id": "h011",
+      "scores": {
+        "Jack": 5,
+        "Jane": 3,
+        "Jill": 1
+      },
+      "reasons": {
+        "Jack": "Simulated generous rating: 5/5 as requested; not an actual review.",
+        "Jane": "Simulated random rating for workflow practice; not based on answer quality.",
+        "Jill": "Simulated strict rating for workflow practice; intentionally demanding, not an actual review."
+      },
+      "mean": 3.0,
+      "spread": 4
+    },
+    {
+      "question_id": "h012",
+      "scores": {
+        "Jack": 5,
+        "Jane": 1,
+        "Jill": 3
+      },
+      "reasons": {
+        "Jack": "Simulated generous rating: 5/5 as requested; not an actual review.",
+        "Jane": "Simulated random rating for workflow practice; not based on answer quality.",
+        "Jill": "Simulated strict rating for workflow practice; intentionally demanding, not an actual review."
+      },
+      "mean": 3.0,
+      "spread": 4
+    },
+    {
+      "question_id": "h013",
+      "scores": {
+        "Jack": 5,
+        "Jane": 3,
+        "Jill": 4
+      },
+      "reasons": {
+        "Jack": "Simulated generous rating: 5/5 as requested; not an actual review.",
+        "Jane": "Simulated random rating for workflow practice; not based on answer quality.",
+        "Jill": "Simulated strict rating for workflow practice; intentionally demanding, not an actual review."
+      },
+      "mean": 4.0,
+      "spread": 2
+    },
+    {
+      "question_id": "h014",
+      "scores": {
+        "Jack": 5,
+        "Jane": 5,
+        "Jill": 3
+      },
+      "reasons": {
+        "Jack": "Simulated generous rating: 5/5 as requested; not an actual review.",
+        "Jane": "Simulated random rating for workflow practice; not based on answer quality.",
+        "Jill": "Simulated strict rating for workflow practice; intentionally demanding, not an actual review."
+      },
+      "mean": 4.333333333333333,
+      "spread": 2
+    },
+    {
+      "question_id": "h015",
+      "scores": {
+        "Jack": 5,
+        "Jane": 5,
+        "Jill": 2
+      },
+      "reasons": {
+        "Jack": "Simulated generous rating: 5/5 as requested; not an actual review.",
+        "Jane": "Simulated random rating for workflow practice; not based on answer quality.",
+        "Jill": "Simulated strict rating for workflow practice; intentionally demanding, not an actual review."
+      },
+      "mean": 4.0,
+      "spread": 3
+    }
+  ]
+}

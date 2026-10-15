@@ -10,8 +10,9 @@ generate predictions, measure results, inspect failures, and compare improvement
 | --- | --- |
 | [1. Email categorization](1_email_categorization_eval/readme.md) | Golden datasets, LLM classification, exact-match accuracy, and failure analysis |
 | [2. Fables retriever evaluation](2_fables_retriever_eval/readme.md) | PDF chunking, Chroma retrieval, programmatic recall and precision, and comparing values of k |
+| [3. Human evaluation of a fables RAG](3_fables_human_eval/readme.md) | A simple RAG, independent helpfulness ratings from three humans, combined scores, and disagreement analysis |
 
-Planned projects cover human evaluation, LLM judges,
+Planned projects cover LLM judges,
 model selection, and a RAG evaluation suite. They will be built one at a time.
 
 ## Setup

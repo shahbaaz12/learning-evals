@@ -1,0 +1,61 @@
+{
+  "id": "helpfulness_v1",
+  "status": "draft_pending_human_review",
+  "metric": "helpfulness",
+  "scale": {
+    "minimum": 1,
+    "maximum": 5,
+    "integer_only": true
+  },
+  "reviewers": [
+    "Jack",
+    "Jane",
+    "Jill"
+  ],
+  "criteria": [
+    "Addresses every requested part of the question.",
+    "Explains clearly at the requested level with enough useful detail and a respectful tone.",
+    "Uses the supplied fable version accurately; do not substitute a different traditional ending.",
+    "For comparison questions, explains both sides and their meaningful relationship.",
+    "For application questions, gives practical suggestions connected to the story; illustrative advice is allowed when it is not presented as a story fact.",
+    "When the supplied text does not give a requested fact, clearly acknowledges the missing information instead of inventing it."
+  ],
+  "anchors": [
+    {
+      "score": 1,
+      "description": "Unhelpful: irrelevant, substantially wrong, or invents the central requested fact."
+    },
+    {
+      "score": 2,
+      "description": "Mostly unhelpful: addresses a small part but has major gaps, confusion, or errors."
+    },
+    {
+      "score": 3,
+      "description": "Partly helpful: addresses the main idea but misses an important requested part or explanation."
+    },
+    {
+      "score": 4,
+      "description": "Helpful: accurate, clear, and addresses the request with only a minor omission or weakness."
+    },
+    {
+      "score": 5,
+      "description": "Fully helpful: accurate to the supplied text, clear, and sufficiently complete for the request. A concise acknowledgment that a fact is missing can earn 5."
+    }
+  ],
+  "instructions": [
+    "Each reviewer reads the same question, supplied fables, and frozen chatbot response.",
+    "Rate independently before seeing another reviewer's score. Give one score and a brief reason per question.",
+    "Do not reward length by itself or require wording to match a reference answer.",
+    "Use one response_run_id for all three review files; start a new set of files for a new response run.",
+    "Leave unrated items as null. Null is not zero and must not be included in an average.",
+    "Calculate final combined scores only after all three reviewers have rated all questions."
+  ],
+  "aggregation": {
+    "question_mean": "(Jack score + Jane score + Jill score) / 3",
+    "overall_mean": "Mean of the 15 question means; equivalent to the mean of all 45 completed ratings.",
+    "reviewer_mean": "Mean of that reviewer's 15 completed scores.",
+    "disagreement": "For each question, report maximum score minus minimum score; inspect a spread of 2 or more.",
+    "weighting": "All reviewers and questions have equal weight.",
+    "reporting": "Report scores on the original 1-5 scale; they are not accuracy percentages. Round only for display."
+  }
+}
