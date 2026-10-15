@@ -1,0 +1,32 @@
+[
+  {
+    "id": "q001",
+    "difficulty": "simple",
+    "question": "List all department IDs and department names, ordered by department name."
+  },
+  {
+    "id": "q002",
+    "difficulty": "simple",
+    "question": "List the employee ID, first name, last name, and hire date of everyone hired in 2024, including former employees. Order by employee ID."
+  },
+  {
+    "id": "q003",
+    "difficulty": "intermediate",
+    "question": "As of 2026-10-01, show every department name, its current employee count, and average current annual salary rounded to two decimals. Include empty departments with count 0 and average NULL. Order by department name."
+  },
+  {
+    "id": "q004",
+    "difficulty": "intermediate",
+    "question": "As of 2026-10-01, which current Development employees earn more than the average current Development salary? Return employee ID, first name, last name, and annual salary. Order by salary descending, then employee ID ascending."
+  },
+  {
+    "id": "q005",
+    "difficulty": "difficult",
+    "question": "As of 2026-10-01, list current employees at the two highest distinct salary ranks in each department, including ties. Return department name, employee ID, first name, last name, salary, and salary rank. Order by department name, rank, then employee ID."
+  },
+  {
+    "id": "q006",
+    "difficulty": "difficult",
+    "question": "As of 2026-10-01, which current employees received at least a 10 percent raise from their immediately previous salary to their current salary? Exclude employees with no previous salary. Return employee ID, first name, last name, current department name, previous salary, current salary, and percentage raise rounded to two decimals. Order by percentage raise descending, then employee ID ascending."
+  }
+]

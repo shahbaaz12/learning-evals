@@ -1,0 +1,55 @@
+{
+  "created_at": "20261015T164957652701Z",
+  "label": "gemini-3.5-flash-lite",
+  "summary": {
+    "model": "Gemini 3.5 Flash-Lite (Google)",
+    "questions": 6,
+    "accuracy": 1.0,
+    "sql_errors": 0,
+    "mean_seconds": 3.08815,
+    "by_difficulty": {
+      "difficult": 1.0,
+      "intermediate": 1.0,
+      "simple": 1.0
+    },
+    "estimated_run_usd": 0.0047483,
+    "projected_monthly_inr": 2706.5309999999995
+  },
+  "settings": {
+    "model": {
+      "model_id": "gemini-3.5-flash-lite",
+      "name": "Gemini 3.5 Flash-Lite (Google)",
+      "provider": "gemini",
+      "key_name": "GOOGLE_API_KEY",
+      "input_price": 0.3,
+      "output_price": 2.5,
+      "reasoning_effort": "minimal",
+      "thinking_config": {
+        "thinkingLevel": "MINIMAL"
+      },
+      "max_output_tokens": 2048,
+      "price_basis": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.5-flash-lite",
+      "selection_reason": "Confirmed live generation works. Gemini 3.8 returned HTTP 503 high demand and 2.5 Flash returned HTTP 404, so select 3.5 Flash-Lite explicitly with minimal thinking; no silent fallback.",
+      "monthly_inr": 5061.6
+    },
+    "budget": {
+      "monthly_budget_inr": 10000,
+      "requests_per_day": 1000,
+      "days_per_month": 30,
+      "input_tokens_per_request": 1600,
+      "output_tokens_per_request": 400,
+      "inr_per_usd": 95,
+      "contingency_fraction": 0.2,
+      "quality_weight": 0.9,
+      "speed_weight": 0.1,
+      "target_seconds": 3,
+      "notes": "Planning conversion, not live FX. No caching, batch discounts, or temporary promotional prices. Token-only budget; excludes taxes and infrastructure. Reasoning tokens can increase output costs."
+    },
+    "as_of": "2026-10-01",
+    "selection_basis": "User requested existing Gemini and Groq keys only. Verified IDs with both authenticated model-list endpoints on 2026-10-15. Four varied candidates for the same six-question pilot; this is not the original all-provider leaderboard top four.",
+    "request_pause_seconds": 3
+  },
+  "database_sha256": "5a7367bb9b4fb393493a875ce67e948a0fafe5e2c7888216e8f3541e0dec0e8c",
+  "prompt_sha256": "435903574ef4b0e52f07dbf31ad1b5d8da479fcd1dc160d7ebadd2b265b5600c",
+  "predictions": "20261015T164957652701Z_gemini-3.5-flash-lite.json"
+}

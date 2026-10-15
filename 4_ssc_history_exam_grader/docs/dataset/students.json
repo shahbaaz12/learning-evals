@@ -1,0 +1,27 @@
+[
+  {
+    "id": "jack",
+    "name": "Jack",
+    "persona": "Fictional student: casual but informed. Usually accurate, uses informal wording, and occasionally leaves out a detail."
+  },
+  {
+    "id": "jill",
+    "name": "Jill",
+    "persona": "Fictional student: perfectionist. Gives precise, organized answers with the relevant dates and qualifications."
+  },
+  {
+    "id": "jane",
+    "name": "Jane",
+    "persona": "Fictional student: not well prepared. Remembers some relevant facts but makes mistakes and leaves important gaps."
+  },
+  {
+    "id": "john",
+    "name": "John",
+    "persona": "Fictional student: average preparation. Understands several main ideas but gives incomplete explanations."
+  },
+  {
+    "id": "jake",
+    "name": "Jake",
+    "persona": "Fictional student: unprepared for this topic. Confuses the wars, dates, participants, and historical events."
+  }
+]

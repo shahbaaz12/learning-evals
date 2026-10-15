@@ -4,6 +4,7 @@ ipykernel
 
 # Model calls and environment variables
 openai
+httpx
 python-dotenv
 
 # Dataset inspection and result charts

@@ -1,0 +1,34 @@
+{
+  "columns": [
+    "dept_name",
+    "employee_count",
+    "average_salary"
+  ],
+  "rows": [
+    [
+      "Development",
+      7,
+      92142.86
+    ],
+    [
+      "Finance",
+      5,
+      97000.0
+    ],
+    [
+      "Human Resources",
+      3,
+      83333.33
+    ],
+    [
+      "Research",
+      0,
+      null
+    ],
+    [
+      "Sales",
+      5,
+      94000.0
+    ]
+  ]
+}

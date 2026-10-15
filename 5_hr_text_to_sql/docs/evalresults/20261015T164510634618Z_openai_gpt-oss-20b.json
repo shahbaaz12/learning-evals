@@ -1,0 +1,51 @@
+{
+  "created_at": "20261015T164510634618Z",
+  "label": "openai_gpt-oss-20b",
+  "summary": {
+    "model": "GPT-OSS 20B (Groq)",
+    "questions": 6,
+    "accuracy": 0.8333333333333334,
+    "sql_errors": 0,
+    "mean_seconds": 0.8882666666666666,
+    "by_difficulty": {
+      "difficult": 0.5,
+      "intermediate": 1.0,
+      "simple": 1.0
+    },
+    "estimated_run_usd": 0.0007335,
+    "projected_monthly_inr": 418.09499999999997
+  },
+  "settings": {
+    "model": {
+      "model_id": "openai/gpt-oss-20b",
+      "name": "GPT-OSS 20B (Groq)",
+      "provider": "groq",
+      "key_name": "GROQ_API_KEY",
+      "input_price": 0.075,
+      "output_price": 0.3,
+      "reasoning_effort": "low",
+      "max_output_tokens": 2048,
+      "price_basis": "https://console.groq.com/docs/model/openai/gpt-oss-20b",
+      "selection_reason": "Smaller, cheaper model for comparison with the 120B model.",
+      "monthly_inr": 820.8
+    },
+    "budget": {
+      "monthly_budget_inr": 10000,
+      "requests_per_day": 1000,
+      "days_per_month": 30,
+      "input_tokens_per_request": 1600,
+      "output_tokens_per_request": 400,
+      "inr_per_usd": 95,
+      "contingency_fraction": 0.2,
+      "quality_weight": 0.9,
+      "speed_weight": 0.1,
+      "target_seconds": 3,
+      "notes": "Planning conversion, not live FX. No caching, batch discounts, or temporary promotional prices. Token-only budget; excludes taxes and infrastructure. Reasoning tokens can increase output costs."
+    },
+    "as_of": "2026-10-01",
+    "selection_basis": "User requested existing Gemini and Groq keys only. Verified IDs with both authenticated model-list endpoints on 2026-10-15. Four varied candidates for the same six-question pilot; this is not the original all-provider leaderboard top four."
+  },
+  "database_sha256": "5a7367bb9b4fb393493a875ce67e948a0fafe5e2c7888216e8f3541e0dec0e8c",
+  "prompt_sha256": "435903574ef4b0e52f07dbf31ad1b5d8da479fcd1dc160d7ebadd2b265b5600c",
+  "predictions": "20261015T164510634618Z_openai_gpt-oss-20b.json"
+}

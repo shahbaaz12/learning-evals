@@ -1,0 +1,742 @@
+[
+  {
+    "id": "q001",
+    "difficulty": "simple",
+    "question": "List all department IDs and department names, ordered by department name.",
+    "sql": "SELECT dept_no, dept_name \nFROM departments \nORDER BY dept_name;",
+    "input_tokens": 708,
+    "output_tokens": 20,
+    "api_model": "gemini-3.5-flash-lite",
+    "provider": "gemini",
+    "reasoning_effort": "minimal",
+    "finish_reason": "STOP",
+    "actual": {
+      "columns": [
+        "dept_no",
+        "dept_name"
+      ],
+      "rows": [
+        [
+          "d005",
+          "Development"
+        ],
+        [
+          "d002",
+          "Finance"
+        ],
+        [
+          "d003",
+          "Human Resources"
+        ],
+        [
+          "d008",
+          "Research"
+        ],
+        [
+          "d007",
+          "Sales"
+        ]
+      ],
+      "error": null
+    },
+    "expected": {
+      "columns": [
+        "dept_no",
+        "dept_name"
+      ],
+      "rows": [
+        [
+          "d005",
+          "Development"
+        ],
+        [
+          "d002",
+          "Finance"
+        ],
+        [
+          "d003",
+          "Human Resources"
+        ],
+        [
+          "d008",
+          "Research"
+        ],
+        [
+          "d007",
+          "Sales"
+        ]
+      ]
+    },
+    "correct": true,
+    "generation_seconds": 1.1831,
+    "end_to_end_seconds": 1.3173
+  },
+  {
+    "id": "q002",
+    "difficulty": "simple",
+    "question": "List the employee ID, first name, last name, and hire date of everyone hired in 2024, including former employees. Order by employee ID.",
+    "sql": "SELECT emp_no, first_name, last_name, hire_date\nFROM employees\nWHERE hire_date >= '2024-01-01' AND hire_date <= '2024-12-31'\nORDER BY emp_no;",
+    "input_tokens": 728,
+    "output_tokens": 61,
+    "api_model": "gemini-3.5-flash-lite",
+    "provider": "gemini",
+    "reasoning_effort": "minimal",
+    "finish_reason": "STOP",
+    "actual": {
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "hire_date"
+      ],
+      "rows": [
+        [
+          1007,
+          "Gita",
+          "Nair",
+          "2024-04-15"
+        ],
+        [
+          1011,
+          "Kiran",
+          "Rana",
+          "2024-04-15"
+        ],
+        [
+          1015,
+          "Omar",
+          "Khan",
+          "2024-04-15"
+        ],
+        [
+          1018,
+          "Rita",
+          "Kapoor",
+          "2024-04-15"
+        ],
+        [
+          1020,
+          "Tara",
+          "Joshi",
+          "2024-04-15"
+        ],
+        [
+          1023,
+          "Wafa",
+          "Mir",
+          "2024-04-15"
+        ]
+      ],
+      "error": null
+    },
+    "expected": {
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "hire_date"
+      ],
+      "rows": [
+        [
+          1007,
+          "Gita",
+          "Nair",
+          "2024-04-15"
+        ],
+        [
+          1011,
+          "Kiran",
+          "Rana",
+          "2024-04-15"
+        ],
+        [
+          1015,
+          "Omar",
+          "Khan",
+          "2024-04-15"
+        ],
+        [
+          1018,
+          "Rita",
+          "Kapoor",
+          "2024-04-15"
+        ],
+        [
+          1020,
+          "Tara",
+          "Joshi",
+          "2024-04-15"
+        ],
+        [
+          1023,
+          "Wafa",
+          "Mir",
+          "2024-04-15"
+        ]
+      ]
+    },
+    "correct": true,
+    "generation_seconds": 1.8237,
+    "end_to_end_seconds": 1.9517
+  },
+  {
+    "id": "q003",
+    "difficulty": "intermediate",
+    "question": "As of 2026-10-01, show every department name, its current employee count, and average current annual salary rounded to two decimals. Include empty departments with count 0 and average NULL. Order by department name.",
+    "sql": "SELECT \n    d.dept_name,\n    COUNT(de.emp_no) AS employee_count,\n    ROUND(AVG(s.salary), 2) AS average_salary\nFROM departments d\nLEFT JOIN dept_emp de \n    ON d.dept_no = de.dept_no \n    AND de.from_date <= '2026-10-01' \n    AND de.to_date > '2026-10-01'\nLEFT JOIN salaries s \n    ON de.emp_no = s.emp_no \n    AND s.from_date <= '2026-10-01' \n    AND s.to_date > '2026-10-01'\nGROUP BY d.dept_no, d.dept_name\nORDER BY d.dept_name;",
+    "input_tokens": 745,
+    "output_tokens": 199,
+    "api_model": "gemini-3.5-flash-lite",
+    "provider": "gemini",
+    "reasoning_effort": "minimal",
+    "finish_reason": "STOP",
+    "actual": {
+      "columns": [
+        "dept_name",
+        "employee_count",
+        "average_salary"
+      ],
+      "rows": [
+        [
+          "Development",
+          7,
+          92142.86
+        ],
+        [
+          "Finance",
+          5,
+          97000.0
+        ],
+        [
+          "Human Resources",
+          3,
+          83333.33
+        ],
+        [
+          "Research",
+          0,
+          null
+        ],
+        [
+          "Sales",
+          5,
+          94000.0
+        ]
+      ],
+      "error": null
+    },
+    "expected": {
+      "columns": [
+        "dept_name",
+        "employee_count",
+        "average_salary"
+      ],
+      "rows": [
+        [
+          "Development",
+          7,
+          92142.86
+        ],
+        [
+          "Finance",
+          5,
+          97000.0
+        ],
+        [
+          "Human Resources",
+          3,
+          83333.33
+        ],
+        [
+          "Research",
+          0,
+          null
+        ],
+        [
+          "Sales",
+          5,
+          94000.0
+        ]
+      ]
+    },
+    "correct": true,
+    "generation_seconds": 1.4554,
+    "end_to_end_seconds": 1.584
+  },
+  {
+    "id": "q004",
+    "difficulty": "intermediate",
+    "question": "As of 2026-10-01, which current Development employees earn more than the average current Development salary? Return employee ID, first name, last name, and annual salary. Order by salary descending, then employee ID ascending.",
+    "sql": "SELECT \n    e.emp_no,\n    e.first_name,\n    e.last_name,\n    s.salary\nFROM employees e\nJOIN dept_emp de ON e.emp_no = de.emp_no\nJOIN departments d ON de.dept_no = d.dept_no\nJOIN salaries s ON e.emp_no = s.emp_no\nWHERE d.dept_name = 'Development'\n  AND de.from_date <= '2026-10-01' AND de.to_date > '2026-10-01'\n  AND s.from_date <= '2026-10-01' AND s.to_date > '2026-10-01'\n  AND s.salary > (\n      SELECT AVG(s2.salary)\n      FROM employees e2\n      JOIN dept_emp de2 ON e2.emp_no = de2.emp_no\n      JOIN departments d2 ON de2.dept_no = d2.dept_no\n      JOIN salaries s2 ON e2.emp_no = s2.emp_no\n      WHERE d2.dept_name = 'Development'\n        AND de2.from_date <= '2026-10-01' AND de2.to_date > '2026-10-01'\n        AND s2.from_date <= '2026-10-01' AND s2.to_date > '2026-10-01'\n  )\nORDER BY s.salary DESC, e.emp_no ASC;",
+    "input_tokens": 746,
+    "output_tokens": 377,
+    "api_model": "gemini-3.5-flash-lite",
+    "provider": "gemini",
+    "reasoning_effort": "minimal",
+    "finish_reason": "STOP",
+    "actual": {
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "salary"
+      ],
+      "rows": [
+        [
+          1001,
+          "Asha",
+          "Rao",
+          120000
+        ],
+        [
+          1005,
+          "Esha",
+          "Roy",
+          110000
+        ],
+        [
+          1006,
+          "Farhan",
+          "Ali",
+          110000
+        ]
+      ],
+      "error": null
+    },
+    "expected": {
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "salary"
+      ],
+      "rows": [
+        [
+          1001,
+          "Asha",
+          "Rao",
+          120000
+        ],
+        [
+          1005,
+          "Esha",
+          "Roy",
+          110000
+        ],
+        [
+          1006,
+          "Farhan",
+          "Ali",
+          110000
+        ]
+      ]
+    },
+    "correct": true,
+    "generation_seconds": 5.9934,
+    "end_to_end_seconds": 6.1213
+  },
+  {
+    "id": "q005",
+    "difficulty": "difficult",
+    "question": "As of 2026-10-01, list current employees at the two highest distinct salary ranks in each department, including ties. Return department name, employee ID, first name, last name, salary, and salary rank. Order by department name, rank, then employee ID.",
+    "sql": "WITH active_dept AS (\n    SELECT de.dept_no, de.emp_no\n    FROM dept_emp de\n    WHERE de.from_date <= '2026-10-01' AND de.to_date > '2026-10-01'\n),\nactive_sal AS (\n    SELECT s.emp_no, s.salary\n    FROM salaries s\n    WHERE s.from_date <= '2026-10-01' AND s.to_date > '2026-10-01'\n),\ndept_salaries AS (\n    SELECT \n        d.dept_name,\n        e.emp_no,\n        e.first_name,\n        e.last_name,\n        s.salary,\n        d.dept_no,\n        DENSE_RANK() OVER (PARTITION BY d.dept_no ORDER BY s.salary DESC) as salary_rank\n    FROM active_dept ad\n    JOIN departments d ON ad.dept_no = d.dept_no\n    JOIN employees e ON ad.emp_no = e.emp_no\n    JOIN active_sal s ON e.emp_no = s.emp_no\n)\nSELECT \n    dept_name,\n    emp_no,\n    first_name,\n    last_name,\n    salary,\n    salary_rank\nFROM dept_salaries\nWHERE salary_rank <= 2\nORDER BY dept_name, salary_rank, emp_no;",
+    "input_tokens": 756,
+    "output_tokens": 346,
+    "api_model": "gemini-3.5-flash-lite",
+    "provider": "gemini",
+    "reasoning_effort": "minimal",
+    "finish_reason": "STOP",
+    "actual": {
+      "columns": [
+        "dept_name",
+        "emp_no",
+        "first_name",
+        "last_name",
+        "salary",
+        "salary_rank"
+      ],
+      "rows": [
+        [
+          "Development",
+          1001,
+          "Asha",
+          "Rao",
+          120000,
+          1
+        ],
+        [
+          "Development",
+          1005,
+          "Esha",
+          "Roy",
+          110000,
+          2
+        ],
+        [
+          "Development",
+          1006,
+          "Farhan",
+          "Ali",
+          110000,
+          2
+        ],
+        [
+          "Finance",
+          1004,
+          "Dev",
+          "Sen",
+          130000,
+          1
+        ],
+        [
+          "Finance",
+          1017,
+          "Qasim",
+          "Malik",
+          115000,
+          2
+        ],
+        [
+          "Human Resources",
+          1003,
+          "Cara",
+          "Das",
+          100000,
+          1
+        ],
+        [
+          "Human Resources",
+          1015,
+          "Omar",
+          "Khan",
+          80000,
+          2
+        ],
+        [
+          "Sales",
+          1002,
+          "Ben",
+          "Shah",
+          110000,
+          1
+        ],
+        [
+          "Sales",
+          1011,
+          "Kiran",
+          "Rana",
+          100000,
+          2
+        ],
+        [
+          "Sales",
+          1012,
+          "Leena",
+          "Paul",
+          100000,
+          2
+        ]
+      ],
+      "error": null
+    },
+    "expected": {
+      "columns": [
+        "dept_name",
+        "emp_no",
+        "first_name",
+        "last_name",
+        "salary",
+        "salary_rank"
+      ],
+      "rows": [
+        [
+          "Development",
+          1001,
+          "Asha",
+          "Rao",
+          120000,
+          1
+        ],
+        [
+          "Development",
+          1005,
+          "Esha",
+          "Roy",
+          110000,
+          2
+        ],
+        [
+          "Development",
+          1006,
+          "Farhan",
+          "Ali",
+          110000,
+          2
+        ],
+        [
+          "Finance",
+          1004,
+          "Dev",
+          "Sen",
+          130000,
+          1
+        ],
+        [
+          "Finance",
+          1017,
+          "Qasim",
+          "Malik",
+          115000,
+          2
+        ],
+        [
+          "Human Resources",
+          1003,
+          "Cara",
+          "Das",
+          100000,
+          1
+        ],
+        [
+          "Human Resources",
+          1015,
+          "Omar",
+          "Khan",
+          80000,
+          2
+        ],
+        [
+          "Sales",
+          1002,
+          "Ben",
+          "Shah",
+          110000,
+          1
+        ],
+        [
+          "Sales",
+          1011,
+          "Kiran",
+          "Rana",
+          100000,
+          2
+        ],
+        [
+          "Sales",
+          1012,
+          "Leena",
+          "Paul",
+          100000,
+          2
+        ]
+      ]
+    },
+    "correct": true,
+    "generation_seconds": 4.5885,
+    "end_to_end_seconds": 4.7159
+  },
+  {
+    "id": "q006",
+    "difficulty": "difficult",
+    "question": "As of 2026-10-01, which current employees received at least a 10 percent raise from their immediately previous salary to their current salary? Exclude employees with no previous salary. Return employee ID, first name, last name, current department name, previous salary, current salary, and percentage raise rounded to two decimals. Order by percentage raise descending, then employee ID ascending.",
+    "sql": "SELECT \n    e.emp_no,\n    e.first_name,\n    e.last_name,\n    d.dept_name,\n    prev_sal.salary AS previous_salary,\n    curr_sal.salary AS current_salary,\n    ROUND(CAST((curr_sal.salary - prev_sal.salary) AS REAL) / prev_sal.salary * 100, 2) AS percentage_raise\nFROM employees e\nJOIN dept_emp de ON e.emp_no = de.emp_no \n    AND de.from_date <= '2026-10-01' AND de.to_date > '2026-10-01'\nJOIN departments d ON de.dept_no = d.dept_no\nJOIN salaries curr_sal ON e.emp_no = curr_sal.emp_no \n    AND curr_sal.from_date <= '2026-10-01' AND curr_sal.to_date > '2026-10-01'\nJOIN salaries prev_sal ON e.emp_no = prev_sal.emp_no\n    -- Find the salary whose to_date matches the current salary's from_date (immediately preceding)\n    AND prev_sal.to_date = curr_sal.from_date\nWHERE ROUND(CAST((curr_sal.salary - prev_sal.salary) AS REAL) / prev_sal.salary * 100, 2) >= 10.00\nORDER BY percentage_raise DESC, e.emp_no ASC;",
+    "input_tokens": 778,
+    "output_tokens": 361,
+    "api_model": "gemini-3.5-flash-lite",
+    "provider": "gemini",
+    "reasoning_effort": "minimal",
+    "finish_reason": "STOP",
+    "actual": {
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "dept_name",
+        "previous_salary",
+        "current_salary",
+        "percentage_raise"
+      ],
+      "rows": [
+        [
+          1013,
+          "Mohan",
+          "Singh",
+          "Sales",
+          70000,
+          85000,
+          21.43
+        ],
+        [
+          1006,
+          "Farhan",
+          "Ali",
+          "Development",
+          95000,
+          110000,
+          15.79
+        ],
+        [
+          1017,
+          "Qasim",
+          "Malik",
+          "Finance",
+          100000,
+          115000,
+          15.0
+        ],
+        [
+          1015,
+          "Omar",
+          "Khan",
+          "Human Resources",
+          70000,
+          80000,
+          14.29
+        ],
+        [
+          1019,
+          "Samar",
+          "Gupta",
+          "Finance",
+          70000,
+          80000,
+          14.29
+        ],
+        [
+          1007,
+          "Gita",
+          "Nair",
+          "Development",
+          80000,
+          90000,
+          12.5
+        ],
+        [
+          1011,
+          "Kiran",
+          "Rana",
+          "Sales",
+          90000,
+          100000,
+          11.11
+        ],
+        [
+          1002,
+          "Ben",
+          "Shah",
+          "Sales",
+          100000,
+          110000,
+          10.0
+        ],
+        [
+          1005,
+          "Esha",
+          "Roy",
+          "Development",
+          100000,
+          110000,
+          10.0
+        ]
+      ],
+      "error": null
+    },
+    "expected": {
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "dept_name",
+        "previous_salary",
+        "current_salary",
+        "percentage_raise"
+      ],
+      "rows": [
+        [
+          1013,
+          "Mohan",
+          "Singh",
+          "Sales",
+          70000,
+          85000,
+          21.43
+        ],
+        [
+          1006,
+          "Farhan",
+          "Ali",
+          "Development",
+          95000,
+          110000,
+          15.79
+        ],
+        [
+          1017,
+          "Qasim",
+          "Malik",
+          "Finance",
+          100000,
+          115000,
+          15.0
+        ],
+        [
+          1015,
+          "Omar",
+          "Khan",
+          "Human Resources",
+          70000,
+          80000,
+          14.29
+        ],
+        [
+          1019,
+          "Samar",
+          "Gupta",
+          "Finance",
+          70000,
+          80000,
+          14.29
+        ],
+        [
+          1007,
+          "Gita",
+          "Nair",
+          "Development",
+          80000,
+          90000,
+          12.5
+        ],
+        [
+          1011,
+          "Kiran",
+          "Rana",
+          "Sales",
+          90000,
+          100000,
+          11.11
+        ],
+        [
+          1002,
+          "Ben",
+          "Shah",
+          "Sales",
+          100000,
+          110000,
+          10.0
+        ],
+        [
+          1005,
+          "Esha",
+          "Roy",
+          "Development",
+          100000,
+          110000,
+          10.0
+        ]
+      ]
+    },
+    "correct": true,
+    "generation_seconds": 2.7082,
+    "end_to_end_seconds": 2.8387
+  }
+]

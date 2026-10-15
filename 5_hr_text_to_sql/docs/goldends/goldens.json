@@ -1,0 +1,361 @@
+{
+  "as_of": "2026-10-01",
+  "human_review": "pending",
+  "database_sha256": "5a7367bb9b4fb393493a875ce67e948a0fafe5e2c7888216e8f3541e0dec0e8c",
+  "seed_sha256": "c1f556cec4474bb4eca339b4953e3da41f06b1d323b010071c39c9f24fa039b3",
+  "schema_sha256": "ea9332302d385ae96e6144681084a53209ed007bb7462149bcf76e18b1ed6a73",
+  "cases": [
+    {
+      "id": "q001",
+      "difficulty": "simple",
+      "question": "List all department IDs and department names, ordered by department name.",
+      "reference_sql": "SELECT dept_no, dept_name FROM departments ORDER BY dept_name;",
+      "columns": [
+        "dept_no",
+        "dept_name"
+      ],
+      "rows": [
+        [
+          "d005",
+          "Development"
+        ],
+        [
+          "d002",
+          "Finance"
+        ],
+        [
+          "d003",
+          "Human Resources"
+        ],
+        [
+          "d008",
+          "Research"
+        ],
+        [
+          "d007",
+          "Sales"
+        ]
+      ],
+      "order_matters": true
+    },
+    {
+      "id": "q002",
+      "difficulty": "simple",
+      "question": "List the employee ID, first name, last name, and hire date of everyone hired in 2024, including former employees. Order by employee ID.",
+      "reference_sql": "SELECT emp_no, first_name, last_name, hire_date FROM employees WHERE hire_date >= '2024-01-01' AND hire_date < '2025-01-01' ORDER BY emp_no;",
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "hire_date"
+      ],
+      "rows": [
+        [
+          1007,
+          "Gita",
+          "Nair",
+          "2024-04-15"
+        ],
+        [
+          1011,
+          "Kiran",
+          "Rana",
+          "2024-04-15"
+        ],
+        [
+          1015,
+          "Omar",
+          "Khan",
+          "2024-04-15"
+        ],
+        [
+          1018,
+          "Rita",
+          "Kapoor",
+          "2024-04-15"
+        ],
+        [
+          1020,
+          "Tara",
+          "Joshi",
+          "2024-04-15"
+        ],
+        [
+          1023,
+          "Wafa",
+          "Mir",
+          "2024-04-15"
+        ]
+      ],
+      "order_matters": true
+    },
+    {
+      "id": "q003",
+      "difficulty": "intermediate",
+      "question": "As of 2026-10-01, show every department name, its current employee count, and average current annual salary rounded to two decimals. Include empty departments with count 0 and average NULL. Order by department name.",
+      "reference_sql": "SELECT d.dept_name, COUNT(de.emp_no) AS employee_count,\n       ROUND(AVG(s.salary), 2) AS average_salary\nFROM departments d\nLEFT JOIN dept_emp de ON de.dept_no = d.dept_no\n AND de.from_date <= '2026-10-01' AND de.to_date > '2026-10-01'\nLEFT JOIN salaries s ON s.emp_no = de.emp_no\n AND s.from_date <= '2026-10-01' AND s.to_date > '2026-10-01'\nGROUP BY d.dept_no, d.dept_name ORDER BY d.dept_name;",
+      "columns": [
+        "dept_name",
+        "employee_count",
+        "average_salary"
+      ],
+      "rows": [
+        [
+          "Development",
+          7,
+          92142.86
+        ],
+        [
+          "Finance",
+          5,
+          97000.0
+        ],
+        [
+          "Human Resources",
+          3,
+          83333.33
+        ],
+        [
+          "Research",
+          0,
+          null
+        ],
+        [
+          "Sales",
+          5,
+          94000.0
+        ]
+      ],
+      "order_matters": true
+    },
+    {
+      "id": "q004",
+      "difficulty": "intermediate",
+      "question": "As of 2026-10-01, which current Development employees earn more than the average current Development salary? Return employee ID, first name, last name, and annual salary. Order by salary descending, then employee ID ascending.",
+      "reference_sql": "WITH current_development AS (\n SELECT e.emp_no, e.first_name, e.last_name, s.salary\n FROM employees e JOIN dept_emp de ON de.emp_no = e.emp_no\n JOIN departments d ON d.dept_no = de.dept_no\n JOIN salaries s ON s.emp_no = e.emp_no\n WHERE d.dept_name = 'Development'\n AND de.from_date <= '2026-10-01' AND de.to_date > '2026-10-01'\n AND s.from_date <= '2026-10-01' AND s.to_date > '2026-10-01'\n)\nSELECT emp_no, first_name, last_name, salary FROM current_development\nWHERE salary > (SELECT AVG(salary) FROM current_development)\nORDER BY salary DESC, emp_no;",
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "salary"
+      ],
+      "rows": [
+        [
+          1001,
+          "Asha",
+          "Rao",
+          120000
+        ],
+        [
+          1005,
+          "Esha",
+          "Roy",
+          110000
+        ],
+        [
+          1006,
+          "Farhan",
+          "Ali",
+          110000
+        ]
+      ],
+      "order_matters": true
+    },
+    {
+      "id": "q005",
+      "difficulty": "difficult",
+      "question": "As of 2026-10-01, list current employees at the two highest distinct salary ranks in each department, including ties. Return department name, employee ID, first name, last name, salary, and salary rank. Order by department name, rank, then employee ID.",
+      "reference_sql": "WITH ranked AS (\n SELECT d.dept_name, e.emp_no, e.first_name, e.last_name, s.salary,\n DENSE_RANK() OVER (PARTITION BY d.dept_no ORDER BY s.salary DESC) AS salary_rank\n FROM employees e JOIN dept_emp de ON de.emp_no = e.emp_no\n JOIN departments d ON d.dept_no = de.dept_no\n JOIN salaries s ON s.emp_no = e.emp_no\n WHERE de.from_date <= '2026-10-01' AND de.to_date > '2026-10-01'\n AND s.from_date <= '2026-10-01' AND s.to_date > '2026-10-01'\n)\nSELECT dept_name, emp_no, first_name, last_name, salary, salary_rank\nFROM ranked WHERE salary_rank <= 2 ORDER BY dept_name, salary_rank, emp_no;",
+      "columns": [
+        "dept_name",
+        "emp_no",
+        "first_name",
+        "last_name",
+        "salary",
+        "salary_rank"
+      ],
+      "rows": [
+        [
+          "Development",
+          1001,
+          "Asha",
+          "Rao",
+          120000,
+          1
+        ],
+        [
+          "Development",
+          1005,
+          "Esha",
+          "Roy",
+          110000,
+          2
+        ],
+        [
+          "Development",
+          1006,
+          "Farhan",
+          "Ali",
+          110000,
+          2
+        ],
+        [
+          "Finance",
+          1004,
+          "Dev",
+          "Sen",
+          130000,
+          1
+        ],
+        [
+          "Finance",
+          1017,
+          "Qasim",
+          "Malik",
+          115000,
+          2
+        ],
+        [
+          "Human Resources",
+          1003,
+          "Cara",
+          "Das",
+          100000,
+          1
+        ],
+        [
+          "Human Resources",
+          1015,
+          "Omar",
+          "Khan",
+          80000,
+          2
+        ],
+        [
+          "Sales",
+          1002,
+          "Ben",
+          "Shah",
+          110000,
+          1
+        ],
+        [
+          "Sales",
+          1011,
+          "Kiran",
+          "Rana",
+          100000,
+          2
+        ],
+        [
+          "Sales",
+          1012,
+          "Leena",
+          "Paul",
+          100000,
+          2
+        ]
+      ],
+      "order_matters": true
+    },
+    {
+      "id": "q006",
+      "difficulty": "difficult",
+      "question": "As of 2026-10-01, which current employees received at least a 10 percent raise from their immediately previous salary to their current salary? Exclude employees with no previous salary. Return employee ID, first name, last name, current department name, previous salary, current salary, and percentage raise rounded to two decimals. Order by percentage raise descending, then employee ID ascending.",
+      "reference_sql": "WITH history AS (\n SELECT emp_no, salary, from_date, to_date,\n LAG(salary) OVER (PARTITION BY emp_no ORDER BY from_date) AS previous_salary\n FROM salaries WHERE from_date <= '2026-10-01'\n), raises AS (\n SELECT e.emp_no, e.first_name, e.last_name, d.dept_name,\n h.previous_salary, h.salary AS current_salary,\n ROUND(100.0 * (h.salary - h.previous_salary) / h.previous_salary, 2) AS percentage_raise\n FROM history h JOIN employees e ON e.emp_no = h.emp_no\n JOIN dept_emp de ON de.emp_no = e.emp_no\n JOIN departments d ON d.dept_no = de.dept_no\n WHERE h.to_date > '2026-10-01'\n AND de.from_date <= '2026-10-01' AND de.to_date > '2026-10-01'\n AND h.previous_salary IS NOT NULL\n AND 100 * (h.salary - h.previous_salary) >= 10 * h.previous_salary\n)\nSELECT * FROM raises ORDER BY percentage_raise DESC, emp_no;",
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "dept_name",
+        "previous_salary",
+        "current_salary",
+        "percentage_raise"
+      ],
+      "rows": [
+        [
+          1013,
+          "Mohan",
+          "Singh",
+          "Sales",
+          70000,
+          85000,
+          21.43
+        ],
+        [
+          1006,
+          "Farhan",
+          "Ali",
+          "Development",
+          95000,
+          110000,
+          15.79
+        ],
+        [
+          1017,
+          "Qasim",
+          "Malik",
+          "Finance",
+          100000,
+          115000,
+          15.0
+        ],
+        [
+          1015,
+          "Omar",
+          "Khan",
+          "Human Resources",
+          70000,
+          80000,
+          14.29
+        ],
+        [
+          1019,
+          "Samar",
+          "Gupta",
+          "Finance",
+          70000,
+          80000,
+          14.29
+        ],
+        [
+          1007,
+          "Gita",
+          "Nair",
+          "Development",
+          80000,
+          90000,
+          12.5
+        ],
+        [
+          1011,
+          "Kiran",
+          "Rana",
+          "Sales",
+          90000,
+          100000,
+          11.11
+        ],
+        [
+          1002,
+          "Ben",
+          "Shah",
+          "Sales",
+          100000,
+          110000,
+          10.0
+        ],
+        [
+          1005,
+          "Esha",
+          "Roy",
+          "Development",
+          100000,
+          110000,
+          10.0
+        ]
+      ],
+      "order_matters": true
+    }
+  ]
+}

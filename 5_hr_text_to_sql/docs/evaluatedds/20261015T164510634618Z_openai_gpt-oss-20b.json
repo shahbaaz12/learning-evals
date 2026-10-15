@@ -1,0 +1,832 @@
+[
+  {
+    "id": "q001",
+    "difficulty": "simple",
+    "question": "List all department IDs and department names, ordered by department name.",
+    "sql": "SELECT dept_no, dept_name\nFROM departments\nORDER BY dept_name;",
+    "input_tokens": 671,
+    "output_tokens": 39,
+    "api_model": "openai/gpt-oss-20b",
+    "provider": "groq",
+    "reasoning_effort": "low",
+    "finish_reason": "stop",
+    "actual": {
+      "columns": [
+        "dept_no",
+        "dept_name"
+      ],
+      "rows": [
+        [
+          "d005",
+          "Development"
+        ],
+        [
+          "d002",
+          "Finance"
+        ],
+        [
+          "d003",
+          "Human Resources"
+        ],
+        [
+          "d008",
+          "Research"
+        ],
+        [
+          "d007",
+          "Sales"
+        ]
+      ],
+      "error": null
+    },
+    "expected": {
+      "columns": [
+        "dept_no",
+        "dept_name"
+      ],
+      "rows": [
+        [
+          "d005",
+          "Development"
+        ],
+        [
+          "d002",
+          "Finance"
+        ],
+        [
+          "d003",
+          "Human Resources"
+        ],
+        [
+          "d008",
+          "Research"
+        ],
+        [
+          "d007",
+          "Sales"
+        ]
+      ]
+    },
+    "correct": true,
+    "generation_seconds": 0.8478,
+    "end_to_end_seconds": 0.9803
+  },
+  {
+    "id": "q002",
+    "difficulty": "simple",
+    "question": "List the employee ID, first name, last name, and hire date of everyone hired in 2024, including former employees. Order by employee ID.",
+    "sql": "SELECT emp_no, first_name, last_name, hire_date\nFROM employees\nWHERE strftime('%Y', hire_date) = '2024'\nORDER BY emp_no;",
+    "input_tokens": 689,
+    "output_tokens": 79,
+    "api_model": "openai/gpt-oss-20b",
+    "provider": "groq",
+    "reasoning_effort": "low",
+    "finish_reason": "stop",
+    "actual": {
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "hire_date"
+      ],
+      "rows": [
+        [
+          1007,
+          "Gita",
+          "Nair",
+          "2024-04-15"
+        ],
+        [
+          1011,
+          "Kiran",
+          "Rana",
+          "2024-04-15"
+        ],
+        [
+          1015,
+          "Omar",
+          "Khan",
+          "2024-04-15"
+        ],
+        [
+          1018,
+          "Rita",
+          "Kapoor",
+          "2024-04-15"
+        ],
+        [
+          1020,
+          "Tara",
+          "Joshi",
+          "2024-04-15"
+        ],
+        [
+          1023,
+          "Wafa",
+          "Mir",
+          "2024-04-15"
+        ]
+      ],
+      "error": null
+    },
+    "expected": {
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "hire_date"
+      ],
+      "rows": [
+        [
+          1007,
+          "Gita",
+          "Nair",
+          "2024-04-15"
+        ],
+        [
+          1011,
+          "Kiran",
+          "Rana",
+          "2024-04-15"
+        ],
+        [
+          1015,
+          "Omar",
+          "Khan",
+          "2024-04-15"
+        ],
+        [
+          1018,
+          "Rita",
+          "Kapoor",
+          "2024-04-15"
+        ],
+        [
+          1020,
+          "Tara",
+          "Joshi",
+          "2024-04-15"
+        ],
+        [
+          1023,
+          "Wafa",
+          "Mir",
+          "2024-04-15"
+        ]
+      ]
+    },
+    "correct": true,
+    "generation_seconds": 0.5764,
+    "end_to_end_seconds": 0.7158
+  },
+  {
+    "id": "q003",
+    "difficulty": "intermediate",
+    "question": "As of 2026-10-01, show every department name, its current employee count, and average current annual salary rounded to two decimals. Include empty departments with count 0 and average NULL. Order by department name.",
+    "sql": "SELECT\n    d.dept_name,\n    COUNT(DISTINCT e.emp_no) AS current_employee_count,\n    ROUND(AVG(s.salary), 2) AS avg_current_annual_salary\nFROM\n    departments d\nLEFT JOIN\n    dept_emp de\n    ON d.dept_no = de.dept_no\n    AND date('2026-10-01') BETWEEN date(de.from_date) AND date(de.to_date)\nLEFT JOIN\n    employees e\n    ON de.emp_no = e.emp_no\nLEFT JOIN\n    salaries s\n    ON e.emp_no = s.emp_no\n    AND date('2026-10-01') BETWEEN date(s.from_date) AND date(s.to_date)\nGROUP BY\n    d.dept_name\nORDER BY\n    d.dept_name;",
+    "input_tokens": 704,
+    "output_tokens": 236,
+    "api_model": "openai/gpt-oss-20b",
+    "provider": "groq",
+    "reasoning_effort": "low",
+    "finish_reason": "stop",
+    "actual": {
+      "columns": [
+        "dept_name",
+        "current_employee_count",
+        "avg_current_annual_salary"
+      ],
+      "rows": [
+        [
+          "Development",
+          7,
+          92142.86
+        ],
+        [
+          "Finance",
+          5,
+          97000.0
+        ],
+        [
+          "Human Resources",
+          3,
+          83333.33
+        ],
+        [
+          "Research",
+          0,
+          null
+        ],
+        [
+          "Sales",
+          5,
+          94000.0
+        ]
+      ],
+      "error": null
+    },
+    "expected": {
+      "columns": [
+        "dept_name",
+        "employee_count",
+        "average_salary"
+      ],
+      "rows": [
+        [
+          "Development",
+          7,
+          92142.86
+        ],
+        [
+          "Finance",
+          5,
+          97000.0
+        ],
+        [
+          "Human Resources",
+          3,
+          83333.33
+        ],
+        [
+          "Research",
+          0,
+          null
+        ],
+        [
+          "Sales",
+          5,
+          94000.0
+        ]
+      ]
+    },
+    "correct": true,
+    "generation_seconds": 0.6934,
+    "end_to_end_seconds": 0.8327
+  },
+  {
+    "id": "q004",
+    "difficulty": "intermediate",
+    "question": "As of 2026-10-01, which current Development employees earn more than the average current Development salary? Return employee ID, first name, last name, and annual salary. Order by salary descending, then employee ID ascending.",
+    "sql": "WITH reporting_date AS (SELECT '2026-10-01' AS d),\n     active_dept AS (\n       SELECT de.emp_no\n       FROM dept_emp de\n       JOIN reporting_date rd ON de.from_date <= rd.d AND de.to_date > rd.d\n       JOIN departments d ON de.dept_no = d.dept_no\n       WHERE d.dept_name = 'Development'\n     ),\n     active_salary AS (\n       SELECT s.emp_no, s.salary\n       FROM salaries s\n       JOIN reporting_date rd ON s.from_date <= rd.d AND s.to_date > rd.d\n     ),\n     current_employees AS (\n       SELECT e.emp_no, e.first_name, e.last_name, s.salary\n       FROM employees e\n       JOIN active_dept ad ON e.emp_no = ad.emp_no\n       JOIN active_salary s ON e.emp_no = s.emp_no\n     ),\n     avg_salary AS (\n       SELECT AVG(salary) AS avg_sal FROM current_employees\n     )\nSELECT ce.emp_no, ce.first_name, ce.last_name, ce.salary\nFROM current_employees ce, avg_salary a\nWHERE ce.salary > a.avg_sal\nORDER BY ce.salary DESC, ce.emp_no ASC;",
+    "input_tokens": 705,
+    "output_tokens": 292,
+    "api_model": "openai/gpt-oss-20b",
+    "provider": "groq",
+    "reasoning_effort": "low",
+    "finish_reason": "stop",
+    "actual": {
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "salary"
+      ],
+      "rows": [
+        [
+          1001,
+          "Asha",
+          "Rao",
+          120000
+        ],
+        [
+          1005,
+          "Esha",
+          "Roy",
+          110000
+        ],
+        [
+          1006,
+          "Farhan",
+          "Ali",
+          110000
+        ]
+      ],
+      "error": null
+    },
+    "expected": {
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "salary"
+      ],
+      "rows": [
+        [
+          1001,
+          "Asha",
+          "Rao",
+          120000
+        ],
+        [
+          1005,
+          "Esha",
+          "Roy",
+          110000
+        ],
+        [
+          1006,
+          "Farhan",
+          "Ali",
+          110000
+        ]
+      ]
+    },
+    "correct": true,
+    "generation_seconds": 0.7098,
+    "end_to_end_seconds": 0.8454
+  },
+  {
+    "id": "q005",
+    "difficulty": "difficult",
+    "question": "As of 2026-10-01, list current employees at the two highest distinct salary ranks in each department, including ties. Return department name, employee ID, first name, last name, salary, and salary rank. Order by department name, rank, then employee ID.",
+    "sql": "WITH reporting_date AS (SELECT '2026-10-01' AS d),\n     active_dept_emp AS (\n       SELECT de.emp_no, de.dept_no\n       FROM dept_emp de\n       JOIN reporting_date rd\n         ON de.from_date <= rd.d AND de.to_date > rd.d\n     ),\n     active_salaries AS (\n       SELECT s.emp_no, s.salary\n       FROM salaries s\n       JOIN reporting_date rd\n         ON s.from_date <= rd.d AND s.to_date > rd.d\n     ),\n     dept_emp_salary AS (\n       SELECT a.dept_no, a.emp_no, e.first_name, e.last_name, s.salary\n       FROM active_dept_emp a\n       JOIN active_salaries s ON a.emp_no = s.emp_no\n       JOIN employees e ON a.emp_no = e.emp_no\n     ),\n     salary_rank AS (\n       SELECT dept_no,\n              salary,\n              DENSE_RANK() OVER (PARTITION BY dept_no ORDER BY salary DESC) AS rank\n       FROM dept_emp_salary\n       GROUP BY dept_no, salary\n     )\nSELECT d.dept_name,\n       des.emp_no,\n       des.first_name,\n       des.last_name,\n       des.salary,\n       sr.rank AS salary_rank\nFROM dept_emp_salary des\nJOIN salary_rank sr\n  ON des.dept_no = sr.dept_no AND des.salary = sr.salary\nJOIN departments d ON des.dept_no = d.dept_no\nWHERE sr.rank <= 2\nORDER BY d.dept_name, sr.rank, des.emp_no;",
+    "input_tokens": 715,
+    "output_tokens": 379,
+    "api_model": "openai/gpt-oss-20b",
+    "provider": "groq",
+    "reasoning_effort": "low",
+    "finish_reason": "stop",
+    "actual": {
+      "columns": [
+        "dept_name",
+        "emp_no",
+        "first_name",
+        "last_name",
+        "salary",
+        "salary_rank"
+      ],
+      "rows": [
+        [
+          "Development",
+          1001,
+          "Asha",
+          "Rao",
+          120000,
+          1
+        ],
+        [
+          "Development",
+          1005,
+          "Esha",
+          "Roy",
+          110000,
+          2
+        ],
+        [
+          "Development",
+          1006,
+          "Farhan",
+          "Ali",
+          110000,
+          2
+        ],
+        [
+          "Finance",
+          1004,
+          "Dev",
+          "Sen",
+          130000,
+          1
+        ],
+        [
+          "Finance",
+          1017,
+          "Qasim",
+          "Malik",
+          115000,
+          2
+        ],
+        [
+          "Human Resources",
+          1003,
+          "Cara",
+          "Das",
+          100000,
+          1
+        ],
+        [
+          "Human Resources",
+          1015,
+          "Omar",
+          "Khan",
+          80000,
+          2
+        ],
+        [
+          "Sales",
+          1002,
+          "Ben",
+          "Shah",
+          110000,
+          1
+        ],
+        [
+          "Sales",
+          1011,
+          "Kiran",
+          "Rana",
+          100000,
+          2
+        ],
+        [
+          "Sales",
+          1012,
+          "Leena",
+          "Paul",
+          100000,
+          2
+        ]
+      ],
+      "error": null
+    },
+    "expected": {
+      "columns": [
+        "dept_name",
+        "emp_no",
+        "first_name",
+        "last_name",
+        "salary",
+        "salary_rank"
+      ],
+      "rows": [
+        [
+          "Development",
+          1001,
+          "Asha",
+          "Rao",
+          120000,
+          1
+        ],
+        [
+          "Development",
+          1005,
+          "Esha",
+          "Roy",
+          110000,
+          2
+        ],
+        [
+          "Development",
+          1006,
+          "Farhan",
+          "Ali",
+          110000,
+          2
+        ],
+        [
+          "Finance",
+          1004,
+          "Dev",
+          "Sen",
+          130000,
+          1
+        ],
+        [
+          "Finance",
+          1017,
+          "Qasim",
+          "Malik",
+          115000,
+          2
+        ],
+        [
+          "Human Resources",
+          1003,
+          "Cara",
+          "Das",
+          100000,
+          1
+        ],
+        [
+          "Human Resources",
+          1015,
+          "Omar",
+          "Khan",
+          80000,
+          2
+        ],
+        [
+          "Sales",
+          1002,
+          "Ben",
+          "Shah",
+          110000,
+          1
+        ],
+        [
+          "Sales",
+          1011,
+          "Kiran",
+          "Rana",
+          100000,
+          2
+        ],
+        [
+          "Sales",
+          1012,
+          "Leena",
+          "Paul",
+          100000,
+          2
+        ]
+      ]
+    },
+    "correct": true,
+    "generation_seconds": 0.823,
+    "end_to_end_seconds": 0.9602
+  },
+  {
+    "id": "q006",
+    "difficulty": "difficult",
+    "question": "As of 2026-10-01, which current employees received at least a 10 percent raise from their immediately previous salary to their current salary? Exclude employees with no previous salary. Return employee ID, first name, last name, current department name, previous salary, current salary, and percentage raise rounded to two decimals. Order by percentage raise descending, then employee ID ascending.",
+    "sql": "WITH reporting_date AS (SELECT '2026-10-01' AS d),\n     current_salary AS (\n       SELECT s.emp_no, s.salary AS current_salary, s.from_date\n       FROM salaries s, reporting_date r\n       WHERE s.from_date <= r.d AND s.to_date > r.d\n     ),\n     previous_salary AS (\n       SELECT s.emp_no, s.salary AS previous_salary\n       FROM salaries s\n       JOIN current_salary cs ON s.emp_no = cs.emp_no\n       WHERE s.to_date = cs.from_date\n     ),\n     current_dept AS (\n       SELECT de.emp_no, d.dept_name\n       FROM dept_emp de\n       JOIN departments d ON de.dept_no = d.dept_no\n       JOIN reporting_date r ON de.from_date <= r.d AND de.to_date > r.d\n     )\nSELECT e.emp_no,\n       e.first_name,\n       e.last_name,\n       cd.dept_name,\n       ps.previous_salary,\n       cs.current_salary,\n       ROUND((cs.current_salary - ps.previous_salary) * 100.0 / ps.previous_salary, 2) AS percentage_raise\nFROM employees e\nJOIN current_salary cs ON e.emp_no = cs.emp_no\nJOIN previous_salary ps ON e.emp_no = ps.emp_no\nJOIN current_dept cd ON e.emp_no = cd.emp_no\nORDER BY percentage_raise DESC, e.emp_no ASC;",
+    "input_tokens": 736,
+    "output_tokens": 365,
+    "api_model": "openai/gpt-oss-20b",
+    "provider": "groq",
+    "reasoning_effort": "low",
+    "finish_reason": "stop",
+    "actual": {
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "dept_name",
+        "previous_salary",
+        "current_salary",
+        "percentage_raise"
+      ],
+      "rows": [
+        [
+          1013,
+          "Mohan",
+          "Singh",
+          "Sales",
+          70000,
+          85000,
+          21.43
+        ],
+        [
+          1006,
+          "Farhan",
+          "Ali",
+          "Development",
+          95000,
+          110000,
+          15.79
+        ],
+        [
+          1017,
+          "Qasim",
+          "Malik",
+          "Finance",
+          100000,
+          115000,
+          15.0
+        ],
+        [
+          1015,
+          "Omar",
+          "Khan",
+          "Human Resources",
+          70000,
+          80000,
+          14.29
+        ],
+        [
+          1019,
+          "Samar",
+          "Gupta",
+          "Finance",
+          70000,
+          80000,
+          14.29
+        ],
+        [
+          1007,
+          "Gita",
+          "Nair",
+          "Development",
+          80000,
+          90000,
+          12.5
+        ],
+        [
+          1011,
+          "Kiran",
+          "Rana",
+          "Sales",
+          90000,
+          100000,
+          11.11
+        ],
+        [
+          1002,
+          "Ben",
+          "Shah",
+          "Sales",
+          100000,
+          110000,
+          10.0
+        ],
+        [
+          1005,
+          "Esha",
+          "Roy",
+          "Development",
+          100000,
+          110000,
+          10.0
+        ],
+        [
+          1001,
+          "Asha",
+          "Rao",
+          "Development",
+          110000,
+          120000,
+          9.09
+        ],
+        [
+          1004,
+          "Dev",
+          "Sen",
+          "Finance",
+          120000,
+          130000,
+          8.33
+        ],
+        [
+          1010,
+          "Jay",
+          "Patel",
+          "Development",
+          60000,
+          65000,
+          8.33
+        ],
+        [
+          1009,
+          "Isha",
+          "Bose",
+          "Development",
+          65000,
+          70000,
+          7.69
+        ],
+        [
+          1016,
+          "Priya",
+          "Iyer",
+          "Human Resources",
+          65000,
+          70000,
+          7.69
+        ],
+        [
+          1003,
+          "Cara",
+          "Das",
+          "Human Resources",
+          95000,
+          100000,
+          5.26
+        ],
+        [
+          1012,
+          "Leena",
+          "Paul",
+          "Sales",
+          95000,
+          100000,
+          5.26
+        ],
+        [
+          1008,
+          "Hari",
+          "Jain",
+          "Development",
+          80000,
+          80000,
+          0.0
+        ],
+        [
+          1014,
+          "Nina",
+          "Mehta",
+          "Sales",
+          75000,
+          75000,
+          0.0
+        ],
+        [
+          1018,
+          "Rita",
+          "Kapoor",
+          "Finance",
+          90000,
+          90000,
+          0.0
+        ]
+      ],
+      "error": null
+    },
+    "expected": {
+      "columns": [
+        "emp_no",
+        "first_name",
+        "last_name",
+        "dept_name",
+        "previous_salary",
+        "current_salary",
+        "percentage_raise"
+      ],
+      "rows": [
+        [
+          1013,
+          "Mohan",
+          "Singh",
+          "Sales",
+          70000,
+          85000,
+          21.43
+        ],
+        [
+          1006,
+          "Farhan",
+          "Ali",
+          "Development",
+          95000,
+          110000,
+          15.79
+        ],
+        [
+          1017,
+          "Qasim",
+          "Malik",
+          "Finance",
+          100000,
+          115000,
+          15.0
+        ],
+        [
+          1015,
+          "Omar",
+          "Khan",
+          "Human Resources",
+          70000,
+          80000,
+          14.29
+        ],
+        [
+          1019,
+          "Samar",
+          "Gupta",
+          "Finance",
+          70000,
+          80000,
+          14.29
+        ],
+        [
+          1007,
+          "Gita",
+          "Nair",
+          "Development",
+          80000,
+          90000,
+          12.5
+        ],
+        [
+          1011,
+          "Kiran",
+          "Rana",
+          "Sales",
+          90000,
+          100000,
+          11.11
+        ],
+        [
+          1002,
+          "Ben",
+          "Shah",
+          "Sales",
+          100000,
+          110000,
+          10.0
+        ],
+        [
+          1005,
+          "Esha",
+          "Roy",
+          "Development",
+          100000,
+          110000,
+          10.0
+        ]
+      ]
+    },
+    "correct": false,
+    "generation_seconds": 0.8588,
+    "end_to_end_seconds": 0.9952
+  }
+]

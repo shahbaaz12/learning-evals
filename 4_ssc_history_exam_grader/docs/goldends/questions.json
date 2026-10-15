@@ -1,0 +1,257 @@
+[
+  {
+    "id": "q001",
+    "question": "Explain the long-term causes of World War I and how the assassination in June 1914 escalated into a wider war by August 1914.",
+    "max_marks": 10,
+    "reference_answer": "Nationalist tensions and imperial competition increased mistrust. Militarism, arms races and rival alliances made crises harder to contain. Franz Ferdinand was assassinated at Sarajevo on 28 June 1914. Austria-Hungary confronted Serbia and declared war on 28 July. Russian mobilization, German declarations against Russia and France, and Germany's invasion of Belgium widened the conflict; Britain entered on 4 August. Political choices, not an automatic domino mechanism, turned the crisis into war.",
+    "dimensions": [
+      {
+        "id": "d1",
+        "criterion": "Nationalism and imperial rivalry",
+        "max_marks": 2,
+        "full_credit": "Explains both nationalism and competition for empire as sources of tension.",
+        "partial_credit": "Correctly explains one, or names both without explaining their relevance.",
+        "zero_credit": "Both are absent or fundamentally misrepresented."
+      },
+      {
+        "id": "d2",
+        "criterion": "Militarism and rival alliances",
+        "max_marks": 2,
+        "full_credit": "Explains both military competition/preparedness and alliances as factors increasing the risk or scale of war.",
+        "partial_credit": "Correctly explains one, or only lists both.",
+        "zero_credit": "Neither factor is correctly identified."
+      },
+      {
+        "id": "d3",
+        "criterion": "The immediate trigger",
+        "max_marks": 2,
+        "full_credit": "Identifies Franz Ferdinand's assassination at Sarajevo on 28 June 1914.",
+        "partial_credit": "Identifies the assassination correctly but omits or mistakes the exact place or date.",
+        "zero_credit": "Does not correctly identify the assassination as the trigger."
+      },
+      {
+        "id": "d4",
+        "criterion": "Austria-Hungary and Serbia",
+        "max_marks": 2,
+        "full_credit": "Connects Austria-Hungary's confrontation or ultimatum to Serbia with its declaration of war on 28 July 1914.",
+        "partial_credit": "Correctly identifies Austria-Hungary's attack/declaration against Serbia but lacks the date or preceding confrontation.",
+        "zero_credit": "The belligerents or direction of this declaration are wrong, or the step is absent."
+      },
+      {
+        "id": "d5",
+        "criterion": "Escalation into a European war",
+        "max_marks": 2,
+        "full_credit": "Links Russian mobilization, German declarations against Russia/France, and the invasion of Belgium followed by British entry.",
+        "partial_credit": "Correctly explains at least one of these escalation links but leaves the chain incomplete.",
+        "zero_credit": "Offers no correct escalation link or replaces the sequence with an unrelated event."
+      }
+    ],
+    "source_ids": ["nam_outbreak", "nam_timeline", "alabama_causes"]
+  },
+  {
+    "id": "q002",
+    "question": "Identify the main opposing camps in World War I. Distinguish the countries fighting in 1914 from later entrants, including Italy, the Ottoman Empire, Bulgaria and the United States.",
+    "max_marks": 10,
+    "reference_answer": "Britain, France and Russia formed the main Entente/Allied camp in 1914, opposing Germany and Austria-Hungary. Italy belonged to the pre-war Triple Alliance but stayed neutral in 1914 and joined the Allies in 1915. The Ottoman Empire entered on the Central Powers' side later in 1914 and Bulgaria in 1915. The United States entered in 1917 alongside the Allies as an Associated Power. Pre-war alliance membership should not be confused with actual participation.",
+    "dimensions": [
+      {
+        "id": "d1",
+        "criterion": "Main Entente powers in 1914",
+        "max_marks": 2,
+        "full_credit": "Correctly places Britain, France and Russia in the Entente/Allied camp in 1914.",
+        "partial_credit": "Correctly places two of these three with no contradictory assignment.",
+        "zero_credit": "Places fewer than two correctly or materially reverses the camps."
+      },
+      {
+        "id": "d2",
+        "criterion": "Central Powers at the outbreak",
+        "max_marks": 2,
+        "full_credit": "Identifies Germany and Austria-Hungary as the main Central Powers at the outbreak.",
+        "partial_credit": "Correctly identifies only one without assigning the other to the opposite side.",
+        "zero_credit": "Neither is correctly placed, or the two camps are reversed."
+      },
+      {
+        "id": "d3",
+        "criterion": "Italy's changing position",
+        "max_marks": 2,
+        "full_credit": "States that Italy was neutral in 1914 and joined the Allies in 1915, despite its pre-war alliance.",
+        "partial_credit": "Correctly states neutrality in 1914 or Allied entry in 1915 but omits the other; a vague later Allied entry also earns one.",
+        "zero_credit": "Says Italy fought for the Central Powers in 1914, never joined the Allies, or gives no correct information."
+      },
+      {
+        "id": "d4",
+        "criterion": "Ottoman and Bulgarian entry",
+        "max_marks": 2,
+        "full_credit": "Correctly places Ottoman entry later in 1914 and Bulgarian entry in 1915 on the Central Powers' side.",
+        "partial_credit": "Correctly places at least one of these countries on the Central side but omits some entry timing or the other country.",
+        "zero_credit": "Neither country's participation is correctly stated."
+      },
+      {
+        "id": "d5",
+        "criterion": "United States entry",
+        "max_marks": 2,
+        "full_credit": "Places US entry in 1917 alongside the Allies; the formal term Associated Power is welcome but not required.",
+        "partial_credit": "Correctly places the US alongside the Allies but omits or mistakes the entry year.",
+        "zero_credit": "Places the US on the Central side, says it stayed neutral throughout, or omits its participation."
+      }
+    ],
+    "source_ids": ["nam_overview", "nam_timeline", "state_paris"]
+  },
+  {
+    "id": "q003",
+    "question": "What was trench warfare on the Western Front? Explain why it produced prolonged stalemate, and mention the conditions soldiers faced.",
+    "max_marks": 10,
+    "reference_answer": "By late 1914, opposing armies on the Western Front occupied extensive defensive trench systems. Trenches sheltered soldiers from fire. Machine guns and artillery made exposed attacks dangerous, while barbed wire slowed movement across no man's land. Repeated assaults often brought heavy casualties for limited ground, sustaining stalemate. Mud, flooding, vermin and illness made trench life harsh. New weapons and coordinated tactics gradually improved offensive ability; the front was not immobile for every moment of the war.",
+    "dimensions": [
+      {
+        "id": "d1",
+        "criterion": "Definition and setting",
+        "max_marks": 2,
+        "full_credit": "Defines opposing defensive trench systems on the Western Front becoming established by late 1914.",
+        "partial_credit": "Describes soldiers fighting from opposing trenches but omits the setting or period.",
+        "zero_credit": "Does not correctly describe trench warfare."
+      },
+      {
+        "id": "d2",
+        "criterion": "Defensive firepower",
+        "max_marks": 2,
+        "full_credit": "Explains how both machine guns and artillery made attacking exposed infantry dangerous.",
+        "partial_credit": "Explains one weapon's defensive effect or names both without linking them to attack difficulty.",
+        "zero_credit": "No correct role of defensive firepower is given."
+      },
+      {
+        "id": "d3",
+        "criterion": "Obstacles between trench lines",
+        "max_marks": 2,
+        "full_credit": "Connects barbed wire and exposed no man's land to slowed or vulnerable attackers.",
+        "partial_credit": "Correctly explains either the wire obstacle or the exposed crossing.",
+        "zero_credit": "Neither obstacle is correctly described."
+      },
+      {
+        "id": "d4",
+        "criterion": "Why stalemate continued",
+        "max_marks": 2,
+        "full_credit": "Explains repeated costly assaults with little territorial gain or difficulty converting a breach into a breakthrough.",
+        "partial_credit": "Mentions high casualties or limited movement but does not explain their connection to sustained stalemate.",
+        "zero_credit": "Claims routine easy breakthroughs, or gives no correct explanation."
+      },
+      {
+        "id": "d5",
+        "criterion": "Protection and living conditions",
+        "max_marks": 2,
+        "full_credit": "Explains the protective purpose of trenches and at least one hardship such as mud, flooding, vermin or disease.",
+        "partial_credit": "Mentions protection or a relevant hardship, but not both.",
+        "zero_credit": "Neither protection nor a relevant hardship is correctly identified."
+      }
+    ],
+    "source_ids": ["nam_weapons", "nam_overview", "nam_diary"]
+  },
+  {
+    "id": "q004",
+    "question": "Why did the United States enter World War I in 1917, how did it contribute, and what is the difference between the Armistice of 11 November 1918 and the later peace treaties?",
+    "max_marks": 10,
+    "reference_answer": "The United States declared war on Germany on 6 April 1917. Renewed unrestricted submarine warfare threatened American shipping; the Zimmermann Telegram's proposed German-Mexican alliance added to hostility. American troops, supplies and financial resources strengthened the Allied effort, alongside the contributions of other powers. The Armistice on 11 November 1918 stopped fighting between Germany and the Allies. It was a ceasefire, not the final peace settlement: later treaties, including Versailles in 1919, set peace terms.",
+    "dimensions": [
+      {
+        "id": "d1",
+        "criterion": "Date of US entry",
+        "max_marks": 2,
+        "full_credit": "States that the US declared war on Germany on 6 April 1917.",
+        "partial_credit": "Correctly gives 1917, or April 1917, without the correct full date.",
+        "zero_credit": "Gives a different entry year or omits when the US entered."
+      },
+      {
+        "id": "d2",
+        "criterion": "Unrestricted submarine warfare",
+        "max_marks": 2,
+        "full_credit": "Connects Germany's renewed unrestricted submarine warfare to threats or attacks on American/neutral shipping and the US decision to enter.",
+        "partial_credit": "Mentions German submarine attacks as a cause without explaining the 1917 connection.",
+        "zero_credit": "Omits this cause or offers a materially wrong account."
+      },
+      {
+        "id": "d3",
+        "criterion": "Zimmermann Telegram",
+        "max_marks": 2,
+        "full_credit": "Explains Germany's proposed alliance with Mexico against the US as a factor increasing American hostility.",
+        "partial_credit": "Names the telegram as a cause but does not explain the proposed alliance, or describes the threat accurately without naming the telegram.",
+        "zero_credit": "Omits the telegram/threat or fundamentally misstates it."
+      },
+      {
+        "id": "d4",
+        "criterion": "US contribution",
+        "max_marks": 2,
+        "full_credit": "Identifies American troops and material or financial support as strengthening the Allied war effort without claiming the US won alone.",
+        "partial_credit": "Identifies one correct contribution, or lists contributions while exaggerating that the US alone won.",
+        "zero_credit": "Gives no correct contribution."
+      },
+      {
+        "id": "d5",
+        "criterion": "Armistice versus peace settlement",
+        "max_marks": 2,
+        "full_credit": "Distinguishes the ceasefire with Germany on 11 November 1918 from later negotiated peace terms.",
+        "partial_credit": "Correctly identifies the armistice date or distinguishes a ceasefire from peace, but not both.",
+        "zero_credit": "Equates the armistice with Versailles/the final peace treaty or gives neither correct element."
+      }
+    ],
+    "source_ids": [
+      "state_us_entry",
+      "archives_us",
+      "gov_armistice",
+      "state_paris"
+    ]
+  },
+  {
+    "id": "q005",
+    "question": "When and with whom was the Treaty of Versailles signed? Describe its main terms for Germany and explain its significance without treating World War II as an inevitable result of this treaty alone.",
+    "max_marks": 10,
+    "reference_answer": "Germany and the Allied and Associated Powers signed the Treaty of Versailles on 28 June 1919. Germany lost territory and overseas colonies, faced limits on its armed forces and accepted reparations obligations, supported by Article 231's responsibility clause. The treaty incorporated the League of Nations. Many Germans resented the settlement. It shaped post-war tensions, but later economic crises, political choices and Nazi aggression also mattered; the treaty alone did not make another world war inevitable.",
+    "dimensions": [
+      {
+        "id": "d1",
+        "criterion": "Date and parties",
+        "max_marks": 2,
+        "full_credit": "Identifies Germany and the Allied/Associated Powers as signatories on 28 June 1919.",
+        "partial_credit": "Identifies Germany and the correct year but gives incomplete date or parties.",
+        "zero_credit": "Identifies the wrong war/year or gives no correct Germany/date connection."
+      },
+      {
+        "id": "d2",
+        "criterion": "Territorial and colonial losses",
+        "max_marks": 2,
+        "full_credit": "States that Germany lost European territory and its overseas colonies.",
+        "partial_credit": "Correctly identifies one type of loss.",
+        "zero_credit": "Neither type is correctly identified."
+      },
+      {
+        "id": "d3",
+        "criterion": "Military restrictions",
+        "max_marks": 2,
+        "full_credit": "Explains restrictions on Germany's armed forces and gives an accurate example, such as a 100,000-man army, no air force, or Rhineland demilitarization.",
+        "partial_credit": "States generally that Germany's military was reduced/restricted without a concrete accurate example.",
+        "zero_credit": "Omits restrictions or materially misstates them, for example as unlimited rearmament or a total ban on having any soldiers."
+      },
+      {
+        "id": "d4",
+        "criterion": "Reparations and responsibility",
+        "max_marks": 2,
+        "full_credit": "Identifies reparations and links them to the responsibility clause/Article 231; an exact payment figure is not required.",
+        "partial_credit": "Correctly identifies reparations or the responsibility clause but not their connection.",
+        "zero_credit": "Neither obligation is correctly identified."
+      },
+      {
+        "id": "d5",
+        "criterion": "Post-war significance",
+        "max_marks": 2,
+        "full_credit": "Mentions the League of Nations and German resentment/tensions, while avoiding a claim that the treaty alone made World War II inevitable.",
+        "partial_credit": "Explains either the League or resentment/tensions, or mentions both while asserting a simplistic inevitable-war claim.",
+        "zero_credit": "Gives no correct significance or only asserts that the treaty automatically caused World War II."
+      }
+    ],
+    "source_ids": [
+      "versailles_museum",
+      "state_paris",
+      "treaty_text",
+      "ushmm_military"
+    ]
+  }
+]

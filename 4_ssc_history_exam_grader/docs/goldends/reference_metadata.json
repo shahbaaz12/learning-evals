@@ -1,0 +1,13 @@
+{
+  "status": "simulated_pending_human_review",
+  "prepared_by": "AI assistant",
+  "question_count": 5,
+  "answer_count": 25,
+  "reference_origin": "simulated_human_reference_pending_review",
+  "grading_method": "Each fictional answer was read against the five question-specific 0/1/2 mark anchors. Total marks are the sum of the five dimension marks. No model judging API was used.",
+  "review_note": "These are AI-authored teaching references, not marks collected from actual human examiners or an official SSC marking scheme. A knowledgeable human should independently review every answer, dimension mark and reason before treating these as validated human references. Student personas do not determine marks: credit follows answer content and the rubric. Partial-credit decisions may legitimately differ after review.",
+  "input_policy": "Reference grades and student names/personas are for analysis only and must not be sent to the automated judge. The judge receives the question, its rubric/reference answer and anonymized student answer.",
+  "rubric_hash": "d540d5cdcfa1c28c83e217c72621418627c626f2bb3b92ff4a9793a8ffe724c1",
+  "answers_hash": "73b44ac03717d459cc89a82dc116ceb9cead9baa5f64e549c53b5d528566366e",
+  "hash_method": "SHA256 of json.dumps(value, sort_keys=True, ensure_ascii=False).encode('utf-8') using Python default separators; rubric_hash covers questions.json and answers_hash covers student_answers.json."
+}

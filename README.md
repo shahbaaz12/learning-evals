@@ -11,9 +11,10 @@ generate predictions, measure results, inspect failures, and compare improvement
 | [1. Email categorization](1_email_categorization_eval/readme.md) | Golden datasets, LLM classification, exact-match accuracy, and failure analysis |
 | [2. Fables retriever evaluation](2_fables_retriever_eval/readme.md) | PDF chunking, Chroma retrieval, programmatic recall and precision, and comparing values of k |
 | [3. Human evaluation of a fables RAG](3_fables_human_eval/readme.md) | A simple RAG, independent helpfulness ratings from three humans, combined scores, and disagreement analysis |
+| [4. SSC WWI answer grader](4_ssc_history_exam_grader/readme.md) | Rubric-based LLM grading of 25 fictional answers and MAE against simulated reference marks |
+| [5. HR text-to-SQL model selection](5_hr_text_to_sql/readme.md) | Budget-based model shortlisting and result-table accuracy for six HR questions |
 
-Planned projects cover LLM judges,
-model selection, and a RAG evaluation suite. They will be built one at a time.
+A RAG evaluation suite is planned next. Projects are built one at a time.
 
 ## Setup
 

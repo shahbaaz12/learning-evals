@@ -1,0 +1,55 @@
+{
+  "selection_basis": "User requested existing Gemini and Groq keys only. Verified IDs with both authenticated model-list endpoints on 2026-10-15. Four varied candidates for the same six-question pilot; this is not the original all-provider leaderboard top four.",
+  "models": [
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "name": "GPT-OSS 120B (Groq)",
+      "provider": "groq",
+      "key_name": "GROQ_API_KEY",
+      "input_price": 0.15,
+      "output_price": 0.60,
+      "reasoning_effort": "low",
+      "max_output_tokens": 2048,
+      "price_basis": "https://console.groq.com/docs/model/openai/gpt-oss-120b",
+      "selection_reason": "Large reasoning model and the existing Project 4 provider baseline."
+    },
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "name": "GPT-OSS 20B (Groq)",
+      "provider": "groq",
+      "key_name": "GROQ_API_KEY",
+      "input_price": 0.075,
+      "output_price": 0.30,
+      "reasoning_effort": "low",
+      "max_output_tokens": 2048,
+      "price_basis": "https://console.groq.com/docs/model/openai/gpt-oss-20b",
+      "selection_reason": "Smaller, cheaper model for comparison with the 120B model."
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "name": "Qwen 3.8 27B (Groq)",
+      "provider": "groq",
+      "key_name": "GROQ_API_KEY",
+      "input_price": 0.80,
+      "output_price": 4.00,
+      "reasoning_effort": "none",
+      "max_output_tokens": 2048,
+      "preview": true,
+      "price_basis": "https://console.groq.com/docs/model/qwen/qwen3.8-27b",
+      "selection_reason": "Coding-oriented alternative, tested in instruct mode to compare cost and latency. Preview availability may change."
+    },
+    {
+      "model_id": "gemini-3.5-flash-lite",
+      "name": "Gemini 3.5 Flash-Lite (Google)",
+      "provider": "gemini",
+      "key_name": "GOOGLE_API_KEY",
+      "input_price": 0.30,
+      "output_price": 2.50,
+      "reasoning_effort": "minimal",
+      "thinking_config": {"thinkingLevel": "MINIMAL"},
+      "max_output_tokens": 2048,
+      "price_basis": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.5-flash-lite",
+      "selection_reason": "Confirmed live generation works. Gemini 3.8 returned HTTP 503 high demand and 2.5 Flash returned HTTP 404, so select 3.5 Flash-Lite explicitly with minimal thinking; no silent fallback."
+    }
+  ]
+}

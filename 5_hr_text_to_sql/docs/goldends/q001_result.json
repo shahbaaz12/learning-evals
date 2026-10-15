@@ -1,0 +1,28 @@
+{
+  "columns": [
+    "dept_no",
+    "dept_name"
+  ],
+  "rows": [
+    [
+      "d005",
+      "Development"
+    ],
+    [
+      "d002",
+      "Finance"
+    ],
+    [
+      "d003",
+      "Human Resources"
+    ],
+    [
+      "d008",
+      "Research"
+    ],
+    [
+      "d007",
+      "Sales"
+    ]
+  ]
+}

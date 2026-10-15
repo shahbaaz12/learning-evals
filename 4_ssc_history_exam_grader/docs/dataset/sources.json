@@ -1,0 +1,80 @@
+[
+  {
+    "id": "alabama_causes",
+    "title": "Alabama ACCESS: The War to End all Wars",
+    "url": "https://accessdl.state.al.us/AventaCourses/access_courses/ushistory11_ua_v17/04_unit/04-01/04-01_learn_text.htm",
+    "notes": "State education lesson: nationalism, imperialism, militarism and alliances. These are a starting framework rather than a complete explanation."
+  },
+  {
+    "id": "nam_outbreak",
+    "title": "National Army Museum: 1914 - To arms",
+    "url": "https://www.nam.ac.uk/explore/to-arms-1914",
+    "notes": "Assassination and the outbreak of war. Used instead of an inaccessible IWM page."
+  },
+  {
+    "id": "nam_timeline",
+    "title": "National Army Museum: First World War timeline",
+    "url": "https://ww1.nam.ac.uk/timeline/",
+    "notes": "Selected dates for declarations, participation and escalation. Timeline entries are simplified; this dataset avoids treating alliances as automatic obligations."
+  },
+  {
+    "id": "nam_overview",
+    "title": "National Army Museum: First World War",
+    "url": "https://www.nam.ac.uk/explore/first-world-war",
+    "notes": "War camps, later Allied entrants and the Western Front."
+  },
+  {
+    "id": "nam_weapons",
+    "title": "National Army Museum: Weapons of the Western Front",
+    "url": "https://www.nam.ac.uk/explore/weapons-western-front",
+    "notes": "Machine guns, artillery, trench systems and barbed wire; explains why attacks were difficult."
+  },
+  {
+    "id": "nam_diary",
+    "title": "National Army Museum: Manchester sergeant's diary reveals bitter struggle of Somme warfare",
+    "url": "https://www.nam.ac.uk/manchester-sergeants-diary-reveals-bitter-struggle-somme-warfare",
+    "notes": "Diary-based account illustrating mud, trench foot and harsh living conditions."
+  },
+  {
+    "id": "state_us_entry",
+    "title": "US Office of the Historian: U.S. Entry into World War I, 1917",
+    "url": "https://history.state.gov/milestones/1914-1920/wwi",
+    "notes": "April 1917 entry, renewed submarine warfare and Zimmermann Telegram. Historical Milestones series is retired, but the historical account remains accessible."
+  },
+  {
+    "id": "archives_us",
+    "title": "US National Archives: World War I Centennial",
+    "url": "https://www.archives.gov/topics/wwi",
+    "notes": "American participation and associated archival material."
+  },
+  {
+    "id": "gov_armistice",
+    "title": "UK History of Government: The war that did not end at 11am on 11 November",
+    "url": "https://history.blog.gov.uk/2018/11/09/the-war-that-did-not-end-at-11am-on-11-november/",
+    "notes": "Armistice on 11 November 1918; cautions that peace and the end of all related fighting were not immediate."
+  },
+  {
+    "id": "state_paris",
+    "title": "US Office of the Historian: The Paris Peace Conference and the Treaty of Versailles",
+    "url": "https://history.state.gov/milestones/1914-1920/paris-peace",
+    "notes": "Peace negotiations, territorial losses, reparations and League of Nations. Reparations total was determined in 1921, not finalized in the 1919 text."
+  },
+  {
+    "id": "versailles_museum",
+    "title": "Palace of Versailles: The Treaty of Versailles, 1919",
+    "url": "https://en.chateauversailles.fr/discover/history/key-dates/treaty-versailles-1919",
+    "notes": "Confirms signature on 28 June 1919 and ceremony location."
+  },
+  {
+    "id": "treaty_text",
+    "title": "Australian founding documents: Treaty of Versailles extract",
+    "url": "https://www.foundingdocs.gov.au/resources/transcripts/cth10_doc_1919.pdf",
+    "notes": "Primary treaty extract: signatories, date and League Covenant; extract contains Articles 1-30, not the full treaty."
+  },
+  {
+    "id": "ushmm_military",
+    "title": "US Holocaust Memorial Museum: Timeline of the German Military and the Nazi Regime",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/timeline-of-the-german-military-and-the-nazi-regime",
+    "notes": "Military restrictions, including 100,000-man army and demilitarization. Used for accurate examples in the grading rubric."
+  }
+]

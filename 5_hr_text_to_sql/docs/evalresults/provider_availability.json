@@ -1,0 +1,13 @@
+{
+  "checked_on": "2026-10-15",
+  "keys_used": ["GROQ_API_KEY", "GOOGLE_API_KEY"],
+  "notes": [
+    "Both authenticated model-list endpoints returned HTTP 200.",
+    "The urllib Groq generation request returned HTTP 403; httpx generation worked. The client now uses httpx.",
+    "Qwen initially returned HTTP 429 during the rapid batch; a new six-question run with three-second spacing completed.",
+    "Gemini 3.8 Flash generation returned HTTP 503 with a high-demand message on two probes.",
+    "Gemini 2.5 Flash generation returned HTTP 404 despite appearing in the model listing.",
+    "Gemini 3.5 Flash-Lite generation returned HTTP 200 and was selected for the Google comparison.",
+    "These failures are provider/availability observations, not zero SQL-accuracy scores. Diagnostic and interrupted attempts are excluded from completed benchmark costs."
+  ]
+}

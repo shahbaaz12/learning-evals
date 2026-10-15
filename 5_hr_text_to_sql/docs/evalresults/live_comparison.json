@@ -1,0 +1,67 @@
+{
+  "reports": [
+    "20261015T164505302657Z_openai_gpt-oss-120b.json",
+    "20261015T164510634618Z_openai_gpt-oss-20b.json",
+    "20261015T164815031238Z_qwen_qwen3.8-27b.json",
+    "20261015T164957652701Z_gemini-3.5-flash-lite.json"
+  ],
+  "summaries": [
+    {
+      "model": "GPT-OSS 120B (Groq)",
+      "questions": 6,
+      "accuracy": 1.0,
+      "sql_errors": 0,
+      "mean_seconds": 1.0177333333333334,
+      "by_difficulty": {
+        "difficult": 1.0,
+        "intermediate": 1.0,
+        "simple": 1.0
+      },
+      "estimated_run_usd": 0.0014328,
+      "projected_monthly_inr": 816.6959999999999
+    },
+    {
+      "model": "Gemini 3.5 Flash-Lite (Google)",
+      "questions": 6,
+      "accuracy": 1.0,
+      "sql_errors": 0,
+      "mean_seconds": 3.08815,
+      "by_difficulty": {
+        "difficult": 1.0,
+        "intermediate": 1.0,
+        "simple": 1.0
+      },
+      "estimated_run_usd": 0.0047483,
+      "projected_monthly_inr": 2706.5309999999995
+    },
+    {
+      "model": "Qwen 3.8 27B (Groq)",
+      "questions": 6,
+      "accuracy": 1.0,
+      "sql_errors": 0,
+      "mean_seconds": 0.7247833333333333,
+      "by_difficulty": {
+        "difficult": 1.0,
+        "intermediate": 1.0,
+        "simple": 1.0
+      },
+      "estimated_run_usd": 0.0083488,
+      "projected_monthly_inr": 4758.816
+    },
+    {
+      "model": "GPT-OSS 20B (Groq)",
+      "questions": 6,
+      "accuracy": 0.8333333333333334,
+      "sql_errors": 0,
+      "mean_seconds": 0.8882666666666666,
+      "by_difficulty": {
+        "difficult": 0.5,
+        "intermediate": 1.0,
+        "simple": 1.0
+      },
+      "estimated_run_usd": 0.0007335,
+      "projected_monthly_inr": 418.09499999999997
+    }
+  ],
+  "note": "Actual six-question API runs. Monthly projections use reported tokens, standard uncached rates, 30,000 requests/month, INR 95/USD and 20% reserve. Estimates are not invoices."
+}

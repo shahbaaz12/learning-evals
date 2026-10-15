@@ -1,0 +1,28 @@
+{
+  "columns": [
+    "emp_no",
+    "first_name",
+    "last_name",
+    "salary"
+  ],
+  "rows": [
+    [
+      1001,
+      "Asha",
+      "Rao",
+      120000
+    ],
+    [
+      1005,
+      "Esha",
+      "Roy",
+      110000
+    ],
+    [
+      1006,
+      "Farhan",
+      "Ali",
+      110000
+    ]
+  ]
+}

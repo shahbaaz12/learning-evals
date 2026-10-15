@@ -1,0 +1,177 @@
+[
+  {
+    "id": "jack_q001",
+    "student_id": "jack",
+    "question_id": "q001",
+    "answer": "Europe was already a pretty tense place. Countries competed for colonies, nationalism encouraged rivalry, and the arms race meant everyone had powerful armies ready. Alliances made a local fight everyone's problem. The spark was Franz Ferdinand's assassination in Sarajevo in June 1914. Austria-Hungary then declared war on Serbia. Russia backed Serbia, Germany backed Austria-Hungary, and Germany fought Russia and France. Britain joined after Germany invaded Belgium. So the assassination set off tensions that had been building for years.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jack_q002",
+    "student_id": "jack",
+    "question_id": "q002",
+    "answer": "Britain, France and Russia were the main Entente powers. Germany and Austria-Hungary were at the centre of the opposing camp. The awkward bit is Italy: it had belonged to the Triple Alliance before the war, but stayed neutral in 1914 and joined the Allies in 1915. The Ottoman Empire joined Germany's side in 1914, and Bulgaria followed. The United States came in alongside the Allies in 1917. The teams were clearly not fixed all the way through.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jack_q003",
+    "student_id": "jack",
+    "question_id": "q003",
+    "answer": "On the Western Front, trenches became the normal way to survive after the early fighting in 1914. Running across open ground into machine guns and artillery was a terrible idea, but that was what attacking often required. Barbed wire slowed soldiers in no man's land and made them easier targets. Attacks could cost thousands of lives for very little ground. The trenches offered protection, although mud, rats and disease made life in them awful. That combination kept the front stuck.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jack_q004",
+    "student_id": "jack",
+    "question_id": "q004",
+    "answer": "The US entered in 1917 after Germany resumed unrestricted submarine attacks and the Zimmermann Telegram revealed a proposed German alliance with Mexico against the US. American money, supplies and eventually large numbers of troops gave the Allies a major boost. They helped win, but the other Allies had already fought for years and also mattered. The Armistice on 11 November 1918 stopped fighting with Germany. It was a ceasefire, with the peace settlement coming later, including Versailles in 1919.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jack_q005",
+    "student_id": "jack",
+    "question_id": "q005",
+    "answer": "Versailles was signed with Germany on 28 June 1919. Germany lost territory, including Alsace-Lorraine, and its overseas colonies. Its army was cut to 100,000 and it could not have an air force. It also had to pay reparations, with Article 231 providing the responsibility clause behind those demands. A lot of Germans resented the settlement. That anger mattered later, but saying the treaty alone made another world war unavoidable is too simple.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jill_q001",
+    "student_id": "jill",
+    "question_id": "q001",
+    "answer": "Nationalism intensified rivalries and demands for independence, while competition for colonies increased mistrust between imperial powers. Arms races encouraged military preparedness and rapid mobilization, while alliance commitments helped widen a regional crisis as powers backed their partners. On 28 June 1914, Archduke Franz Ferdinand was assassinated in Sarajevo. Austria-Hungary blamed Serbia, issued an ultimatum and declared war on 28 July. Russian mobilization in support of Serbia helped escalate the crisis. Germany backed Austria-Hungary and declared war on Russia on 1 August and France on 3 August. Germany's invasion of neutral Belgium brought Britain into the war on 4 August. The assassination triggered an escalation shaped by existing rivalries and decisions, rather than automatically causing a world war.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jill_q002",
+    "student_id": "jill",
+    "question_id": "q002",
+    "answer": "In 1914 the Triple Entente linked Britain, France and Russia, while Germany and Austria-Hungary formed the core of the Central Powers. Italy had belonged to the pre-war Triple Alliance but remained neutral in 1914; it joined the Allies in 1915. The Ottoman Empire entered on the Central Powers' side in late 1914, followed by Bulgaria in 1915. The United States entered in 1917 alongside the Allies, as an associated power. The pre-war alliance names therefore do not describe an unchanged wartime membership: participation and alignment developed during the conflict.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jill_q003",
+    "student_id": "jill",
+    "question_id": "q003",
+    "answer": "After the mobile campaigns of 1914, opposing trench systems developed across the Western Front. Trenches protected defenders from direct fire. Machine guns and artillery gave defenders a strong advantage against troops advancing across exposed no man's land, while barbed wire delayed attackers. Even when an attack captured a trench, sustaining the advance and overcoming further defensive positions was difficult. Offensives therefore often produced enormous casualties for small territorial gains, sustaining the stalemate. Soldiers also endured mud, rats, disease and difficult sanitation. These conditions explain both the limited movement of the front and the hardship of trench warfare.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jill_q004",
+    "student_id": "jill",
+    "question_id": "q004",
+    "answer": "The United States declared war on Germany on 6 April 1917. Germany's renewed unrestricted submarine warfare endangered shipping and American interests, while the Zimmermann Telegram proposed a German-Mexican alliance if America entered the war. US finance, supplies and growing troop deployments strengthened the Allies, especially in 1918; victory also depended on other Allied forces and the Central Powers' difficulties. The Armistice with Germany took effect on 11 November 1918 and halted fighting. It was not the final peace treaty: the later settlement included the Treaty of Versailles with Germany, signed on 28 June 1919.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jill_q005",
+    "student_id": "jill",
+    "question_id": "q005",
+    "answer": "Germany and the Allied and Associated Powers signed the Treaty of Versailles on 28 June 1919. Germany lost territory, including Alsace-Lorraine to France, and its overseas colonies. Its army was limited to 100,000 volunteers; conscription and an air force were prohibited, and the Rhineland was demilitarized. Article 231 established responsibility as a basis for reparations, whose total was set later. The settlement incorporated the League of Nations Covenant. German resentment weakened acceptance of the post-war order and was later exploited politically. However, subsequent political choices and crises also mattered: Versailles alone did not make the Second World War inevitable.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jane_q001",
+    "student_id": "jane",
+    "question_id": "q001",
+    "answer": "Nationalism and competition for colonies caused tension in Europe. A Serbian killed an Austrian prince, so Austria went to war with Serbia. Germany and Russia got involved because they supported different sides. I think Britain joined to protect its colonies from Russia. I do not remember the date or how France became involved. The main reason seems to have been the assassination rather than anything about armies.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jane_q002",
+    "student_id": "jane",
+    "question_id": "q002",
+    "answer": "Britain, France and Russia were together, and Germany and Austria were together. Italy was in the Triple Alliance so it fought for Germany throughout the war. America joined Britain in 1914. I think the Ottoman Empire stayed neutral and Bulgaria joined France. These alliances made the war bigger.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jane_q003",
+    "student_id": "jane",
+    "question_id": "q003",
+    "answer": "Trenches were holes where soldiers could hide. Machine guns made it dangerous to move, so soldiers stayed there. The Western Front was mostly in Russia and nobody could attack during winter. Mud and illness made soldiers suffer. I think the war stayed still because both sides ran out of ammunition very early and waited for more.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jane_q004",
+    "student_id": "jane",
+    "question_id": "q004",
+    "answer": "America joined because its ships were attacked, and I think Pearl Harbor was one of the attacks. American soldiers and supplies helped Britain and France. The war ended in 1918 after America defeated Germany. The armistice was the final peace treaty signed at Versailles, so there were no further peace agreements needed.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jane_q005",
+    "student_id": "jane",
+    "question_id": "q005",
+    "answer": "The Versailles treaty was after the First World War, around 1918. Germany had to pay money and accept blame. All German land was given to France and Germany was banned from having any soldiers. This automatically caused the Second World War because Germany had no other choice. I do not remember anything about the League of Nations.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "john_q001",
+    "student_id": "john",
+    "question_id": "q001",
+    "answer": "Nationalism, competition for colonies and growing armies caused rivalry between European powers. Alliances divided the countries into groups. The assassination of Archduke Franz Ferdinand started the crisis. Austria-Hungary fought Serbia and Russia supported Serbia. Germany supported Austria-Hungary, so the conflict spread to the larger powers. The tensions before the assassination made a wider war more likely.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "john_q002",
+    "student_id": "john",
+    "question_id": "q002",
+    "answer": "The main Allied countries were Britain, France and Russia. The main Central Powers were Germany and Austria-Hungary. Italy did not fight at first and later joined the Allies. The United States joined the Allies in 1917 and helped them. The Ottoman Empire also fought on Germany's side, but I am unsure when it joined and do not remember Bulgaria's role.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "john_q003",
+    "student_id": "john",
+    "question_id": "q003",
+    "answer": "Both sides on the Western Front dug trenches to protect soldiers. Machine guns made attacking very dangerous. Soldiers had to cross the open space between enemy lines, and many were killed before reaching the other side. The armies lost many men without gaining much land. This made the war a stalemate. Trench life was difficult and muddy.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "john_q004",
+    "student_id": "john",
+    "question_id": "q004",
+    "answer": "The US joined the war in 1917 because German submarines attacked ships and threatened American interests. It provided troops and supplies to the Allies and helped them overcome Germany. The armistice stopped the fighting on 11 November 1918. Countries then had to work out peace terms. I do not remember the other important reason for American entry or the exact declaration date.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "john_q005",
+    "student_id": "john",
+    "question_id": "q005",
+    "answer": "The Treaty of Versailles was signed in 1919 after Germany lost the war. Germany had to give up some territory, reduce its army and pay reparations. Many Germans thought these conditions were unfair and felt angry about them. The treaty tried to make peace, but the anger also caused problems for relations between countries afterwards. It was one influence on later events, rather than the only reason for another war.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jake_q001",
+    "student_id": "jake",
+    "question_id": "q001",
+    "answer": "The First World War started in 1939 when Hitler invaded Poland. Japan bombed America and Britain asked Russia to stop it. Franz Ferdinand was the German leader who ordered the invasion. The United Nations was supposed to prevent the fighting but failed.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jake_q002",
+    "student_id": "jake",
+    "question_id": "q002",
+    "answer": "Germany, Britain and America were one team. France, Japan and Italy were the other team. Russia did not exist yet. Italy changed sides when America surrendered in 1917, which ended the war.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jake_q003",
+    "student_id": "jake",
+    "question_id": "q003",
+    "answer": "Trenches were underground railway stations used to move tanks. The Western Front was a naval battle in the Pacific. There was no stalemate because airplanes captured all the trenches quickly. The soldiers mainly stayed underground to avoid the summer sun.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jake_q004",
+    "student_id": "jake",
+    "question_id": "q004",
+    "answer": "America entered in 1941 after Pearl Harbor and finished the war by dropping atomic bombs on Germany. The armistice happened in 1945 and created NATO. I think Zimmermann was an American general who commanded those attacks.",
+    "origin": "simulated_student_answer"
+  },
+  {
+    "id": "jake_q005",
+    "student_id": "jake",
+    "question_id": "q005",
+    "answer": "Versailles was signed in 1945 between Germany and Japan. It rewarded Germany with French colonies and a bigger army. Britain paid Germany compensation. It created NATO and the European Union on the same day, so everyone agreed with it and there were no more wars.",
+    "origin": "simulated_student_answer"
+  }
+]

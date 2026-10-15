@@ -1,0 +1,1597 @@
+{
+  "run_id": "evaluation_20261015_090816_703630",
+  "saved_at": "2026-10-15T09:08:16.703630+05:30",
+  "model_run_id": "grades_20261015_090422_064100",
+  "reference_status": "simulated_pending_human_review",
+  "reference_hash": "d0411a87cdf3ed642d81a23b373370e87aa836d8b64975991c03a3fefc7602cd",
+  "questions_hash": "d540d5cdcfa1c28c83e217c72621418627c626f2bb3b92ff4a9793a8ffe724c1",
+  "answers_hash": "73b44ac03717d459cc89a82dc116ceb9cead9baa5f64e549c53b5d528566366e",
+  "answer_count": 25,
+  "mae": 0.2,
+  "mae_target": 1.0,
+  "target_met": true,
+  "students": [
+    {
+      "student_id": "jack",
+      "reference_total": 43,
+      "model_total": 43,
+      "mae": 0.0
+    },
+    {
+      "student_id": "jill",
+      "reference_total": 50,
+      "model_total": 50,
+      "mae": 0.0
+    },
+    {
+      "student_id": "jane",
+      "reference_total": 16,
+      "model_total": 16,
+      "mae": 0.4
+    },
+    {
+      "student_id": "john",
+      "reference_total": 33,
+      "model_total": 32,
+      "mae": 0.6
+    },
+    {
+      "student_id": "jake",
+      "reference_total": 0,
+      "model_total": 0,
+      "mae": 0.0
+    }
+  ],
+  "details": [
+    {
+      "answer_id": "jack_q001",
+      "student_id": "jack",
+      "question_id": "q001",
+      "reference_marks": 7,
+      "model_marks": 7,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Mentions both nationalism and imperial competition and explains how they created tension."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Explains militarism via arms race and notes the role of alliances in spreading the conflict."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 1,
+          "reason": "Correctly identifies the assassination in Sarajevo but does not give the exact date (28 June)."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Notes Austria-Hungary's declaration of war on Serbia but omits the specific date."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 1,
+          "reason": "Links German invasion of Belgium and British entry, and mentions German conflict with Russia/France, but does not explicitly describe Russian mobilization, so the escalation chain is incomplete."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Connects competition for colonies and nationalism to European rivalry."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Explains armed preparedness and how alliances widened a local conflict."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 1,
+          "reason": "Names Franz Ferdinand, Sarajevo and June 1914, but omits 28 June."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Correctly states Austria-Hungary declared war on Serbia, but omits the ultimatum and 28 July."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 1,
+          "reason": "Correctly links Germany's invasion of Belgium to British entry, but does not describe Russian mobilization and German declarations."
+        }
+      ]
+    },
+    {
+      "answer_id": "jack_q002",
+      "student_id": "jack",
+      "question_id": "q002",
+      "reference_marks": 9,
+      "model_marks": 9,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Correctly lists Britain, France and Russia as the Entente powers in 1914."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Correctly identifies Germany and Austria‑Hungary as the Central Powers at the outbreak."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "States Italy was neutral in 1914 and joined the Allies in 1915."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Places the Ottoman Empire on the Central side in 1914 correctly but gives no specific year for Bulgaria’s 1915 entry."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Accurately notes US entry in 1917 alongside the Allies."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Correctly identifies Britain, France and Russia as the main Entente powers."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Places Germany and Austria-Hungary together in the opposing camp."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Distinguishes Italy's pre-war alliance, neutrality in 1914 and Allied entry in 1915."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Correctly dates Ottoman entry to 1914 and places Bulgaria on the same side, but omits Bulgaria's 1915 entry year."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Correctly gives US entry alongside the Allies in 1917."
+        }
+      ]
+    },
+    {
+      "answer_id": "jack_q003",
+      "student_id": "jack",
+      "question_id": "q003",
+      "reference_marks": 10,
+      "model_marks": 10,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Defines trenches on the Western Front becoming normal after early 1914, meeting full‑credit definition."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "States that machine guns and artillery made crossing open ground dangerous, fulfilling full credit."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Links barbed wire and exposed no‑man's land to slowing and exposing attackers, full credit."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Notes costly attacks with little territorial gain, explaining continued stalemate, full credit."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Mentions protective purpose of trenches and hardships like mud, rats and disease, full credit."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Places protective trenches on the Western Front after the early fighting in 1914."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Connects both machine guns and artillery to danger for exposed attackers."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Explains that barbed wire slowed soldiers in no man's land and increased their vulnerability."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Links high casualties and very small gains to the stuck front."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Mentions protection alongside mud, rats and disease."
+        }
+      ]
+    },
+    {
+      "answer_id": "jack_q004",
+      "student_id": "jack",
+      "question_id": "q004",
+      "reference_marks": 9,
+      "model_marks": 9,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 1,
+          "reason": "Gives the year 1917 but not the specific date of 6 April."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Correctly links renewed unrestricted submarine warfare to the US decision to enter."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Explains the Zimmermann Telegram and the proposed German-Mexican alliance."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Identifies American troops, supplies, and financial support as strengthening the Allies without claiming sole victory."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Distinguishes the 11 November 1918 cease‑fire armistice from later peace treaties such as Versailles."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 1,
+          "reason": "Gives 1917 but omits the declaration date of 6 April."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Connects renewed unrestricted submarine attacks to US entry in 1917."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Explains the telegram's proposed German alliance with Mexico against the US."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Identifies money, supplies and troops, and explicitly recognizes other Allied contributions."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Distinguishes the 11 November 1918 ceasefire from later peace, including Versailles in 1919."
+        }
+      ]
+    },
+    {
+      "answer_id": "jack_q005",
+      "student_id": "jack",
+      "question_id": "q005",
+      "reference_marks": 8,
+      "model_marks": 8,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 1,
+          "reason": "Gives correct date and Germany but does not mention the Allied/Associated Powers"
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Correctly states loss of European territory (Alsace-Lorraine) and overseas colonies"
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Provides specific military limits: 100,000-man army and no air force"
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Identifies reparations and links them to Article 231 responsibility clause"
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 1,
+          "reason": "Mentions German resentment and avoids inevitability claim but omits the League of Nations"
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 1,
+          "reason": "Gives 28 June 1919 and Germany, but does not identify the Allied and Associated signatories."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Identifies European territorial loss through Alsace-Lorraine and loss of overseas colonies."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Accurately gives the 100,000 army limit and air-force prohibition."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Connects reparations to Article 231's responsibility clause."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 1,
+          "reason": "Explains German resentment and rejects inevitable-war reasoning, but omits the League of Nations."
+        }
+      ]
+    },
+    {
+      "answer_id": "jill_q001",
+      "student_id": "jill",
+      "question_id": "q001",
+      "reference_marks": 10,
+      "model_marks": 10,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Explains both nationalism and imperial competition as sources of tension"
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Explains militarism (arms races, preparedness) and rival alliances as factors increasing war risk"
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Correctly identifies Franz Ferdinand's assassination in Sarajevo on 28 June 1914"
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Connects Austria‑Hungary's ultimatum and declaration of war on Serbia with the correct date"
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Links Russian mobilization, German declarations against Russia and France, invasion of Belgium, and British entry"
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Explains nationalism and imperial competition as causes of rivalry and mistrust."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Explains militarism and how alliances widened a regional crisis."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Correctly identifies Franz Ferdinand's assassination at Sarajevo on 28 June 1914."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Connects Austria-Hungary's ultimatum to Serbia with its 28 July declaration."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Explains Russian mobilization, German declarations against Russia and France, and Belgium's invasion followed by British entry."
+        }
+      ]
+    },
+    {
+      "answer_id": "jill_q002",
+      "student_id": "jill",
+      "question_id": "q002",
+      "reference_marks": 10,
+      "model_marks": 10,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Correctly lists Britain, France and Russia as the Entente powers in 1914."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Accurately identifies Germany and Austria-Hungary as the main Central Powers at the outbreak."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "States Italy was neutral in 1914 and joined the Allies in 1915, matching the required detail."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Places the Ottoman Empire entering the Central Powers in late 1914 and Bulgaria in 1915, as required."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Correctly notes US entry in 1917 alongside the Allies."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Correctly places Britain, France and Russia in the 1914 Entente."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Identifies Germany and Austria-Hungary as the Central Powers' core."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Distinguishes the pre-war alliance, neutrality in 1914 and Italy's 1915 Allied entry."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Correctly places Ottoman entry in late 1914 and Bulgarian entry in 1915 on the Central side."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Correctly identifies US entry in 1917 alongside the Allies as an associated power."
+        }
+      ]
+    },
+    {
+      "answer_id": "jill_q003",
+      "student_id": "jill",
+      "question_id": "q003",
+      "reference_marks": 10,
+      "model_marks": 10,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Defines opposing trench systems on the Western Front developing after the 1914 mobile campaigns, meeting full-credit criteria."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Explains both machine guns and artillery made attacking exposed infantry dangerous, full credit."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Connects barbed wire and exposed no man's land to slowing/vulnerable attackers, full credit."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Describes repeated costly assaults with limited territorial gain sustaining stalemate, full credit."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Notes trenches protected soldiers and cites mud, rats, disease as hardships, full credit."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Describes opposing Western Front trench systems developing after the mobile campaigns of 1914."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Explains the defensive advantage of machine guns and artillery against exposed advancing troops."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Connects exposed no man's land and barbed-wire delay to vulnerable attackers."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Explains costly offensives, small gains and difficulty sustaining an advance through further defenses."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Explains shelter from fire alongside mud, rats, disease and sanitation problems."
+        }
+      ]
+    },
+    {
+      "answer_id": "jill_q004",
+      "student_id": "jill",
+      "question_id": "q004",
+      "reference_marks": 10,
+      "model_marks": 10,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Provides the exact date 6 April 1917 for US declaration of war."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Correctly links Germany's renewed unrestricted submarine warfare to threats to American shipping."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Explains the Zimmermann Telegram as a German proposal for a Mexican alliance against the US."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Identifies US financial, supply, and troop contributions strengthening the Allies without claiming sole victory."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Distinguishes the 11 November 1918 armistice ceasefire from the later Treaty of Versailles peace settlement."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Correctly gives the declaration against Germany on 6 April 1917."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Explains renewed unrestricted submarine warfare's threat to shipping and American interests."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Accurately explains the telegram's proposed German-Mexican alliance if America entered."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Identifies finance, supplies and troops while recognizing other Allied forces and Central difficulties."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Separates the 11 November 1918 halt in fighting from the later Versailles peace treaty."
+        }
+      ]
+    },
+    {
+      "answer_id": "jill_q005",
+      "student_id": "jill",
+      "question_id": "q005",
+      "reference_marks": 10,
+      "model_marks": 10,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Correctly identifies Germany and the Allied/Associated Powers as signatories on 28 June 1919."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "States that Germany lost European territory (Alsace‑Lorraine) and its overseas colonies."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Provides accurate military restrictions with concrete examples (100,000‑man army, no conscription, no air force, Rhineland demilitarized)."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Identifies reparations and correctly links them to Article 231 responsibility clause."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Mentions the League of Nations, German resentment, and notes that Versailles alone did not make WWII inevitable."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Correctly identifies Germany and the Allied and Associated Powers signing on 28 June 1919."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Identifies Alsace-Lorraine and other territorial losses together with overseas colonies."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 2,
+          "reason": "Accurately specifies the 100,000 army limit, prohibited conscription and air force, and Rhineland demilitarization."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Connects Article 231 responsibility to reparations and correctly notes the total came later."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Mentions the League Covenant and resentment while explaining that later crises and choices also mattered."
+        }
+      ]
+    },
+    {
+      "answer_id": "jane_q001",
+      "student_id": "jane",
+      "question_id": "q001",
+      "reference_marks": 5,
+      "model_marks": 6,
+      "absolute_error": 1,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Mentions both nationalism and competition for colonies as sources of tension."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 1,
+          "reason": "Notes involvement of Germany and Russia on opposite sides but does not explain militarism or detail the alliance system."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 1,
+          "reason": "Identifies an assassination as the trigger but omits correct date and location."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "States Austria went to war with Serbia but lacks date and details of the confrontation/ultimatum."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 1,
+          "reason": "Provides a partial escalation link (Germany and Russia involvement) but omits Russian mobilization, German declarations, Belgium invasion, and British entry reasons."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Correctly links nationalism and competition for colonies to European tension."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Does not explain militarism or rival alliances and discounts the role of armies."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 1,
+          "reason": "Recognizes assassination of an Austrian prince as the trigger, but omits Franz Ferdinand's name, Sarajevo and date."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Connects the killing to Austria's war with Serbia, but omits the ultimatum and declaration date."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 1,
+          "reason": "Recognizes German and Russian support for opposite sides as escalation, but omits France and gives a wrong reason for British entry."
+        }
+      ]
+    },
+    {
+      "answer_id": "jane_q002",
+      "student_id": "jane",
+      "question_id": "q002",
+      "reference_marks": 5,
+      "model_marks": 5,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Correctly places Britain, France and Russia together as the Entente in 1914."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Correctly places Germany and Austria-Hungary together as the Central Powers at the outbreak."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Incorrectly states Italy fought for Germany throughout the war; no neutrality or Allied entry."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "Incorrectly claims Ottoman Empire stayed neutral and Bulgaria joined France; both placements wrong."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 1,
+          "reason": "Places the US with the Allies but gives the wrong entry year (1914 instead of 1917)."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Correctly groups Britain, France and Russia together."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Correctly groups Germany and Austria together in the opposing camp."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Incorrectly says Italy fought for Germany throughout the war."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "Incorrectly claims Ottoman neutrality and Bulgarian alignment with France."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 1,
+          "reason": "Correctly places America with Britain but incorrectly dates its entry to 1914."
+        }
+      ]
+    },
+    {
+      "answer_id": "jane_q003",
+      "student_id": "jane",
+      "question_id": "q003",
+      "reference_marks": 4,
+      "model_marks": 3,
+      "absolute_error": 1,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "Does not mention opposing trenches or the Western Front setting"
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 1,
+          "reason": "Mentions machine guns making attacks dangerous but omits artillery"
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "No mention of barbed wire or exposed no man's land"
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "Provides an incorrect reason for stalemate, not linked to costly assaults"
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Notes trenches provided shelter and cites mud and illness as hardships"
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 1,
+          "reason": "Recognizes trenches as shelters for soldiers, but wrongly locates the Western Front in Russia and omits the period."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 1,
+          "reason": "Explains danger from machine guns but does not mention artillery."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Does not explain barbed wire or exposed no man's land."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "Substitutes unsupported ammunition shortages and an inability to attack in winter for the stalemate explanation."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Mentions hiding for protection along with mud and illness."
+        }
+      ]
+    },
+    {
+      "answer_id": "jane_q004",
+      "student_id": "jane",
+      "question_id": "q004",
+      "reference_marks": 1,
+      "model_marks": 1,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "No date given; incorrect reference to Pearl Harbor."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Does not mention unrestricted submarine warfare; gives unrelated WWII event."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Omits Zimmermann Telegram entirely."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Mentions American troops and supplies aiding Allies but also incorrectly claims America alone defeated Germany."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Equates armistice with Versailles, failing to distinguish ceasefire from later peace treaties."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "Does not give the year or date of US entry; 1918 describes the end of fighting instead."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Vaguely mentions attacked ships but misidentifies Pearl Harbor and never identifies German submarine warfare."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Omits the Zimmermann Telegram and proposed alliance with Mexico."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Identifies soldiers and supplies, but the explanation credits America alone with defeating Germany."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Incorrectly equates the armistice with the final Versailles peace treaty."
+        }
+      ]
+    },
+    {
+      "answer_id": "jane_q005",
+      "student_id": "jane",
+      "question_id": "q005",
+      "reference_marks": 1,
+      "model_marks": 1,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "Gives incorrect year (1918) and no correct parties."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Incorrectly states all German land went to France and omits colonies."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Claims Germany was banned from any soldiers, which misstates the actual restrictions."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Mentions reparations and acceptance of blame but does not clearly link them as required."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Provides no correct significance and asserts the treaty alone caused WWII."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "Dates the treaty around 1918 and does not identify the Allied signatories."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "The claim that all German land went to France is materially false and colonial losses are absent."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Incorrectly claims a complete ban on German soldiers instead of restrictions on a permitted army."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Mentions payment and accepting blame, but does not explain the responsibility clause as the basis for reparations."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Only asserts an automatic, unavoidable Second World War; does not explain resentment or the League's role."
+        }
+      ]
+    },
+    {
+      "answer_id": "john_q001",
+      "student_id": "john",
+      "question_id": "q001",
+      "reference_marks": 7,
+      "model_marks": 6,
+      "absolute_error": 1,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Explains both nationalism and imperial competition as sources of tension."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Explains militarism (growing armies) and alliances as factors increasing risk."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 1,
+          "reason": "Identifies assassination of Archduke Franz Ferdinand but omits date and place."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Notes Austria-Hungary's conflict with Serbia but lacks the declaration date and full context."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Does not mention Russian mobilization, German declarations, invasion of Belgium, or British entry; provided link is not among required escalation factors."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Links nationalism and colonial competition to European rivalry."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Connects growing armies to rivalry and explains how aligned groups spread the conflict."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 1,
+          "reason": "Correctly names Franz Ferdinand's assassination, but omits Sarajevo and the date."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Correctly identifies Austria-Hungary fighting Serbia, but omits the ultimatum and 28 July."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 1,
+          "reason": "Links Russian support for Serbia and German support for Austria-Hungary to escalation, but omits declarations, Belgium and British entry."
+        }
+      ]
+    },
+    {
+      "answer_id": "john_q002",
+      "student_id": "john",
+      "question_id": "q002",
+      "reference_marks": 8,
+      "model_marks": 8,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Correctly lists Britain, France, and Russia as the Entente powers in 1914."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Correctly identifies Germany and Austria-Hungary as the Central Powers at the outbreak."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 1,
+          "reason": "States Italy was neutral initially and later joined the Allies, but does not specify the 1915 year."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Places the Ottoman Empire on the Central Powers side (correct) but gives no timing and omits Bulgaria."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Accurately notes US entry in 1917 on the Allied side."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 2,
+          "reason": "Correctly identifies Britain, France and Russia as the main Allied countries."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Correctly identifies Germany and Austria-Hungary as the main Central Powers."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 1,
+          "reason": "Recognizes initial Italian neutrality and later Allied entry, but omits 1915."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Correctly puts the Ottoman Empire on Germany's side, but omits its entry year and Bulgaria's participation."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Correctly gives US entry alongside the Allies in 1917."
+        }
+      ]
+    },
+    {
+      "answer_id": "john_q003",
+      "student_id": "john",
+      "question_id": "q003",
+      "reference_marks": 7,
+      "model_marks": 6,
+      "absolute_error": 1,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 1,
+          "reason": "Mentions Western Front trenches but omits the late‑1914 establishment period."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 1,
+          "reason": "Notes machine guns making attacks dangerous but does not mention artillery."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 1,
+          "reason": "Describes exposed no‑man's land but does not mention barbed wire."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "States high casualties and little territorial gain, linking them to stalemate, but lacks detail on repeated costly assaults."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Identifies trench protection and cites muddy, difficult conditions."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 1,
+          "reason": "Describes opposing protective trenches on the Western Front, but omits their establishment in 1914."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 1,
+          "reason": "Explains machine-gun danger but omits artillery."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 1,
+          "reason": "Explains the exposed crossing between lines, but omits barbed wire."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Connects many casualties with little territorial gain to stalemate."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Mentions protection from trenches and muddy, difficult living conditions."
+        }
+      ]
+    },
+    {
+      "answer_id": "john_q004",
+      "student_id": "john",
+      "question_id": "q004",
+      "reference_marks": 6,
+      "model_marks": 7,
+      "absolute_error": 1,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 1,
+          "reason": "Gives the year 1917 but not the specific date of 6 April."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 2,
+          "reason": "Correctly links German submarine attacks to the US decision to enter."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Omits any mention of the Zimmermann Telegram."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Identifies troops and supplies as US contributions, despite slight exaggeration."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Distinguishes the 11 November 1918 armistice ceasefire from later peace negotiations."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 1,
+          "reason": "Correctly gives 1917, but omits 6 April."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 1,
+          "reason": "Connects German submarine attacks and American interests to entry, but omits the renewed unrestricted policy."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Does not identify the Zimmermann Telegram or the proposed German-Mexican alliance."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 2,
+          "reason": "Identifies troops and supplies as help for the Allies without claiming the US won alone."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 2,
+          "reason": "Correctly separates the 11 November 1918 halt in fighting from subsequent peace negotiations."
+        }
+      ]
+    },
+    {
+      "answer_id": "john_q005",
+      "student_id": "john",
+      "question_id": "q005",
+      "reference_marks": 5,
+      "model_marks": 5,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 1,
+          "reason": "Gives correct year 1919 but omits parties and exact date."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 1,
+          "reason": "Notes loss of some territory but does not mention overseas colonies."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 1,
+          "reason": "States army reduction without a concrete accurate example."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Mentions reparations but does not link to responsibility clause."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 1,
+          "reason": "Describes German resentment and avoids inevitability claim but omits League of Nations."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 1,
+          "reason": "Correctly connects Germany's defeat to the 1919 treaty, but omits the exact date and Allied signatories."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 1,
+          "reason": "Mentions loss of territory but omits overseas colonies."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 1,
+          "reason": "States that the army was reduced, but gives no concrete restriction."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 1,
+          "reason": "Identifies reparations, but does not explain the responsibility clause."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 1,
+          "reason": "Explains resentment and rejects a single inevitable cause of later war, but omits the League of Nations."
+        }
+      ]
+    },
+    {
+      "answer_id": "jake_q001",
+      "student_id": "jake",
+      "question_id": "q001",
+      "reference_marks": 0,
+      "model_marks": 0,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "No mention or explanation of nationalism or imperial rivalry."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Does not identify militarism or rival alliances as factors."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Fails to correctly identify Franz Ferdinand's assassination at Sarajevo on 28 June 1914."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "Incorrect or absent description of Austria-Hungary's confrontation with Serbia and its July 28 declaration of war."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Provides no correct links showing how the crisis escalated to a wider European war."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "Does not identify nationalist tensions or imperial competition as WWI causes."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Omits militarism and rival alliances; the United Nations claim is anachronistic."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Misidentifies Franz Ferdinand as a German leader and substitutes the 1939 invasion of Poland for the assassination."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "Does not describe Austria-Hungary's confrontation with Serbia."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Substitutes events from another war for the Russian-German-Belgian-British escalation."
+        }
+      ]
+    },
+    {
+      "answer_id": "jake_q002",
+      "student_id": "jake",
+      "question_id": "q002",
+      "reference_marks": 0,
+      "model_marks": 0,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "Did not correctly place Britain, France, and Russia as Entente in 1914; Russia omitted and Britain misassigned."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Failed to identify Germany and Austria-Hungary as Central Powers; Austria-Hungary not mentioned and Germany misassigned."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "No correct statement of Italy's 1914 neutrality or 1915 Allied entry; gives incorrect timing."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "Provides no correct information about Ottoman or Bulgarian entry on Central Powers side."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Incorrectly places US with Central Powers and gives wrong entry year; does not state Allied entry in 1917."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "Splits Britain and France into incorrect opposing teams and falsely says Russia did not exist."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Puts Germany with Britain and America, and omits Austria-Hungary."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Gives a false account of Italian switching after an American surrender rather than 1914 neutrality and 1915 Allied entry."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "Does not identify Ottoman or Bulgarian participation."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Places America with Germany and falsely claims it surrendered in 1917."
+        }
+      ]
+    },
+    {
+      "answer_id": "jake_q003",
+      "student_id": "jake",
+      "question_id": "q003",
+      "reference_marks": 0,
+      "model_marks": 0,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "Does not define trench warfare on the Western Front; provides incorrect description."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Fails to mention machine guns or artillery as defensive firepower."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Does not describe barbed wire or exposed no man's land as obstacles."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "Claims no stalemate and gives no correct explanation of why stalemate continued."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Does not explain protective purpose of trenches nor mention relevant hardships."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "Misdefines trenches as railway stations and the Western Front as a Pacific naval battle."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Does not describe the defensive roles of machine guns or artillery."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Omits barbed wire and exposed no man's land."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "Denies stalemate and incorrectly claims airplanes quickly captured trenches."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "The summer-sun explanation does not describe protection from fire or relevant trench hardships."
+        }
+      ]
+    },
+    {
+      "answer_id": "jake_q004",
+      "student_id": "jake",
+      "question_id": "q004",
+      "reference_marks": 0,
+      "model_marks": 0,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "Incorrect year (1941) and context; does not state 6 April 1917."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Omits unrestricted submarine warfare; provides unrelated information."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Misstates Zimmermann Telegram; says Zimmermann was an American general."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "No correct US contribution; claims atomic bombs on Germany, which is inaccurate."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Incorrect armistice date (1945) and conflates it with NATO; does not distinguish 1918 ceasefire from later peace treaties."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "Incorrectly dates WWI entry to 1941."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Substitutes Pearl Harbor for German unrestricted submarine warfare."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Misidentifies Zimmermann as an American general rather than explaining the telegram."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "The claim about atomic bombs on Germany gives no correct WWI contribution."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Incorrectly dates the armistice to 1945 and claims it created NATO."
+        }
+      ]
+    },
+    {
+      "answer_id": "jake_q005",
+      "student_id": "jake",
+      "question_id": "q005",
+      "reference_marks": 0,
+      "model_marks": 0,
+      "absolute_error": 0,
+      "model_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "Incorrect date (1945) and parties (Germany and Japan); does not identify 28 June 1919 or Allied/Associated Powers."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Fails to state that Germany lost European territory and overseas colonies; instead claims Germany was rewarded with colonies."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Does not mention any military restrictions; claims Germany got a bigger army, which contradicts the treaty."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "Does not identify reparations or the responsibility clause; incorrectly states Britain paid Germany."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Does not mention the League of Nations or German resentment; incorrectly claims NATO/EU were created and that the treaty prevented further wars."
+        }
+      ],
+      "reference_dimension_marks": [
+        {
+          "dimension_id": "d1",
+          "marks": 0,
+          "reason": "Incorrectly gives 1945 and Germany-Japan as the treaty's parties."
+        },
+        {
+          "dimension_id": "d2",
+          "marks": 0,
+          "reason": "Incorrectly says Germany gained French colonies rather than losing territory and colonies."
+        },
+        {
+          "dimension_id": "d3",
+          "marks": 0,
+          "reason": "Claims a larger German army rather than restrictions."
+        },
+        {
+          "dimension_id": "d4",
+          "marks": 0,
+          "reason": "Reverses reparations by saying Britain paid Germany."
+        },
+        {
+          "dimension_id": "d5",
+          "marks": 0,
+          "reason": "Anachronistic claims about NATO and the EU and universal acceptance give no correct significance."
+        }
+      ]
+    }
+  ]
+}
