@@ -1,0 +1,39 @@
+{
+  "suite": "generator",
+  "requested_ids": [
+    "Q1",
+    "Q3",
+    "Q61"
+  ],
+  "judged_ids": [
+    "Q1"
+  ],
+  "judge": "gemini-3.5-flash-lite",
+  "results": [
+    {
+      "id": "Q1",
+      "metric": "Faithfulness",
+      "score": 1.0,
+      "reason": "The score is 1.00 because the actual output is completely faithful and accurate to the retrieval context with no contradictions found.",
+      "estimated_usd": 0.0,
+      "reused_from": "deepeval_pipeline: identical question, actual answer, reference and context",
+      "original_estimated_usd": 0.0012515999999999998
+    },
+    {
+      "id": "Q1",
+      "metric": "Answer Relevancy",
+      "score": 1.0,
+      "reason": "The score is 1.00 because the output directly and accurately addresses the input without containing any irrelevant information.",
+      "estimated_usd": 0.0,
+      "reused_from": "deepeval_pipeline: identical question, actual answer, reference and context",
+      "original_estimated_usd": 0.0005802
+    }
+  ],
+  "completed_metrics": 2,
+  "expected_metrics": 6,
+  "complete": false,
+  "successful_internal_requests_checkpointed": true,
+  "explanation_mode": "Completed explanations retained. Remaining non-GEval metrics save verdict details without an additional summary-reason call; scoring is unchanged.",
+  "score_direction": "Higher is better for every metric in the installed DeepEval, including Toxicity (non-toxic share).",
+  "note": "Official DeepEval metrics on this sample only. Custom judge toxicity separately means toxic-content share, lower is better. G-Eval does not eliminate judge variance; Gemini does not expose the OpenAI logprob scoring path."
+}

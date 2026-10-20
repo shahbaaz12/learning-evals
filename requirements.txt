@@ -24,11 +24,11 @@ langchain-chroma
 langchain-huggingface
 chromadb
 
-# Cross-encoder reranking
+# Local embedding models
 sentence-transformers
-
-# Evaluation framework
-deepeval
 
 # Online tracing and evaluation
 langsmith
+
+# Offline project checks
+pytest

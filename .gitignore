@@ -30,6 +30,8 @@ htmlcov/
 # Generated vector indexes and model caches
 chroma_store/
 .cache/
+# Local successful judge-request checkpoints; final evaluation reports stay tracked
+6_product_rag_eval/docs/evalresults/native_requests/
 
 # Local editor and operating-system files
 .vscode/

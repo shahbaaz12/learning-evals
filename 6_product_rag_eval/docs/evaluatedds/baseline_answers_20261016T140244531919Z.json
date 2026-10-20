@@ -1,0 +1,220 @@
+[
+  {
+    "id": "Q1",
+    "test_type": "Local product lookup",
+    "answer": "The AeroTherm X1 is manufactured by HelioWorks Climate and its starting price is $249.",
+    "citations": [
+      "HCL-101"
+    ],
+    "status": "answered",
+    "context": [
+      "[HCL-101] {\"category\":\"Home Systems\",\"subcategory\":\"Climate Control\",\"product_id\":\"HCL-101\",\"product_name\":\"AeroTherm X1\",\"manufacturer\":\"HelioWorks Climate\",\"starting_price_usd\":\"$249\",\"description\":\"A room-scale smart heat-pump controller for quiet, schedule-based heating and cooling in apartments and small offices.\",\"specifications\":{\"Coverage\":\"Up to 45 m2\",\"Power\":\"24V control circuit\",\"Connectivity\":\"Wi-Fi 6 / Matter\",\"Warranty\":\"3 years\"},\"quick_start\":[\"Switch off HVAC control power.\",\"Connect labelled terminals and restore power.\",\"Run the compatibility and sensor test.\"],\"how_to_use\":[\"Choose a schedule or set a temporary target.\",\"Review runtime trends before changing limits.\"],\"error_codes\":[{\"code\":\"CLM-E101\",\"meaning\":\"Sensor unavailable\",\"resolution\":\"Reseat the wall sensor and run Sensor Test.\"},{\"code\":\"CLM-E214\",\"meaning\":\"Safety delay active\",\"resolution\":\"Wait five minutes; do not switch modes repeatedly.\"},{\"code\":\"CLM-E330\",\"meaning\":\"Zone conflict\",\"resolution\":\"Check schedule overlap and the heating/cooling deadband.\"}],\"variants\":[{\"variant_id\":\"HCL-101-S\",\"variant_name\":\"Standard\",\"price_usd\":\"$249\",\"description\":\"Single-zone controller with wall sensor.\"},{\"variant_id\":\"HCL-101-P\",\"variant_name\":\"Plus\",\"price_usd\":\"$319\",\"description\":\"Adds remote occupancy sensor and humidity control.\"}]}"
+    ],
+    "provider": {
+      "ok": true,
+      "data": {
+        "answer": "The AeroTherm X1 is manufactured by HelioWorks Climate and its starting price is $249.",
+        "citations": [
+          "HCL-101"
+        ],
+        "status": "answered"
+      },
+      "http_status": 200,
+      "error": null,
+      "seconds": 0.8520423999871127,
+      "input_tokens": 703,
+      "output_tokens": 72,
+      "estimated_usd": 0.00014865
+    },
+    "question": "What is the manufacturer and starting price of AeroTherm X1?",
+    "retrieved_ids": [
+      "HCL-101"
+    ],
+    "route": "semantic",
+    "catalog_complete": false,
+    "retrieval_seconds": 0.06661439999879804,
+    "end_to_end_seconds": 0.9298634000006132,
+    "citation_validity": true
+  },
+  {
+    "id": "Q3",
+    "test_type": "Variant lookup",
+    "answer": "The Standard variant has ID HCL-101-S and costs $249.",
+    "citations": [
+      "HCL-101"
+    ],
+    "status": "answered",
+    "context": [
+      "[HCL-101] {\"category\":\"Home Systems\",\"subcategory\":\"Climate Control\",\"product_id\":\"HCL-101\",\"product_name\":\"AeroTherm X1\",\"manufacturer\":\"HelioWorks Climate\",\"starting_price_usd\":\"$249\",\"description\":\"A room-scale smart heat-pump controller for quiet, schedule-based heating and cooling in apartments and small offices.\",\"specifications\":{\"Coverage\":\"Up to 45 m2\",\"Power\":\"24V control circuit\",\"Connectivity\":\"Wi-Fi 6 / Matter\",\"Warranty\":\"3 years\"},\"quick_start\":[\"Switch off HVAC control power.\",\"Connect labelled terminals and restore power.\",\"Run the compatibility and sensor test.\"],\"how_to_use\":[\"Choose a schedule or set a temporary target.\",\"Review runtime trends before changing limits.\"],\"error_codes\":[{\"code\":\"CLM-E101\",\"meaning\":\"Sensor unavailable\",\"resolution\":\"Reseat the wall sensor and run Sensor Test.\"},{\"code\":\"CLM-E214\",\"meaning\":\"Safety delay active\",\"resolution\":\"Wait five minutes; do not switch modes repeatedly.\"},{\"code\":\"CLM-E330\",\"meaning\":\"Zone conflict\",\"resolution\":\"Check schedule overlap and the heating/cooling deadband.\"}],\"variants\":[{\"variant_id\":\"HCL-101-S\",\"variant_name\":\"Standard\",\"price_usd\":\"$249\",\"description\":\"Single-zone controller with wall sensor.\"},{\"variant_id\":\"HCL-101-P\",\"variant_name\":\"Plus\",\"price_usd\":\"$319\",\"description\":\"Adds remote occupancy sensor and humidity control.\"}]}"
+    ],
+    "provider": {
+      "ok": true,
+      "data": {
+        "answer": "The Standard variant has ID HCL-101-S and costs $249.",
+        "citations": [
+          "HCL-101"
+        ],
+        "status": "answered"
+      },
+      "http_status": 200,
+      "error": null,
+      "seconds": 0.6130873000074644,
+      "input_tokens": 706,
+      "output_tokens": 78,
+      "estimated_usd": 0.0001527
+    },
+    "question": "Which variant ID and price correspond to the Standard version of AeroTherm X1?",
+    "retrieved_ids": [
+      "HCL-101"
+    ],
+    "route": "semantic",
+    "catalog_complete": false,
+    "retrieval_seconds": 0.07168029999593273,
+    "end_to_end_seconds": 0.6866878000000725,
+    "citation_validity": true
+  },
+  {
+    "id": "Q61",
+    "test_type": "Category aggregation",
+    "answer": "FreshVault 12 (product ID APK-802) is a Home Appliances product.",
+    "citations": [
+      "APK-802"
+    ],
+    "status": "answered",
+    "context": [
+      "[APK-802] {\"category\":\"Home Appliances\",\"subcategory\":\"Kitchen\",\"product_id\":\"APK-802\",\"product_name\":\"FreshVault 12\",\"manufacturer\":\"Harborline Appliances\",\"starting_price_usd\":\"$599\",\"description\":\"A compact 12-bottle preservation cabinet with adjustable temperature zones, humidity display, and door-open notifications.\",\"specifications\":{\"Capacity\":\"12 bottles\",\"Zones\":\"Dual temperature\",\"Range\":\"5-18 C\",\"Warranty\":\"3 years\"},\"quick_start\":[\"Place on a level surface with rear ventilation clearance.\",\"Allow two hours of stabilization before loading.\",\"Set upper and lower zone targets, then enable door alerts.\"],\"how_to_use\":[\"Arrange bottles without blocking internal airflow.\",\"Review temperature history after a power interruption.\"],\"error_codes\":[{\"code\":\"KIT-E134\",\"meaning\":\"Door open too long\",\"resolution\":\"Close door fully and inspect gasket alignment.\"},{\"code\":\"KIT-E251\",\"meaning\":\"Zone sensor fault\",\"resolution\":\"Restart appliance and request service if fault returns.\"},{\"code\":\"KIT-E369\",\"meaning\":\"Compressor protection delay\",\"resolution\":\"Wait for delay to finish before changing target again.\"}],\"variants\":[]}"
+    ],
+    "provider": {
+      "ok": true,
+      "data": {
+        "answer": "FreshVault 12 (product ID APK-802) is a Home Appliances product.",
+        "citations": [
+          "APK-802"
+        ],
+        "status": "answered"
+      },
+      "http_status": 200,
+      "error": null,
+      "seconds": 2.6047777000057977,
+      "input_tokens": 624,
+      "output_tokens": 82,
+      "estimated_usd": 0.00014279999999999997
+    },
+    "question": "List all products under the Home Appliances category.",
+    "retrieved_ids": [
+      "APK-802"
+    ],
+    "route": "semantic",
+    "catalog_complete": false,
+    "retrieval_seconds": 0.06836679999832995,
+    "end_to_end_seconds": 2.6749552999972366,
+    "citation_validity": true
+  },
+  {
+    "id": "Q75",
+    "test_type": "Cross-category comparison",
+    "answer": "I can only find information about a Northline Mobility product (CargoGlide 2). No products from Meridian Workplace are present in the provided context, so I cannot compare the two manufacturers.",
+    "citations": [
+      "MOB-602"
+    ],
+    "status": "insufficient_context",
+    "context": [
+      "[MOB-602] {\"category\":\"Mobility\",\"subcategory\":\"E-Bikes\",\"product_id\":\"MOB-602\",\"product_name\":\"CargoGlide 2\",\"manufacturer\":\"Northline Mobility\",\"starting_price_usd\":\"$2,099\",\"description\":\"A long-tail cargo e-bike for shopping, child-seat compatible loads, and short local deliveries, with reinforced frame and load-aware assist.\",\"specifications\":{\"Motor\":\"500 W mid-drive\",\"Load rating\":\"180 kg total\",\"Range\":\"Up to 80 km\",\"Brakes\":\"Hydraulic disc\"},\"quick_start\":[\"Have a dealer check frame, brakes, and cargo rail fittings.\",\"Charge battery fully and calibrate load-aware assist.\",\"Install approved cargo accessories only.\"],\"how_to_use\":[\"Secure load low and evenly on the frame.\",\"Use lower assist when starting with a heavy load.\"],\"error_codes\":[{\"code\":\"BIK-E125\",\"meaning\":\"Load sensor unavailable\",\"resolution\":\"Remove load, restart, and schedule dealer inspection.\"},{\"code\":\"BIK-E248\",\"meaning\":\"Battery temperature high\",\"resolution\":\"Stop riding, shade the battery, and allow it to cool.\"},{\"code\":\"BIK-E381\",\"meaning\":\"Brake pad worn\",\"resolution\":\"Replace pads before further cargo use.\"}],\"variants\":[]}"
+    ],
+    "provider": {
+      "ok": true,
+      "data": {
+        "answer": "I can only find information about a Northline Mobility product (CargoGlide 2). No products from Meridian Workplace are present in the provided context, so I cannot compare the two manufacturers.",
+        "citations": [
+          "MOB-602"
+        ],
+        "status": "insufficient_context"
+      },
+      "http_status": 200,
+      "error": null,
+      "seconds": 0.6919246000034036,
+      "input_tokens": 657,
+      "output_tokens": 122,
+      "estimated_usd": 0.00017175
+    },
+    "question": "Compare the products manufactured by Meridian Workplace with the products manufactured by Northline Mobility.",
+    "retrieved_ids": [
+      "MOB-602"
+    ],
+    "route": "semantic",
+    "catalog_complete": false,
+    "retrieval_seconds": 0.07904189999680966,
+    "end_to_end_seconds": 0.7724888999946415,
+    "citation_validity": false
+  },
+  {
+    "id": "Q76",
+    "test_type": "Global reasoning",
+    "answer": "The only category present in the provided data is **Home Appliances**, which currently has a product that does not have any variants. No product with variants is shown, so a category containing products with variants cannot be identified from the available information.",
+    "citations": [
+      "APK-802"
+    ],
+    "status": "insufficient_context",
+    "context": [
+      "[APK-802] {\"category\":\"Home Appliances\",\"subcategory\":\"Kitchen\",\"product_id\":\"APK-802\",\"product_name\":\"FreshVault 12\",\"manufacturer\":\"Harborline Appliances\",\"starting_price_usd\":\"$599\",\"description\":\"A compact 12-bottle preservation cabinet with adjustable temperature zones, humidity display, and door-open notifications.\",\"specifications\":{\"Capacity\":\"12 bottles\",\"Zones\":\"Dual temperature\",\"Range\":\"5-18 C\",\"Warranty\":\"3 years\"},\"quick_start\":[\"Place on a level surface with rear ventilation clearance.\",\"Allow two hours of stabilization before loading.\",\"Set upper and lower zone targets, then enable door alerts.\"],\"how_to_use\":[\"Arrange bottles without blocking internal airflow.\",\"Review temperature history after a power interruption.\"],\"error_codes\":[{\"code\":\"KIT-E134\",\"meaning\":\"Door open too long\",\"resolution\":\"Close door fully and inspect gasket alignment.\"},{\"code\":\"KIT-E251\",\"meaning\":\"Zone sensor fault\",\"resolution\":\"Restart appliance and request service if fault returns.\"},{\"code\":\"KIT-E369\",\"meaning\":\"Compressor protection delay\",\"resolution\":\"Wait for delay to finish before changing target again.\"}],\"variants\":[]}"
+    ],
+    "provider": {
+      "ok": true,
+      "data": {
+        "answer": "The only category present in the provided data is **Home Appliances**, which currently has a product that does not have any variants. No product with variants is shown, so a category containing products with variants cannot be identified from the available information.",
+        "citations": [
+          "APK-802"
+        ],
+        "status": "insufficient_context"
+      },
+      "http_status": 200,
+      "error": null,
+      "seconds": 0.7914449999952922,
+      "input_tokens": 627,
+      "output_tokens": 159,
+      "estimated_usd": 0.00018945
+    },
+    "question": "Which catalog categories contain products with variants and products without variants?",
+    "retrieved_ids": [
+      "APK-802"
+    ],
+    "route": "semantic",
+    "catalog_complete": false,
+    "retrieval_seconds": 0.053887400004896335,
+    "end_to_end_seconds": 0.8469565999985207,
+    "citation_validity": false
+  },
+  {
+    "id": "Q78",
+    "test_type": "Negative retrieval",
+    "answer": "I cannot establish which product has a variant called Enterprise based on the provided context.",
+    "citations": [],
+    "status": "insufficient_context",
+    "context": [
+      "[OFC-402] {\"category\":\"Office Technology\",\"subcategory\":\"Collaboration\",\"product_id\":\"OFC-402\",\"product_name\":\"VoiceDock Pro\",\"manufacturer\":\"Meridian Workplace\",\"starting_price_usd\":\"$279\",\"description\":\"A USB and Bluetooth speakerphone for small meeting spaces, with beamforming microphones and call-quality diagnostics.\",\"specifications\":{\"Microphones\":\"6 beamforming\",\"Range\":\"Up to 5 m\",\"Battery\":\"18 hours\",\"Warranty\":\"2 years\"},\"quick_start\":[\"Place centrally on a stable table.\",\"Connect by USB for managed-room use or pair by Bluetooth.\",\"Run the microphone test before the first meeting.\"],\"how_to_use\":[\"Press Mute to disable microphones locally.\",\"Use Diagnostics after repeated call-quality complaints.\"],\"error_codes\":[{\"code\":\"COL-E115\",\"meaning\":\"Microphone muted\",\"resolution\":\"Check physical Mute button and meeting-app mute state.\"},{\"code\":\"COL-E245\",\"meaning\":\"Bluetooth pairing rejected\",\"resolution\":\"Remove old pairing records and pair again.\"},{\"code\":\"COL-E372\",\"meaning\":\"Echo detected\",\"resolution\":\"Move device away from display speakers and reduce volume.\"}],\"variants\":[]}"
+    ],
+    "provider": {
+      "ok": true,
+      "data": {
+        "answer": "I cannot establish which product has a variant called Enterprise based on the provided context.",
+        "citations": [],
+        "status": "insufficient_context"
+      },
+      "http_status": 200,
+      "error": null,
+      "seconds": 0.6476471000059973,
+      "input_tokens": 624,
+      "output_tokens": 100,
+      "estimated_usd": 0.0001536
+    },
+    "question": "Which product has a variant called Enterprise?",
+    "retrieved_ids": [
+      "OFC-402"
+    ],
+    "route": "semantic",
+    "catalog_complete": false,
+    "retrieval_seconds": 0.062160699992091395,
+    "end_to_end_seconds": 0.7117607999971369,
+    "citation_validity": true
+  }
+]

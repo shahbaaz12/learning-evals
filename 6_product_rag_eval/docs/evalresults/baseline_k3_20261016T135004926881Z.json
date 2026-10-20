@@ -1,0 +1,502 @@
+{
+  "k": 3,
+  "questions_evaluated": 40,
+  "recall_at_k": 1.0,
+  "precision_at_k": 0.3333333333333333,
+  "results": [
+    {
+      "id": "Q1",
+      "question": "What is the manufacturer and starting price of AeroTherm X1?",
+      "expected_id": "HCL-101",
+      "retrieved_ids": [
+        "HCL-101",
+        "APC-902",
+        "HCL-102"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q2",
+      "question": "For AeroTherm X1, what does error code CLM-E101 mean and how should it be resolved?",
+      "expected_id": "HCL-101",
+      "retrieved_ids": [
+        "HCL-101",
+        "APC-902",
+        "HCL-102"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q4",
+      "question": "What is the manufacturer and starting price of BreezeSense V2?",
+      "expected_id": "HCL-102",
+      "retrieved_ids": [
+        "HCL-102",
+        "HWT-302",
+        "APK-801"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q5",
+      "question": "For BreezeSense V2, what does error code CLM-E118 mean and how should it be resolved?",
+      "expected_id": "HCL-102",
+      "retrieved_ids": [
+        "HCL-102",
+        "APC-902",
+        "HCL-101"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q7",
+      "question": "What is the manufacturer and starting price of Sentinel Lock S4?",
+      "expected_id": "HSC-201",
+      "retrieved_ids": [
+        "HSC-201",
+        "HSC-202",
+        "HWT-302"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q8",
+      "question": "For Sentinel Lock S4, what does error code SEC-E101 mean and how should it be resolved?",
+      "expected_id": "HSC-201",
+      "retrieved_ids": [
+        "HSC-201",
+        "HSC-202",
+        "MOT-701"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q10",
+      "question": "What is the manufacturer and starting price of WatchTower Cam 4K?",
+      "expected_id": "HSC-202",
+      "retrieved_ids": [
+        "HSC-202",
+        "HWT-301",
+        "OFC-401"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q11",
+      "question": "For WatchTower Cam 4K, what does error code SEC-E142 mean and how should it be resolved?",
+      "expected_id": "HSC-202",
+      "retrieved_ids": [
+        "HSC-202",
+        "HSC-201",
+        "HWT-301"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q13",
+      "question": "What is the manufacturer and starting price of AquaGuard Flow?",
+      "expected_id": "HWT-301",
+      "retrieved_ids": [
+        "HWT-301",
+        "HWT-302",
+        "APK-801"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q14",
+      "question": "For AquaGuard Flow, what does error code WTR-E101 mean and how should it be resolved?",
+      "expected_id": "HWT-301",
+      "retrieved_ids": [
+        "HWT-301",
+        "HWT-302",
+        "HCL-101"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q16",
+      "question": "What is the manufacturer and starting price of LeakNode Mini?",
+      "expected_id": "HWT-302",
+      "retrieved_ids": [
+        "HWT-302",
+        "OFP-502",
+        "MOT-701"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q17",
+      "question": "For LeakNode Mini, what does error code WTR-E109 mean and how should it be resolved?",
+      "expected_id": "HWT-302",
+      "retrieved_ids": [
+        "HWT-302",
+        "OFP-502",
+        "MOT-701"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q19",
+      "question": "What is the manufacturer and starting price of ViewPanel 55?",
+      "expected_id": "OFC-401",
+      "retrieved_ids": [
+        "OFC-401",
+        "OFP-502",
+        "HCL-102"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q20",
+      "question": "For ViewPanel 55, what does error code COL-E101 mean and how should it be resolved?",
+      "expected_id": "OFC-401",
+      "retrieved_ids": [
+        "OFC-401",
+        "HCL-101",
+        "OFP-502"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q22",
+      "question": "What is the manufacturer and starting price of VoiceDock Pro?",
+      "expected_id": "OFC-402",
+      "retrieved_ids": [
+        "OFC-402",
+        "HSC-201",
+        "OFC-401"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q23",
+      "question": "For VoiceDock Pro, what does error code COL-E115 mean and how should it be resolved?",
+      "expected_id": "OFC-402",
+      "retrieved_ids": [
+        "OFC-402",
+        "OFC-401",
+        "HSC-201"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q25",
+      "question": "What is the manufacturer and starting price of PowerCore Desk 8?",
+      "expected_id": "OFP-501",
+      "retrieved_ids": [
+        "OFP-501",
+        "APK-801",
+        "OFC-402"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q26",
+      "question": "For PowerCore Desk 8, what does error code PWR-E101 mean and how should it be resolved?",
+      "expected_id": "OFP-501",
+      "retrieved_ids": [
+        "OFP-501",
+        "HCL-101",
+        "HWT-301"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q28",
+      "question": "What is the manufacturer and starting price of LinkMesh 6E?",
+      "expected_id": "OFP-502",
+      "retrieved_ids": [
+        "OFP-502",
+        "HWT-302",
+        "MOB-601"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q29",
+      "question": "For LinkMesh 6E, what does error code NET-E101 mean and how should it be resolved?",
+      "expected_id": "OFP-502",
+      "retrieved_ids": [
+        "OFP-502",
+        "MOB-601",
+        "HWT-302"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q31",
+      "question": "What is the manufacturer and starting price of VoltRide City?",
+      "expected_id": "MOB-601",
+      "retrieved_ids": [
+        "MOB-601",
+        "MOT-702",
+        "MOB-602"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q32",
+      "question": "For VoltRide City, what does error code BIK-E101 mean and how should it be resolved?",
+      "expected_id": "MOB-601",
+      "retrieved_ids": [
+        "MOB-601",
+        "MOB-602",
+        "MOT-701"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q34",
+      "question": "What is the manufacturer and starting price of CargoGlide 2?",
+      "expected_id": "MOB-602",
+      "retrieved_ids": [
+        "MOB-602",
+        "HCL-102",
+        "MOB-601"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q35",
+      "question": "For CargoGlide 2, what does error code BIK-E125 mean and how should it be resolved?",
+      "expected_id": "MOB-602",
+      "retrieved_ids": [
+        "MOB-602",
+        "MOB-601",
+        "HCL-102"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q37",
+      "question": "What is the manufacturer and starting price of PackTrack One?",
+      "expected_id": "MOT-701",
+      "retrieved_ids": [
+        "MOT-701",
+        "MOT-702",
+        "HSC-202"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q38",
+      "question": "For PackTrack One, what does error code TRV-E101 mean and how should it be resolved?",
+      "expected_id": "MOT-701",
+      "retrieved_ids": [
+        "MOT-701",
+        "MOT-702",
+        "MOB-601"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q40",
+      "question": "What is the manufacturer and starting price of RouteCharge 65?",
+      "expected_id": "MOT-702",
+      "retrieved_ids": [
+        "MOT-702",
+        "MOB-601",
+        "MOT-701"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q41",
+      "question": "For RouteCharge 65, what does error code TRV-E120 mean and how should it be resolved?",
+      "expected_id": "MOT-702",
+      "retrieved_ids": [
+        "MOT-702",
+        "MOB-601",
+        "MOT-701"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q43",
+      "question": "What is the manufacturer and starting price of BrewCraft Duo?",
+      "expected_id": "APK-801",
+      "retrieved_ids": [
+        "APK-801",
+        "HCL-102",
+        "HWT-301"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q44",
+      "question": "For BrewCraft Duo, what does error code KIT-E101 mean and how should it be resolved?",
+      "expected_id": "APK-801",
+      "retrieved_ids": [
+        "APK-801",
+        "HWT-301",
+        "HCL-101"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q46",
+      "question": "What is the manufacturer and starting price of FreshVault 12?",
+      "expected_id": "APK-802",
+      "retrieved_ids": [
+        "APK-802",
+        "HCL-102",
+        "HWT-301"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q47",
+      "question": "For FreshVault 12, what does error code KIT-E134 mean and how should it be resolved?",
+      "expected_id": "APK-802",
+      "retrieved_ids": [
+        "APK-802",
+        "HSC-201",
+        "HWT-301"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q49",
+      "question": "What is the manufacturer and starting price of CleanSweep R3?",
+      "expected_id": "APC-901",
+      "retrieved_ids": [
+        "APC-901",
+        "HCL-102",
+        "APW-1001"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q50",
+      "question": "For CleanSweep R3, what does error code CLN-E101 mean and how should it be resolved?",
+      "expected_id": "APC-901",
+      "retrieved_ids": [
+        "APC-901",
+        "APC-902",
+        "HWT-302"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q52",
+      "question": "What is the manufacturer and starting price of SteamMate S1?",
+      "expected_id": "APC-902",
+      "retrieved_ids": [
+        "APC-902",
+        "HCL-101",
+        "HSC-201"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q53",
+      "question": "For SteamMate S1, what does error code CLN-E125 mean and how should it be resolved?",
+      "expected_id": "APC-902",
+      "retrieved_ids": [
+        "APC-902",
+        "HCL-101",
+        "HCL-102"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q55",
+      "question": "What is the manufacturer and starting price of AirPure Cube?",
+      "expected_id": "APW-1001",
+      "retrieved_ids": [
+        "APW-1001",
+        "HCL-102",
+        "APC-901"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q56",
+      "question": "For AirPure Cube, what does error code AIR-E101 mean and how should it be resolved?",
+      "expected_id": "APW-1001",
+      "retrieved_ids": [
+        "APW-1001",
+        "HCL-101",
+        "APC-901"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q58",
+      "question": "What is the manufacturer and starting price of SleepLight Rhythm?",
+      "expected_id": "APW-1002",
+      "retrieved_ids": [
+        "APW-1002",
+        "HWT-302",
+        "HCL-101"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    },
+    {
+      "id": "Q59",
+      "question": "For SleepLight Rhythm, what does error code AIR-E117 mean and how should it be resolved?",
+      "expected_id": "APW-1002",
+      "retrieved_ids": [
+        "APW-1002",
+        "HCL-101",
+        "HCL-102"
+      ],
+      "recall": 1,
+      "precision": 0.3333333333333333
+    }
+  ],
+  "experiment": "baseline_k3",
+  "created_at": "20261016T135004926881Z",
+  "settings": {
+    "embedding_model": "nomic-ai/modernbert-embed-base",
+    "chunking": "one product per chunk",
+    "similarity_metric": "cosine",
+    "metadata_filters": null,
+    "question_types": [
+      "Local product lookup",
+      "Leaf / error-code lookup"
+    ]
+  },
+  "catalog_sha256": "d3ec5a56b0b6a746fe01d975ccdd212b25070f5e266f5acc7b090f8adf6bd9a4",
+  "goldens_sha256": "feab67d5b956991de95cbc14199c64e2668181baaafcabfbd8e80f4069fbcf56"
+}

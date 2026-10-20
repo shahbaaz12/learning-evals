@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "run_id": "20261016T140244531919Z",
+    "signature": "5f5197e1bb7562d73757e2fef9591050f0b43ee8eae9f01afbcc326d892c608c",
+    "generator": "openai/gpt-oss-120b",
+    "judge": "gemini-3.5-flash-lite",
+    "embedding_model": "nomic-ai/modernbert-embed-base",
+    "k": 1,
+    "question_count": 78,
+    "human_review": "pending",
+    "cached_stage_files_are_reused": true,
+    "minimum_request_pause": 8,
+    "libraries": {
+      "deepeval": "4.2.8",
+      "google-genai": "2.31.0",
+      "langchain-chroma": "1.1.0",
+      "sentence-transformers": "6.1.0"
+    }
+  },
+  "compared_ids": [
+    "Q1",
+    "Q3",
+    "Q61",
+    "Q75",
+    "Q76",
+    "Q78"
+  ],
+  "passed": true,
+  "metrics": [
+    {
+      "metric": "correctness",
+      "baseline": 0.75,
+      "candidate": 1.0,
+      "direction": "higher",
+      "delta": 0.25,
+      "tolerance": 0.05,
+      "passed": true
+    },
+    {
+      "metric": "completeness",
+      "baseline": 0.57,
+      "candidate": 1.0,
+      "direction": "higher",
+      "delta": 0.43000000000000005,
+      "tolerance": 0.05,
+      "passed": true
+    },
+    {
+      "metric": "faithfulness",
+      "baseline": 1.0,
+      "candidate": 1.0,
+      "direction": "higher",
+      "delta": 0.0,
+      "tolerance": 0.05,
+      "passed": true
+    },
+    {
+      "metric": "answer_relevance",
+      "baseline": 1.0,
+      "candidate": 1.0,
+      "direction": "higher",
+      "delta": 0.0,
+      "tolerance": 0.05,
+      "passed": true
+    },
+    {
+      "metric": "scope_adherence",
+      "baseline": 1.0,
+      "candidate": 1.0,
+      "direction": "higher",
+      "delta": 0.0,
+      "tolerance": 0.05,
+      "passed": true
+    },
+    {
+      "metric": "toxicity",
+      "baseline": 0.0,
+      "candidate": 0.0,
+      "direction": "lower",
+      "delta": 0.0,
+      "tolerance": 0.02,
+      "passed": true
+    },
+    {
+      "metric": "citation_validity",
+      "baseline": 0.6666666666666666,
+      "candidate": 1.0,
+      "direction": "higher",
+      "delta": 0.33333333333333337,
+      "tolerance": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "latency_p95",
+      "baseline": 2.2386823249980807,
+      "candidate": 5.022708649994456,
+      "direction": "lower",
+      "delta": 2.7840263249963755,
+      "tolerance": 3.0,
+      "passed": true
+    },
+    {
+      "metric": "generator_usd",
+      "baseline": 0.00095895,
+      "candidate": 0.0024502499999999997,
+      "direction": "lower",
+      "delta": 0.0014912999999999997,
+      "tolerance": 0.02,
+      "passed": true
+    }
+  ],
+  "note": "Learning tolerances, not calibrated production gates. Judge variance needs repeat-run measurement."
+}

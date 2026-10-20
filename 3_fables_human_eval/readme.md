@@ -1,116 +1,76 @@
-# Project 3: Human Evaluation of a Fables Chatbot
+# Project 3: human evaluation of a fables chatbot
 
-This project checks how helpful a chatbot's answers are.
+## What we are trying to achieve
 
-The chatbot searches the fables for relevant passages and uses an LLM to answer
-15 questions. This is a simple RAG: **retrieve text, then generate an answer**.
+Judge how helpful a chatbot's answers are, combine reviewers' scores, and
+understand where reviewers disagree.
 
-Jack, Jane, and Jill each give an answer a score from 1 to 5 and a short reason.
-Python can then average their scores and show where they disagree.
+## The idea
 
-## The flow
+A simple RAG retrieves fable passages and generates an answer. Jack, Jane and
+Jill each rate helpfulness from 1 to 5 using the same rubric. Python averages
+the three scores per question, then averages across questions.
 
-```text
-Fables PDF -> chunks -> vector database -> question -> chatbot answer
-           -> Jack / Jane / Jill ratings -> combined score
-```
+Reviewers must rate the same saved answers. Missing ratings are not zeroes.
 
-## What each folder is for
+## Setup
 
-| Folder | What goes inside |
-| --- | --- |
-| `docs/dataset/` | The source PDF, complete fable texts, and extracted chunks |
-| `docs/goldends/` | The 15 questions and the helpfulness rubric (scoring guide) |
-| `docs/evaluatedds/` | Saved chatbot answers and the passages used to produce them |
-| `docs/ratings/` | Jack, Jane, and Jill's rating files, grouped by response run |
-| `docs/evalresults/` | Saved combined-score reports |
-| `models/` | Shared settings, the embedding model, the vector store, and the answer model connection |
-| `prompts/` | Instructions given to the chatbot |
-| `tools/` | Helpers for generating answers, collecting ratings, saving files, and calculating scores |
-| `tests/` | Checks that rating collection and score calculation work correctly |
-| `chroma_store/` | The generated local vector database; ignored by Git |
-
-## The main files
-
-- **`create_vectordb.py`** reads the PDF, splits the ten fables into 43 chunks,
-  and builds the vector database. Run it before generating new answers.
-- **`human_eval.ipynb`** creates the simple RAG, generates or loads saved answers,
-  and combines completed ratings.
-- **`rate_answers.ipynb`** lets one reviewer read and rate five answers at a time.
-  Rerun the rating cell for the next five; progress is saved.
-
-## How to use it
-
-Use the shared environment at the repository root. Open notebooks in VS Code
-and select that root `.venv` as the kernel. Do not run `uv init` again.
-
-**To generate new answers**, run these commands from the repository root:
+Complete the [parent setup](../README.md#setup). To prepare the local index,
+run this from the repository root:
 
 ```powershell
-uv sync --locked
 uv run python 3_fables_human_eval/create_vectordb.py
 ```
 
-Put `GROQ_API_KEY` in the root `.env`, then run the preparation and generation
-steps in `human_eval.ipynb`. The current answer model is
-`openai/gpt-oss-120b`. Settings live in `models/config.py`; the default search
-returns five chunks. Changing only that number does not require rebuilding the index.
+Select the shared root `.venv` kernel in VS Code. New answers need
+`GROQ_API_KEY` in the root `.env`.
 
-**To use existing answers**, run the project-path cell in `human_eval.ipynb`
-and skip to **Select a saved response run**. This needs no model calls or API key.
+1. Open `human_eval.ipynb` to generate answers or select a saved response run.
+2. Open `rate_answers.ipynb`; choose a reviewer and that same response filename.
+   Rate five answers at a time and repeat for the three reviewers.
+3. Return to `human_eval.ipynb` to combine the 45 completed ratings.
 
-Then:
+Both notebooks support the repository root or this project folder. For offline
+study, run the path setup and saved-run selection cells, skipping generation.
 
-1. Confirm the response run you want to evaluate.
-2. Open `rate_answers.ipynb` and set the reviewer name and matching response filename.
-3. Read the rubric and give each answer a score and a brief reason.
-4. Use a separate run-specific rating file for each reviewer.
-5. Once all 45 ratings are filled, return to `human_eval.ipynb` and run
-   **Combine completed ratings** when you want the report.
+## Docs used
 
-Run notebook cells individually. Their working directory can be the repository
-root or this project folder. Restart the kernel after editing imported helpers
-or switching between projects.
+`docs/dataset/Classic_Fables_Collection.pdf` contains the ten source fables.
+`chunks.json` holds the 43 retrieval chunks; `fables.json` holds complete fable
+texts so reviewers can read the source. The chatbot sees retrieved passages,
+while reviewers can inspect the complete relevant fables.
 
-## How the scores work
+## Goldens
 
-The rubric defines every score from 1 (unhelpful) to 5 (fully helpful).
+`docs/goldends/questions.json` contains 15 questions.
+`rubric.json` defines helpfulness scores from 1 to 5. This project uses a rubric
+rather than one exact reference answer. Questions and the rubric are AI-prepared
+and pending human review.
+
+`docs/ratings/` stores separate Jack, Jane and Jill sheets for each response run.
+Some included ratings were filled as simulated practice data at your request:
+Jack gives 5, Jill is strict, and Jane is random. Those entries are marked
+`rating_origin: simulated`; they are not collected human judgments.
+
+## Folder structure
 
 ```text
-Question score = (Jack + Jane + Jill) / 3
-Overall score = average of the 15 question scores
+3_fables_human_eval/
+  docs/
+    dataset/             # PDF, full fables and chunks
+    goldends/            # Questions and helpfulness rubric
+    evaluatedds/         # Saved answers and retrieved context
+    ratings/             # Reviewer sheets grouped by response run
+    evalresults/         # Combined scores and disagreements
+  models/                # Embeddings, vector store and answer model
+  prompts/               # Answering instructions
+  tools/                 # Response, rating and score helpers
+  tests/                 # Offline scoring checks
+  create_vectordb.py     # Source preparation and indexing
+  human_eval.ipynb       # Generate/load answers and combine scores
+  rate_answers.ipynb     # Collect reviewer scores
+  readme.md
 ```
 
-A score is reported out of 5. The report also shows each reviewer's average and
-questions where scores differ by 2 or more. All reviewers must rate the same
-saved answers using the same rubric. Missing scores are not treated as zero.
-
-Each new answer run gets its own file and rating folder, so earlier experiments
-remain available. The root-level `docs/ratings/jack.json`, `jane.json`, and
-`jill.json` files are blank templates; use the files inside the run's subfolder.
-
-## Included practice ratings
-
-The rating notebook currently selects `responses_20261014_215116_945329.json`.
-Its three rating files contain 15 entries each. The first five existing ratings
-per person were preserved; the remaining ten were filled as **simulated practice
-data** at the user's request:
-
-- Jack gives every remaining answer 5.
-- Jill gives strict scores.
-- Jane gives random scores from 1 to 5.
-
-Those generated entries are marked `rating_origin: simulated`. They demonstrate
-the workflow and do not establish actual human judgments about answer quality.
-The earlier response run still has blank rating sheets. Questions and the rubric
-also remain AI-prepared drafts for human review.
-
-## Check the scoring code
-
-From the repository root:
-
-```powershell
-uv run python -m pytest 3_fables_human_eval/tests -q --import-mode=importlib -o pythonpath=3_fables_human_eval
-```
-
-These checks use synthetic test data and do not change the project ratings.
+The local `chroma_store/` is ignored by Git. Inspect disagreements alongside the
+answers and reasons; an average alone can hide different reviewer standards.

@@ -1,0 +1,1368 @@
+{
+  "metadata": {
+    "run_id": "20261016T140244531919Z",
+    "signature": "c133ee346db519ef67eb84c06bfe54596303070d9acffef4ca3f16a82b5a657b",
+    "generator": "openai/gpt-oss-120b",
+    "judge": "gemini-3.5-flash-lite",
+    "embedding_model": "nomic-ai/modernbert-embed-base",
+    "k": 1,
+    "question_count": 78,
+    "human_review": "pending",
+    "cached_stage_files_are_reused": true
+  },
+  "k": 1,
+  "mode": "catalog",
+  "questions_evaluated": 78,
+  "recall_at_k": 0.9935897435897436,
+  "precision_at_k": 1.0,
+  "full_evidence_rate": 0.9871794871794872,
+  "note": "In catalog mode k applies only to semantic fallback; metadata/catalog routes return all selected products.",
+  "results": [
+    {
+      "id": "Q1",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of AeroTherm X1?",
+      "expected_ids": [
+        "HCL-101"
+      ],
+      "retrieved_ids": [
+        "HCL-101"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q2",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For AeroTherm X1, what does error code CLM-E101 mean and how should it be resolved?",
+      "expected_ids": [
+        "HCL-101"
+      ],
+      "retrieved_ids": [
+        "HCL-101"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q3",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Standard version of AeroTherm X1?",
+      "expected_ids": [
+        "HCL-101"
+      ],
+      "retrieved_ids": [
+        "HCL-101"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q4",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of BreezeSense V2?",
+      "expected_ids": [
+        "HCL-102"
+      ],
+      "retrieved_ids": [
+        "HCL-102"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q5",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For BreezeSense V2, what does error code CLM-E118 mean and how should it be resolved?",
+      "expected_ids": [
+        "HCL-102"
+      ],
+      "retrieved_ids": [
+        "HCL-102"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q6",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Base version of BreezeSense V2?",
+      "expected_ids": [
+        "HCL-102"
+      ],
+      "retrieved_ids": [
+        "HCL-102"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q7",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of Sentinel Lock S4?",
+      "expected_ids": [
+        "HSC-201"
+      ],
+      "retrieved_ids": [
+        "HSC-201"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q8",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For Sentinel Lock S4, what does error code SEC-E101 mean and how should it be resolved?",
+      "expected_ids": [
+        "HSC-201"
+      ],
+      "retrieved_ids": [
+        "HSC-201"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q9",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Keypad version of Sentinel Lock S4?",
+      "expected_ids": [
+        "HSC-201"
+      ],
+      "retrieved_ids": [
+        "HSC-201"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q10",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of WatchTower Cam 4K?",
+      "expected_ids": [
+        "HSC-202"
+      ],
+      "retrieved_ids": [
+        "HSC-202"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q11",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For WatchTower Cam 4K, what does error code SEC-E142 mean and how should it be resolved?",
+      "expected_ids": [
+        "HSC-202"
+      ],
+      "retrieved_ids": [
+        "HSC-202"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q12",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Indoor version of WatchTower Cam 4K?",
+      "expected_ids": [
+        "HSC-202"
+      ],
+      "retrieved_ids": [
+        "HSC-202"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q13",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of AquaGuard Flow?",
+      "expected_ids": [
+        "HWT-301"
+      ],
+      "retrieved_ids": [
+        "HWT-301"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q14",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For AquaGuard Flow, what does error code WTR-E101 mean and how should it be resolved?",
+      "expected_ids": [
+        "HWT-301"
+      ],
+      "retrieved_ids": [
+        "HWT-301"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q15",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Monitor version of AquaGuard Flow?",
+      "expected_ids": [
+        "HWT-301"
+      ],
+      "retrieved_ids": [
+        "HWT-301"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q16",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of LeakNode Mini?",
+      "expected_ids": [
+        "HWT-302"
+      ],
+      "retrieved_ids": [
+        "HWT-302"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q17",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For LeakNode Mini, what does error code WTR-E109 mean and how should it be resolved?",
+      "expected_ids": [
+        "HWT-302"
+      ],
+      "retrieved_ids": [
+        "HWT-302"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q18",
+      "test_type": "Missing-child test",
+      "question": "Does LeakNode Mini have a variant node?",
+      "expected_ids": [
+        "HWT-302"
+      ],
+      "retrieved_ids": [
+        "HWT-302"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q19",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of ViewPanel 55?",
+      "expected_ids": [
+        "OFC-401"
+      ],
+      "retrieved_ids": [
+        "OFC-401"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q20",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For ViewPanel 55, what does error code COL-E101 mean and how should it be resolved?",
+      "expected_ids": [
+        "OFC-401"
+      ],
+      "retrieved_ids": [
+        "OFC-401"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q21",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Wall version of ViewPanel 55?",
+      "expected_ids": [
+        "OFC-401"
+      ],
+      "retrieved_ids": [
+        "OFC-401"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q22",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of VoiceDock Pro?",
+      "expected_ids": [
+        "OFC-402"
+      ],
+      "retrieved_ids": [
+        "OFC-402"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q23",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For VoiceDock Pro, what does error code COL-E115 mean and how should it be resolved?",
+      "expected_ids": [
+        "OFC-402"
+      ],
+      "retrieved_ids": [
+        "OFC-402"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q24",
+      "test_type": "Missing-child test",
+      "question": "Does VoiceDock Pro have a variant node?",
+      "expected_ids": [
+        "OFC-402"
+      ],
+      "retrieved_ids": [
+        "OFC-402"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q25",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of PowerCore Desk 8?",
+      "expected_ids": [
+        "OFP-501"
+      ],
+      "retrieved_ids": [
+        "OFP-501"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q26",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For PowerCore Desk 8, what does error code PWR-E101 mean and how should it be resolved?",
+      "expected_ids": [
+        "OFP-501"
+      ],
+      "retrieved_ids": [
+        "OFP-501"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q27",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Desk version of PowerCore Desk 8?",
+      "expected_ids": [
+        "OFP-501"
+      ],
+      "retrieved_ids": [
+        "OFP-501"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q28",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of LinkMesh 6E?",
+      "expected_ids": [
+        "OFP-502"
+      ],
+      "retrieved_ids": [
+        "OFP-502"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q29",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For LinkMesh 6E, what does error code NET-E101 mean and how should it be resolved?",
+      "expected_ids": [
+        "OFP-502"
+      ],
+      "retrieved_ids": [
+        "OFP-502"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q30",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Node version of LinkMesh 6E?",
+      "expected_ids": [
+        "OFP-502"
+      ],
+      "retrieved_ids": [
+        "OFP-502"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q31",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of VoltRide City?",
+      "expected_ids": [
+        "MOB-601"
+      ],
+      "retrieved_ids": [
+        "MOB-601"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q32",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For VoltRide City, what does error code BIK-E101 mean and how should it be resolved?",
+      "expected_ids": [
+        "MOB-601"
+      ],
+      "retrieved_ids": [
+        "MOB-601"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q33",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the City version of VoltRide City?",
+      "expected_ids": [
+        "MOB-601"
+      ],
+      "retrieved_ids": [
+        "MOB-601"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q34",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of CargoGlide 2?",
+      "expected_ids": [
+        "MOB-602"
+      ],
+      "retrieved_ids": [
+        "MOB-602"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q35",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For CargoGlide 2, what does error code BIK-E125 mean and how should it be resolved?",
+      "expected_ids": [
+        "MOB-602"
+      ],
+      "retrieved_ids": [
+        "MOB-602"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q36",
+      "test_type": "Missing-child test",
+      "question": "Does CargoGlide 2 have a variant node?",
+      "expected_ids": [
+        "MOB-602"
+      ],
+      "retrieved_ids": [
+        "MOB-602"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q37",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of PackTrack One?",
+      "expected_ids": [
+        "MOT-701"
+      ],
+      "retrieved_ids": [
+        "MOT-701"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q38",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For PackTrack One, what does error code TRV-E101 mean and how should it be resolved?",
+      "expected_ids": [
+        "MOT-701"
+      ],
+      "retrieved_ids": [
+        "MOT-701"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q39",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Tag version of PackTrack One?",
+      "expected_ids": [
+        "MOT-701"
+      ],
+      "retrieved_ids": [
+        "MOT-701"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q40",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of RouteCharge 65?",
+      "expected_ids": [
+        "MOT-702"
+      ],
+      "retrieved_ids": [
+        "MOT-702"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q41",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For RouteCharge 65, what does error code TRV-E120 mean and how should it be resolved?",
+      "expected_ids": [
+        "MOT-702"
+      ],
+      "retrieved_ids": [
+        "MOT-702"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q42",
+      "test_type": "Missing-child test",
+      "question": "Does RouteCharge 65 have a variant node?",
+      "expected_ids": [
+        "MOT-702"
+      ],
+      "retrieved_ids": [
+        "MOT-702"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q43",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of BrewCraft Duo?",
+      "expected_ids": [
+        "APK-801"
+      ],
+      "retrieved_ids": [
+        "APK-801"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q44",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For BrewCraft Duo, what does error code KIT-E101 mean and how should it be resolved?",
+      "expected_ids": [
+        "APK-801"
+      ],
+      "retrieved_ids": [
+        "APK-801"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q45",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Glass Carafe version of BrewCraft Duo?",
+      "expected_ids": [
+        "APK-801"
+      ],
+      "retrieved_ids": [
+        "APK-801"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q46",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of FreshVault 12?",
+      "expected_ids": [
+        "APK-802"
+      ],
+      "retrieved_ids": [
+        "APK-802"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q47",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For FreshVault 12, what does error code KIT-E134 mean and how should it be resolved?",
+      "expected_ids": [
+        "APK-802"
+      ],
+      "retrieved_ids": [
+        "APK-802"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q48",
+      "test_type": "Missing-child test",
+      "question": "Does FreshVault 12 have a variant node?",
+      "expected_ids": [
+        "APK-802"
+      ],
+      "retrieved_ids": [
+        "APK-802"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q49",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of CleanSweep R3?",
+      "expected_ids": [
+        "APC-901"
+      ],
+      "retrieved_ids": [
+        "APC-901"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q50",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For CleanSweep R3, what does error code CLN-E101 mean and how should it be resolved?",
+      "expected_ids": [
+        "APC-901"
+      ],
+      "retrieved_ids": [
+        "APC-901"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q51",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Vacuum version of CleanSweep R3?",
+      "expected_ids": [
+        "APC-901"
+      ],
+      "retrieved_ids": [
+        "APC-901"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q52",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of SteamMate S1?",
+      "expected_ids": [
+        "APC-902"
+      ],
+      "retrieved_ids": [
+        "APC-902"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q53",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For SteamMate S1, what does error code CLN-E125 mean and how should it be resolved?",
+      "expected_ids": [
+        "APC-902"
+      ],
+      "retrieved_ids": [
+        "APC-902"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q54",
+      "test_type": "Missing-child test",
+      "question": "Does SteamMate S1 have a variant node?",
+      "expected_ids": [
+        "APC-902"
+      ],
+      "retrieved_ids": [
+        "APC-902"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q55",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of AirPure Cube?",
+      "expected_ids": [
+        "APW-1001"
+      ],
+      "retrieved_ids": [
+        "APW-1001"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q56",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For AirPure Cube, what does error code AIR-E101 mean and how should it be resolved?",
+      "expected_ids": [
+        "APW-1001"
+      ],
+      "retrieved_ids": [
+        "APW-1001"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q57",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Home version of AirPure Cube?",
+      "expected_ids": [
+        "APW-1001"
+      ],
+      "retrieved_ids": [
+        "APW-1001"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q58",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of SleepLight Rhythm?",
+      "expected_ids": [
+        "APW-1002"
+      ],
+      "retrieved_ids": [
+        "APW-1002"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q59",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For SleepLight Rhythm, what does error code AIR-E117 mean and how should it be resolved?",
+      "expected_ids": [
+        "APW-1002"
+      ],
+      "retrieved_ids": [
+        "APW-1002"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q60",
+      "test_type": "Missing-child test",
+      "question": "Does SleepLight Rhythm have a variant node?",
+      "expected_ids": [
+        "APW-1002"
+      ],
+      "retrieved_ids": [
+        "APW-1002"
+      ],
+      "route": "semantic",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q61",
+      "test_type": "Category aggregation",
+      "question": "List all products under the Home Appliances category.",
+      "expected_ids": [
+        "APC-901",
+        "APC-902",
+        "APK-801",
+        "APK-802",
+        "APW-1001",
+        "APW-1002"
+      ],
+      "retrieved_ids": [
+        "APK-801",
+        "APK-802",
+        "APC-901",
+        "APC-902",
+        "APW-1001",
+        "APW-1002"
+      ],
+      "route": "category",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q62",
+      "test_type": "Category aggregation",
+      "question": "List all products under the Home Systems category.",
+      "expected_ids": [
+        "HCL-101",
+        "HCL-102",
+        "HSC-201",
+        "HSC-202",
+        "HWT-301",
+        "HWT-302"
+      ],
+      "retrieved_ids": [
+        "HCL-101",
+        "HCL-102",
+        "HSC-201",
+        "HSC-202",
+        "HWT-301",
+        "HWT-302"
+      ],
+      "route": "category",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q63",
+      "test_type": "Category aggregation",
+      "question": "List all products under the Mobility category.",
+      "expected_ids": [
+        "MOB-601",
+        "MOB-602",
+        "MOT-701",
+        "MOT-702"
+      ],
+      "retrieved_ids": [
+        "MOB-601",
+        "MOB-602",
+        "MOT-701",
+        "MOT-702"
+      ],
+      "route": "category",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q64",
+      "test_type": "Category aggregation",
+      "question": "List all products under the Office Technology category.",
+      "expected_ids": [
+        "OFC-401",
+        "OFC-402",
+        "OFP-501",
+        "OFP-502"
+      ],
+      "retrieved_ids": [
+        "OFC-401",
+        "OFC-402",
+        "OFP-501",
+        "OFP-502"
+      ],
+      "route": "category",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q65",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Cleaning subcategory?",
+      "expected_ids": [
+        "APC-901",
+        "APC-902"
+      ],
+      "retrieved_ids": [
+        "APC-901",
+        "APC-902"
+      ],
+      "route": "subcategory",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q66",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Climate Control subcategory?",
+      "expected_ids": [
+        "HCL-101",
+        "HCL-102"
+      ],
+      "retrieved_ids": [
+        "HCL-101",
+        "HCL-102"
+      ],
+      "route": "subcategory",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q67",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Collaboration subcategory?",
+      "expected_ids": [
+        "OFC-401",
+        "OFC-402"
+      ],
+      "retrieved_ids": [
+        "OFC-401",
+        "OFC-402"
+      ],
+      "route": "subcategory",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q68",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the E-Bikes subcategory?",
+      "expected_ids": [
+        "MOB-601",
+        "MOB-602"
+      ],
+      "retrieved_ids": [
+        "MOB-601",
+        "MOB-602"
+      ],
+      "route": "subcategory",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q69",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Kitchen subcategory?",
+      "expected_ids": [
+        "APK-801",
+        "APK-802"
+      ],
+      "retrieved_ids": [
+        "APK-801",
+        "APK-802"
+      ],
+      "route": "subcategory",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q70",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Power and Connectivity subcategory?",
+      "expected_ids": [
+        "OFP-501",
+        "OFP-502"
+      ],
+      "retrieved_ids": [
+        "OFP-501",
+        "OFP-502"
+      ],
+      "route": "subcategory",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q71",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Security and Access subcategory?",
+      "expected_ids": [
+        "HSC-201",
+        "HSC-202"
+      ],
+      "retrieved_ids": [
+        "HSC-201",
+        "HSC-202"
+      ],
+      "route": "subcategory",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q72",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Travel Accessories subcategory?",
+      "expected_ids": [
+        "MOT-701",
+        "MOT-702"
+      ],
+      "retrieved_ids": [
+        "MOT-701",
+        "MOT-702"
+      ],
+      "route": "subcategory",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q73",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Water Protection subcategory?",
+      "expected_ids": [
+        "HWT-301",
+        "HWT-302"
+      ],
+      "retrieved_ids": [
+        "HWT-301",
+        "HWT-302"
+      ],
+      "route": "subcategory",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q74",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Wellness subcategory?",
+      "expected_ids": [
+        "APW-1001",
+        "APW-1002"
+      ],
+      "retrieved_ids": [
+        "APW-1001",
+        "APW-1002"
+      ],
+      "route": "subcategory",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q75",
+      "test_type": "Cross-category comparison",
+      "question": "Compare the products manufactured by Meridian Workplace with the products manufactured by Northline Mobility.",
+      "expected_ids": [
+        "MOB-601",
+        "MOB-602",
+        "MOT-701",
+        "MOT-702",
+        "OFC-401",
+        "OFC-402",
+        "OFP-501",
+        "OFP-502"
+      ],
+      "retrieved_ids": [
+        "MOB-601",
+        "MOB-602",
+        "MOT-701",
+        "MOT-702"
+      ],
+      "route": "category",
+      "recall": 0.5,
+      "precision": 1.0,
+      "all_evidence_found": false
+    },
+    {
+      "id": "Q76",
+      "test_type": "Global reasoning",
+      "question": "Which catalog categories contain products with variants and products without variants?",
+      "expected_ids": [
+        "APC-901",
+        "APC-902",
+        "APK-801",
+        "APK-802",
+        "APW-1001",
+        "APW-1002",
+        "HCL-101",
+        "HCL-102",
+        "HSC-201",
+        "HSC-202",
+        "HWT-301",
+        "HWT-302",
+        "MOB-601",
+        "MOB-602",
+        "MOT-701",
+        "MOT-702",
+        "OFC-401",
+        "OFC-402",
+        "OFP-501",
+        "OFP-502"
+      ],
+      "retrieved_ids": [
+        "HCL-101",
+        "HCL-102",
+        "HSC-201",
+        "HSC-202",
+        "HWT-301",
+        "HWT-302",
+        "OFC-401",
+        "OFC-402",
+        "OFP-501",
+        "OFP-502",
+        "MOB-601",
+        "MOB-602",
+        "MOT-701",
+        "MOT-702",
+        "APK-801",
+        "APK-802",
+        "APC-901",
+        "APC-902",
+        "APW-1001",
+        "APW-1002"
+      ],
+      "route": "whole_catalog",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q77",
+      "test_type": "Ambiguity test",
+      "question": "Several products use an E101-style error code. Why should a RAG answer use the full error-code prefix and product context?",
+      "expected_ids": [
+        "APC-901",
+        "APC-902",
+        "APK-801",
+        "APK-802",
+        "APW-1001",
+        "APW-1002",
+        "HCL-101",
+        "HCL-102",
+        "HSC-201",
+        "HSC-202",
+        "HWT-301",
+        "HWT-302",
+        "MOB-601",
+        "MOB-602",
+        "MOT-701",
+        "MOT-702",
+        "OFC-401",
+        "OFC-402",
+        "OFP-501",
+        "OFP-502"
+      ],
+      "retrieved_ids": [
+        "HCL-101",
+        "HCL-102",
+        "HSC-201",
+        "HSC-202",
+        "HWT-301",
+        "HWT-302",
+        "OFC-401",
+        "OFC-402",
+        "OFP-501",
+        "OFP-502",
+        "MOB-601",
+        "MOB-602",
+        "MOT-701",
+        "MOT-702",
+        "APK-801",
+        "APK-802",
+        "APC-901",
+        "APC-902",
+        "APW-1001",
+        "APW-1002"
+      ],
+      "route": "whole_catalog",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    },
+    {
+      "id": "Q78",
+      "test_type": "Negative retrieval",
+      "question": "Which product has a variant called Enterprise?",
+      "expected_ids": [
+        "APC-901",
+        "APC-902",
+        "APK-801",
+        "APK-802",
+        "APW-1001",
+        "APW-1002",
+        "HCL-101",
+        "HCL-102",
+        "HSC-201",
+        "HSC-202",
+        "HWT-301",
+        "HWT-302",
+        "MOB-601",
+        "MOB-602",
+        "MOT-701",
+        "MOT-702",
+        "OFC-401",
+        "OFC-402",
+        "OFP-501",
+        "OFP-502"
+      ],
+      "retrieved_ids": [
+        "HCL-101",
+        "HCL-102",
+        "HSC-201",
+        "HSC-202",
+        "HWT-301",
+        "HWT-302",
+        "OFC-401",
+        "OFC-402",
+        "OFP-501",
+        "OFP-502",
+        "MOB-601",
+        "MOB-602",
+        "MOT-701",
+        "MOT-702",
+        "APK-801",
+        "APK-802",
+        "APC-901",
+        "APC-902",
+        "APW-1001",
+        "APW-1002"
+      ],
+      "route": "whole_catalog",
+      "recall": 1.0,
+      "precision": 1.0,
+      "all_evidence_found": true
+    }
+  ]
+}

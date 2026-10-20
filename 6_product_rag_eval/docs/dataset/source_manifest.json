@@ -1,0 +1,38 @@
+{
+  "source_folder": "C:\\a\\pproj\\AI\\doc\\products2",
+  "products": 20,
+  "validation_questions": 78,
+  "golden_review_status": "supplied references; review pending",
+  "files": [
+    {
+      "original_path": "C:\\a\\pproj\\AI\\doc\\products2\\Hierarchical_Product_Catalog.txt",
+      "project_path": "docs/dataset/Hierarchical_Product_Catalog.txt",
+      "bytes": 23387,
+      "sha256": "ec10d1b9619353d1990e9771eaebd2fddba9864d5af2241a20c938c37995b3e3"
+    },
+    {
+      "original_path": "C:\\a\\pproj\\AI\\doc\\products2\\Hierarchical_Product_Catalog.json",
+      "project_path": "docs/dataset/Hierarchical_Product_Catalog.json",
+      "bytes": 39416,
+      "sha256": "d3ec5a56b0b6a746fe01d975ccdd212b25070f5e266f5acc7b090f8adf6bd9a4"
+    },
+    {
+      "original_path": "C:\\a\\pproj\\AI\\doc\\products2\\Hierarchical_Product_Catalog.pdf",
+      "project_path": "docs/dataset/Hierarchical_Product_Catalog.pdf",
+      "bytes": 35295,
+      "sha256": "132041a14925823c877929c7db933aef22aa649be22295408b6ac51631a0bead"
+    },
+    {
+      "original_path": "C:\\a\\pproj\\AI\\doc\\products2\\Hierarchical_RAG_Validation_Questions.json",
+      "project_path": "docs/goldends/Hierarchical_RAG_Validation_Questions.json",
+      "bytes": 23138,
+      "sha256": "feab67d5b956991de95cbc14199c64e2668181baaafcabfbd8e80f4069fbcf56"
+    },
+    {
+      "original_path": "C:\\a\\pproj\\AI\\doc\\products2\\Hierarchical_RAG_Validation_Questions.txt",
+      "project_path": "docs/goldends/Hierarchical_RAG_Validation_Questions.txt",
+      "bytes": 16807,
+      "sha256": "f5f167382575ca9bb9d9b8e627a2c4a63484b94a191a1cc3a5a474b548e0ad77"
+    }
+  ]
+}

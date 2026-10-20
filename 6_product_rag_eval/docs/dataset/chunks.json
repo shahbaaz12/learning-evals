@@ -1,0 +1,222 @@
+[
+  {
+    "text": "{\n  \"category\": \"Home Systems\",\n  \"subcategory\": \"Climate Control\",\n  \"product_id\": \"HCL-101\",\n  \"product_name\": \"AeroTherm X1\",\n  \"manufacturer\": \"HelioWorks Climate\",\n  \"starting_price_usd\": \"$249\",\n  \"description\": \"A room-scale smart heat-pump controller for quiet, schedule-based heating and cooling in apartments and small offices.\",\n  \"specifications\": {\n    \"Coverage\": \"Up to 45 m2\",\n    \"Power\": \"24V control circuit\",\n    \"Connectivity\": \"Wi-Fi 6 / Matter\",\n    \"Warranty\": \"3 years\"\n  },\n  \"quick_start\": [\n    \"Switch off HVAC control power.\",\n    \"Connect labelled terminals and restore power.\",\n    \"Run the compatibility and sensor test.\"\n  ],\n  \"how_to_use\": [\n    \"Choose a schedule or set a temporary target.\",\n    \"Review runtime trends before changing limits.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"CLM-E101\",\n      \"meaning\": \"Sensor unavailable\",\n      \"resolution\": \"Reseat the wall sensor and run Sensor Test.\"\n    },\n    {\n      \"code\": \"CLM-E214\",\n      \"meaning\": \"Safety delay active\",\n      \"resolution\": \"Wait five minutes; do not switch modes repeatedly.\"\n    },\n    {\n      \"code\": \"CLM-E330\",\n      \"meaning\": \"Zone conflict\",\n      \"resolution\": \"Check schedule overlap and the heating/cooling deadband.\"\n    }\n  ],\n  \"variants\": [\n    {\n      \"variant_id\": \"HCL-101-S\",\n      \"variant_name\": \"Standard\",\n      \"price_usd\": \"$249\",\n      \"description\": \"Single-zone controller with wall sensor.\"\n    },\n    {\n      \"variant_id\": \"HCL-101-P\",\n      \"variant_name\": \"Plus\",\n      \"price_usd\": \"$319\",\n      \"description\": \"Adds remote occupancy sensor and humidity control.\"\n    }\n  ],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Home Systems\",\n      \"Climate Control\",\n      \"AeroTherm X1\"\n    ],\n    \"has_variant_children\": true\n  }\n}",
+    "metadata": {
+      "product_id": "HCL-101",
+      "product_name": "AeroTherm X1",
+      "category": "Home Systems",
+      "subcategory": "Climate Control",
+      "manufacturer": "HelioWorks Climate",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Home Systems\",\n  \"subcategory\": \"Climate Control\",\n  \"product_id\": \"HCL-102\",\n  \"product_name\": \"BreezeSense V2\",\n  \"manufacturer\": \"HelioWorks Climate\",\n  \"starting_price_usd\": \"$189\",\n  \"description\": \"A connected ventilation controller that balances fresh-air intake, fan speed, and humidity targets for a single indoor zone.\",\n  \"specifications\": {\n    \"Airflow\": \"90-220 m3/h\",\n    \"Power\": \"100-240V AC\",\n    \"Connectivity\": \"Wi-Fi 5\",\n    \"Warranty\": \"2 years\"\n  },\n  \"quick_start\": [\n    \"Mount away from direct exhaust flow.\",\n    \"Connect fan and power leads to labelled terminals.\",\n    \"Set preferred CO2 and humidity thresholds.\"\n  ],\n  \"how_to_use\": [\n    \"Use Auto mode for normal operation.\",\n    \"Select Boost mode for short high-occupancy periods.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"CLM-E118\",\n      \"meaning\": \"Airflow sensor blocked\",\n      \"resolution\": \"Clean the intake grille and restart calibration.\"\n    },\n    {\n      \"code\": \"CLM-E227\",\n      \"meaning\": \"Fan response timeout\",\n      \"resolution\": \"Check breaker, wiring, and fan service switch.\"\n    },\n    {\n      \"code\": \"CLM-E344\",\n      \"meaning\": \"Humidity reading unstable\",\n      \"resolution\": \"Move the sensor away from steam or open windows.\"\n    }\n  ],\n  \"variants\": [\n    {\n      \"variant_id\": \"HCL-102-B\",\n      \"variant_name\": \"Base\",\n      \"price_usd\": \"$189\",\n      \"description\": \"Manual fan curves and app alerts.\"\n    },\n    {\n      \"variant_id\": \"HCL-102-A\",\n      \"variant_name\": \"Auto\",\n      \"price_usd\": \"$239\",\n      \"description\": \"Adds CO2-driven fan control and weekly reports.\"\n    }\n  ],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Home Systems\",\n      \"Climate Control\",\n      \"BreezeSense V2\"\n    ],\n    \"has_variant_children\": true\n  }\n}",
+    "metadata": {
+      "product_id": "HCL-102",
+      "product_name": "BreezeSense V2",
+      "category": "Home Systems",
+      "subcategory": "Climate Control",
+      "manufacturer": "HelioWorks Climate",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Home Systems\",\n  \"subcategory\": \"Security and Access\",\n  \"product_id\": \"HSC-201\",\n  \"product_name\": \"Sentinel Lock S4\",\n  \"manufacturer\": \"Aegis Entry Systems\",\n  \"starting_price_usd\": \"$219\",\n  \"description\": \"A keypad smart deadbolt for residential and small-office doors, with role-based entry codes and an audit trail.\",\n  \"specifications\": {\n    \"Codes\": \"Up to 100\",\n    \"Power\": \"4 AA batteries\",\n    \"Door thickness\": \"35-55 mm\",\n    \"Warranty\": \"3 years\"\n  },\n  \"quick_start\": [\n    \"Install with the door open and bolt fully aligned.\",\n    \"Create owner and backup codes.\",\n    \"Test lock, unlock, and auto-lock before closing the door.\"\n  ],\n  \"how_to_use\": [\n    \"Use temporary codes for visitors.\",\n    \"Review access history after a security event.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"SEC-E101\",\n      \"meaning\": \"Bolt obstructed\",\n      \"resolution\": \"Open the door and correct strike alignment.\"\n    },\n    {\n      \"code\": \"SEC-E205\",\n      \"meaning\": \"Code rejected\",\n      \"resolution\": \"Confirm that the code is active and not expired.\"\n    },\n    {\n      \"code\": \"SEC-E318\",\n      \"meaning\": \"Battery critical\",\n      \"resolution\": \"Use the mechanical key and replace all batteries.\"\n    }\n  ],\n  \"variants\": [\n    {\n      \"variant_id\": \"HSC-201-K\",\n      \"variant_name\": \"Keypad\",\n      \"price_usd\": \"$219\",\n      \"description\": \"Keypad, mechanical key, and mobile unlock.\"\n    },\n    {\n      \"variant_id\": \"HSC-201-F\",\n      \"variant_name\": \"Keypad + Fob\",\n      \"price_usd\": \"$269\",\n      \"description\": \"Adds encrypted fob access for staff or guests.\"\n    }\n  ],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Home Systems\",\n      \"Security and Access\",\n      \"Sentinel Lock S4\"\n    ],\n    \"has_variant_children\": true\n  }\n}",
+    "metadata": {
+      "product_id": "HSC-201",
+      "product_name": "Sentinel Lock S4",
+      "category": "Home Systems",
+      "subcategory": "Security and Access",
+      "manufacturer": "Aegis Entry Systems",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Home Systems\",\n  \"subcategory\": \"Security and Access\",\n  \"product_id\": \"HSC-202\",\n  \"product_name\": \"WatchTower Cam 4K\",\n  \"manufacturer\": \"Aegis Entry Systems\",\n  \"starting_price_usd\": \"$329\",\n  \"description\": \"A 4K entry camera with person detection, local recording, privacy masks, and administrator-only clip export.\",\n  \"specifications\": {\n    \"Video\": \"4K HDR\",\n    \"Night vision\": \"Up to 10 m\",\n    \"Storage\": \"Local microSD / recorder\",\n    \"Weather rating\": \"IP65\"\n  },\n  \"quick_start\": [\n    \"Mount with a clear view and stable network signal.\",\n    \"Apply updates before enabling recording.\",\n    \"Draw privacy masks before defining motion zones.\"\n  ],\n  \"how_to_use\": [\n    \"Review Events for detected activity.\",\n    \"Export only required clips and keep access roles current.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"SEC-E142\",\n      \"meaning\": \"Stream unavailable\",\n      \"resolution\": \"Check power, network link, and recorder status.\"\n    },\n    {\n      \"code\": \"SEC-E253\",\n      \"meaning\": \"Storage nearly full\",\n      \"resolution\": \"Archive required clips or revise retention policy.\"\n    },\n    {\n      \"code\": \"SEC-E367\",\n      \"meaning\": \"Privacy mask conflict\",\n      \"resolution\": \"Separate the motion zone from masked pixels.\"\n    }\n  ],\n  \"variants\": [\n    {\n      \"variant_id\": \"HSC-202-I\",\n      \"variant_name\": \"Indoor\",\n      \"price_usd\": \"$329\",\n      \"description\": \"Desk or wall mount with privacy shutter.\"\n    },\n    {\n      \"variant_id\": \"HSC-202-O\",\n      \"variant_name\": \"Outdoor\",\n      \"price_usd\": \"$369\",\n      \"description\": \"Weather-sealed body and PoE option.\"\n    }\n  ],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Home Systems\",\n      \"Security and Access\",\n      \"WatchTower Cam 4K\"\n    ],\n    \"has_variant_children\": true\n  }\n}",
+    "metadata": {
+      "product_id": "HSC-202",
+      "product_name": "WatchTower Cam 4K",
+      "category": "Home Systems",
+      "subcategory": "Security and Access",
+      "manufacturer": "Aegis Entry Systems",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Home Systems\",\n  \"subcategory\": \"Water Protection\",\n  \"product_id\": \"HWT-301\",\n  \"product_name\": \"AquaGuard Flow\",\n  \"manufacturer\": \"ClearFlow Technologies\",\n  \"starting_price_usd\": \"$299\",\n  \"description\": \"A whole-home flow monitor that identifies sustained unusual water use and can notify designated household members.\",\n  \"specifications\": {\n    \"Pipe sizes\": \"15-32 mm\",\n    \"Detection\": \"Continuous flow analysis\",\n    \"Power\": \"USB-C / adapter\",\n    \"Warranty\": \"2 years\"\n  },\n  \"quick_start\": [\n    \"Fit the sensor around the labelled supply pipe.\",\n    \"Run a baseline flow calibration with all fixtures closed.\",\n    \"Name the monitored property and alert recipients.\"\n  ],\n  \"how_to_use\": [\n    \"Review Flow History before classifying a use as unusual.\",\n    \"Use Maintenance Mode during planned plumbing work.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"WTR-E101\",\n      \"meaning\": \"Active flow alert\",\n      \"resolution\": \"Inspect fixtures and appliances for continuous water use.\"\n    },\n    {\n      \"code\": \"WTR-E238\",\n      \"meaning\": \"Calibration incomplete\",\n      \"resolution\": \"Repeat calibration when no water is running.\"\n    },\n    {\n      \"code\": \"WTR-E355\",\n      \"meaning\": \"Valve response failed\",\n      \"resolution\": \"Use manual override and contact a qualified plumber.\"\n    }\n  ],\n  \"variants\": [\n    {\n      \"variant_id\": \"HWT-301-M\",\n      \"variant_name\": \"Monitor\",\n      \"price_usd\": \"$299\",\n      \"description\": \"Monitoring and alerting only.\"\n    },\n    {\n      \"variant_id\": \"HWT-301-S\",\n      \"variant_name\": \"Shutoff Kit\",\n      \"price_usd\": \"$469\",\n      \"description\": \"Adds installer-fitted automatic shutoff valve.\"\n    }\n  ],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Home Systems\",\n      \"Water Protection\",\n      \"AquaGuard Flow\"\n    ],\n    \"has_variant_children\": true\n  }\n}",
+    "metadata": {
+      "product_id": "HWT-301",
+      "product_name": "AquaGuard Flow",
+      "category": "Home Systems",
+      "subcategory": "Water Protection",
+      "manufacturer": "ClearFlow Technologies",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Home Systems\",\n  \"subcategory\": \"Water Protection\",\n  \"product_id\": \"HWT-302\",\n  \"product_name\": \"LeakNode Mini\",\n  \"manufacturer\": \"ClearFlow Technologies\",\n  \"starting_price_usd\": \"$39\",\n  \"description\": \"A compact battery leak sensor for cabinets, water heaters, washing machines, and other localized risk points.\",\n  \"specifications\": {\n    \"Battery\": \"CR2450 coin cell\",\n    \"Alert\": \"Local alarm + app\",\n    \"Temperature\": \"0-50 C\",\n    \"Warranty\": \"1 year\"\n  },\n  \"quick_start\": [\n    \"Place contacts flat on a dry surface.\",\n    \"Label the exact room and appliance in the app.\",\n    \"Test with a few drops of clean water, then dry contacts.\"\n  ],\n  \"how_to_use\": [\n    \"Treat every wet-sensor alert as urgent.\",\n    \"Replace the battery when the app prompts you.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"WTR-E109\",\n      \"meaning\": \"Sensor wet\",\n      \"resolution\": \"Resolve the leak, dry contacts, then reset.\"\n    },\n    {\n      \"code\": \"WTR-E219\",\n      \"meaning\": \"Battery low\",\n      \"resolution\": \"Replace with the specified coin cell.\"\n    },\n    {\n      \"code\": \"WTR-E341\",\n      \"meaning\": \"Connection weak\",\n      \"resolution\": \"Move the hub or add a compatible repeater.\"\n    }\n  ],\n  \"variants\": [],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Home Systems\",\n      \"Water Protection\",\n      \"LeakNode Mini\"\n    ],\n    \"has_variant_children\": false\n  }\n}",
+    "metadata": {
+      "product_id": "HWT-302",
+      "product_name": "LeakNode Mini",
+      "category": "Home Systems",
+      "subcategory": "Water Protection",
+      "manufacturer": "ClearFlow Technologies",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Office Technology\",\n  \"subcategory\": \"Collaboration\",\n  \"product_id\": \"OFC-401\",\n  \"product_name\": \"ViewPanel 55\",\n  \"manufacturer\": \"Meridian Workplace\",\n  \"starting_price_usd\": \"$1,499\",\n  \"description\": \"A 55-inch collaboration display for meeting rooms, with wireless presentation, digital whiteboard, and managed guest access.\",\n  \"specifications\": {\n    \"Display\": \"55-inch 4K\",\n    \"Inputs\": \"USB-C, HDMI, Wi-Fi\",\n    \"Touch\": \"20-point\",\n    \"Warranty\": \"3 years\"\n  },\n  \"quick_start\": [\n    \"Mount securely or lock the mobile stand.\",\n    \"Connect network and register the room name.\",\n    \"Set guest-presentation and whiteboard retention policies.\"\n  ],\n  \"how_to_use\": [\n    \"Start a session from the Room panel.\",\n    \"Clear the whiteboard after each confidential meeting.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"COL-E101\",\n      \"meaning\": \"No display input\",\n      \"resolution\": \"Check source cable and selected input.\"\n    },\n    {\n      \"code\": \"COL-E212\",\n      \"meaning\": \"Wireless pairing failed\",\n      \"resolution\": \"Confirm guest mode and network isolation settings.\"\n    },\n    {\n      \"code\": \"COL-E329\",\n      \"meaning\": \"Touch calibration required\",\n      \"resolution\": \"Run calibration from Admin Settings.\"\n    }\n  ],\n  \"variants\": [\n    {\n      \"variant_id\": \"OFC-401-W\",\n      \"variant_name\": \"Wall\",\n      \"price_usd\": \"$1,499\",\n      \"description\": \"Wall-mount package for fixed rooms.\"\n    },\n    {\n      \"variant_id\": \"OFC-401-M\",\n      \"variant_name\": \"Mobile\",\n      \"price_usd\": \"$1,699\",\n      \"description\": \"Adds rolling stand and cable tray.\"\n    }\n  ],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Office Technology\",\n      \"Collaboration\",\n      \"ViewPanel 55\"\n    ],\n    \"has_variant_children\": true\n  }\n}",
+    "metadata": {
+      "product_id": "OFC-401",
+      "product_name": "ViewPanel 55",
+      "category": "Office Technology",
+      "subcategory": "Collaboration",
+      "manufacturer": "Meridian Workplace",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Office Technology\",\n  \"subcategory\": \"Collaboration\",\n  \"product_id\": \"OFC-402\",\n  \"product_name\": \"VoiceDock Pro\",\n  \"manufacturer\": \"Meridian Workplace\",\n  \"starting_price_usd\": \"$279\",\n  \"description\": \"A USB and Bluetooth speakerphone for small meeting spaces, with beamforming microphones and call-quality diagnostics.\",\n  \"specifications\": {\n    \"Microphones\": \"6 beamforming\",\n    \"Range\": \"Up to 5 m\",\n    \"Battery\": \"18 hours\",\n    \"Warranty\": \"2 years\"\n  },\n  \"quick_start\": [\n    \"Place centrally on a stable table.\",\n    \"Connect by USB for managed-room use or pair by Bluetooth.\",\n    \"Run the microphone test before the first meeting.\"\n  ],\n  \"how_to_use\": [\n    \"Press Mute to disable microphones locally.\",\n    \"Use Diagnostics after repeated call-quality complaints.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"COL-E115\",\n      \"meaning\": \"Microphone muted\",\n      \"resolution\": \"Check physical Mute button and meeting-app mute state.\"\n    },\n    {\n      \"code\": \"COL-E245\",\n      \"meaning\": \"Bluetooth pairing rejected\",\n      \"resolution\": \"Remove old pairing records and pair again.\"\n    },\n    {\n      \"code\": \"COL-E372\",\n      \"meaning\": \"Echo detected\",\n      \"resolution\": \"Move device away from display speakers and reduce volume.\"\n    }\n  ],\n  \"variants\": [],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Office Technology\",\n      \"Collaboration\",\n      \"VoiceDock Pro\"\n    ],\n    \"has_variant_children\": false\n  }\n}",
+    "metadata": {
+      "product_id": "OFC-402",
+      "product_name": "VoiceDock Pro",
+      "category": "Office Technology",
+      "subcategory": "Collaboration",
+      "manufacturer": "Meridian Workplace",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Office Technology\",\n  \"subcategory\": \"Power and Connectivity\",\n  \"product_id\": \"OFP-501\",\n  \"product_name\": \"PowerCore Desk 8\",\n  \"manufacturer\": \"Meridian Workplace\",\n  \"starting_price_usd\": \"$149\",\n  \"description\": \"A managed desk power unit with eight AC outlets, USB-C charging, individual outlet names, and energy-use reporting.\",\n  \"specifications\": {\n    \"Outlets\": \"8 AC + 2 USB-C\",\n    \"Max load\": \"1800 W\",\n    \"Monitoring\": \"Per outlet\",\n    \"Warranty\": \"2 years\"\n  },\n  \"quick_start\": [\n    \"Connect directly to a grounded wall outlet.\",\n    \"Label each outlet by connected equipment.\",\n    \"Set schedules only for devices that can safely lose power.\"\n  ],\n  \"how_to_use\": [\n    \"Review standby usage weekly.\",\n    \"Use remote restart only for approved equipment.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"PWR-E101\",\n      \"meaning\": \"Overload protection active\",\n      \"resolution\": \"Remove high-wattage devices and press Reset.\"\n    },\n    {\n      \"code\": \"PWR-E224\",\n      \"meaning\": \"Outlet unavailable\",\n      \"resolution\": \"Enable the named outlet and inspect device power.\"\n    },\n    {\n      \"code\": \"PWR-E339\",\n      \"meaning\": \"Surge protection expired\",\n      \"resolution\": \"Replace the unit; protection is no longer reliable.\"\n    }\n  ],\n  \"variants\": [\n    {\n      \"variant_id\": \"OFP-501-D\",\n      \"variant_name\": \"Desk\",\n      \"price_usd\": \"$149\",\n      \"description\": \"Clamp mount and 1.8 m cord.\"\n    },\n    {\n      \"variant_id\": \"OFP-501-R\",\n      \"variant_name\": \"Rack\",\n      \"price_usd\": \"$179\",\n      \"description\": \"19-inch rack ears and rear outlet layout.\"\n    }\n  ],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Office Technology\",\n      \"Power and Connectivity\",\n      \"PowerCore Desk 8\"\n    ],\n    \"has_variant_children\": true\n  }\n}",
+    "metadata": {
+      "product_id": "OFP-501",
+      "product_name": "PowerCore Desk 8",
+      "category": "Office Technology",
+      "subcategory": "Power and Connectivity",
+      "manufacturer": "Meridian Workplace",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Office Technology\",\n  \"subcategory\": \"Power and Connectivity\",\n  \"product_id\": \"OFP-502\",\n  \"product_name\": \"LinkMesh 6E\",\n  \"manufacturer\": \"Meridian Workplace\",\n  \"starting_price_usd\": \"$229\",\n  \"description\": \"A Wi-Fi 6E mesh node for managed offices, providing wired uplink, guest network support, and device-health reporting.\",\n  \"specifications\": {\n    \"Wi-Fi\": \"Tri-band Wi-Fi 6E\",\n    \"Ethernet\": \"2.5 GbE\",\n    \"Coverage\": \"Up to 180 m2\",\n    \"Warranty\": \"3 years\"\n  },\n  \"quick_start\": [\n    \"Connect the first node to the router by Ethernet.\",\n    \"Place additional nodes within reliable signal range.\",\n    \"Create separate staff and guest network profiles.\"\n  ],\n  \"how_to_use\": [\n    \"Check mesh health before moving a node.\",\n    \"Run a network test after firmware updates.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"NET-E101\",\n      \"meaning\": \"Uplink disconnected\",\n      \"resolution\": \"Check Ethernet connection and router port.\"\n    },\n    {\n      \"code\": \"NET-E216\",\n      \"meaning\": \"Node placement poor\",\n      \"resolution\": \"Move the node closer to a powered mesh node.\"\n    },\n    {\n      \"code\": \"NET-E348\",\n      \"meaning\": \"Guest network unavailable\",\n      \"resolution\": \"Review VLAN and guest-access settings.\"\n    }\n  ],\n  \"variants\": [\n    {\n      \"variant_id\": \"OFP-502-N\",\n      \"variant_name\": \"Node\",\n      \"price_usd\": \"$229\",\n      \"description\": \"Single mesh expansion node.\"\n    },\n    {\n      \"variant_id\": \"OFP-502-2P\",\n      \"variant_name\": \"2-Pack\",\n      \"price_usd\": \"$419\",\n      \"description\": \"Two nodes for multi-room coverage.\"\n    }\n  ],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Office Technology\",\n      \"Power and Connectivity\",\n      \"LinkMesh 6E\"\n    ],\n    \"has_variant_children\": true\n  }\n}",
+    "metadata": {
+      "product_id": "OFP-502",
+      "product_name": "LinkMesh 6E",
+      "category": "Office Technology",
+      "subcategory": "Power and Connectivity",
+      "manufacturer": "Meridian Workplace",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Mobility\",\n  \"subcategory\": \"E-Bikes\",\n  \"product_id\": \"MOB-601\",\n  \"product_name\": \"VoltRide City\",\n  \"manufacturer\": \"Northline Mobility\",\n  \"starting_price_usd\": \"$1,299\",\n  \"description\": \"A commuter e-bike with pedal assist, integrated lights, removable battery, and service reminders for everyday city travel.\",\n  \"specifications\": {\n    \"Motor\": \"250 W hub motor\",\n    \"Range\": \"Up to 65 km\",\n    \"Battery\": \"36V 10Ah\",\n    \"Weight\": \"22 kg\"\n  },\n  \"quick_start\": [\n    \"Charge the battery indoors using the supplied charger.\",\n    \"Adjust saddle height and test brake levers.\",\n    \"Pair the bike app and record the frame number.\"\n  ],\n  \"how_to_use\": [\n    \"Start in low assist until familiar with handling.\",\n    \"Lock battery and frame when parked.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"BIK-E101\",\n      \"meaning\": \"Motor assist unavailable\",\n      \"resolution\": \"Check battery charge and seat the battery fully.\"\n    },\n    {\n      \"code\": \"BIK-E235\",\n      \"meaning\": \"Brake sensor active\",\n      \"resolution\": \"Release brake levers and inspect for damage.\"\n    },\n    {\n      \"code\": \"BIK-E362\",\n      \"meaning\": \"Service interval reached\",\n      \"resolution\": \"Book a service inspection before intensive use.\"\n    }\n  ],\n  \"variants\": [\n    {\n      \"variant_id\": \"MOB-601-C\",\n      \"variant_name\": \"City\",\n      \"price_usd\": \"$1,299\",\n      \"description\": \"Upright handlebar and rear rack.\"\n    },\n    {\n      \"variant_id\": \"MOB-601-T\",\n      \"variant_name\": \"Touring\",\n      \"price_usd\": \"$1,549\",\n      \"description\": \"Adds suspension fork and extended battery.\"\n    }\n  ],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Mobility\",\n      \"E-Bikes\",\n      \"VoltRide City\"\n    ],\n    \"has_variant_children\": true\n  }\n}",
+    "metadata": {
+      "product_id": "MOB-601",
+      "product_name": "VoltRide City",
+      "category": "Mobility",
+      "subcategory": "E-Bikes",
+      "manufacturer": "Northline Mobility",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Mobility\",\n  \"subcategory\": \"E-Bikes\",\n  \"product_id\": \"MOB-602\",\n  \"product_name\": \"CargoGlide 2\",\n  \"manufacturer\": \"Northline Mobility\",\n  \"starting_price_usd\": \"$2,099\",\n  \"description\": \"A long-tail cargo e-bike for shopping, child-seat compatible loads, and short local deliveries, with reinforced frame and load-aware assist.\",\n  \"specifications\": {\n    \"Motor\": \"500 W mid-drive\",\n    \"Load rating\": \"180 kg total\",\n    \"Range\": \"Up to 80 km\",\n    \"Brakes\": \"Hydraulic disc\"\n  },\n  \"quick_start\": [\n    \"Have a dealer check frame, brakes, and cargo rail fittings.\",\n    \"Charge battery fully and calibrate load-aware assist.\",\n    \"Install approved cargo accessories only.\"\n  ],\n  \"how_to_use\": [\n    \"Secure load low and evenly on the frame.\",\n    \"Use lower assist when starting with a heavy load.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"BIK-E125\",\n      \"meaning\": \"Load sensor unavailable\",\n      \"resolution\": \"Remove load, restart, and schedule dealer inspection.\"\n    },\n    {\n      \"code\": \"BIK-E248\",\n      \"meaning\": \"Battery temperature high\",\n      \"resolution\": \"Stop riding, shade the battery, and allow it to cool.\"\n    },\n    {\n      \"code\": \"BIK-E381\",\n      \"meaning\": \"Brake pad worn\",\n      \"resolution\": \"Replace pads before further cargo use.\"\n    }\n  ],\n  \"variants\": [],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Mobility\",\n      \"E-Bikes\",\n      \"CargoGlide 2\"\n    ],\n    \"has_variant_children\": false\n  }\n}",
+    "metadata": {
+      "product_id": "MOB-602",
+      "product_name": "CargoGlide 2",
+      "category": "Mobility",
+      "subcategory": "E-Bikes",
+      "manufacturer": "Northline Mobility",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Mobility\",\n  \"subcategory\": \"Travel Accessories\",\n  \"product_id\": \"MOT-701\",\n  \"product_name\": \"PackTrack One\",\n  \"manufacturer\": \"Northline Mobility\",\n  \"starting_price_usd\": \"$69\",\n  \"description\": \"A compact Bluetooth travel tag with last-seen location, separation alerts, and replaceable battery for luggage and equipment cases.\",\n  \"specifications\": {\n    \"Network\": \"Bluetooth LE\",\n    \"Battery\": \"CR2032\",\n    \"Water rating\": \"IP67\",\n    \"Warranty\": \"1 year\"\n  },\n  \"quick_start\": [\n    \"Remove battery tab and pair from the travel app.\",\n    \"Name the item and set a separation alert distance.\",\n    \"Test the sound function before travel.\"\n  ],\n  \"how_to_use\": [\n    \"Use Last Seen as an approximate location, not live GPS.\",\n    \"Replace battery when low-battery notification appears.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"TRV-E101\",\n      \"meaning\": \"Tag not found\",\n      \"resolution\": \"Enable Bluetooth and move within nearby range.\"\n    },\n    {\n      \"code\": \"TRV-E208\",\n      \"meaning\": \"Sound unavailable\",\n      \"resolution\": \"Replace battery and confirm the tag is paired.\"\n    },\n    {\n      \"code\": \"TRV-E326\",\n      \"meaning\": \"Location stale\",\n      \"resolution\": \"Check phone network and wait for a participating device update.\"\n    }\n  ],\n  \"variants\": [\n    {\n      \"variant_id\": \"MOT-701-T\",\n      \"variant_name\": \"Tag\",\n      \"price_usd\": \"$69\",\n      \"description\": \"Single tracking tag.\"\n    },\n    {\n      \"variant_id\": \"MOT-701-4\",\n      \"variant_name\": \"Four Pack\",\n      \"price_usd\": \"$229\",\n      \"description\": \"Four tags with labeled holders.\"\n    }\n  ],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Mobility\",\n      \"Travel Accessories\",\n      \"PackTrack One\"\n    ],\n    \"has_variant_children\": true\n  }\n}",
+    "metadata": {
+      "product_id": "MOT-701",
+      "product_name": "PackTrack One",
+      "category": "Mobility",
+      "subcategory": "Travel Accessories",
+      "manufacturer": "Northline Mobility",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Mobility\",\n  \"subcategory\": \"Travel Accessories\",\n  \"product_id\": \"MOT-702\",\n  \"product_name\": \"RouteCharge 65\",\n  \"manufacturer\": \"Northline Mobility\",\n  \"starting_price_usd\": \"$79\",\n  \"description\": \"A 65 W USB-C travel charger with interchangeable regional plugs and intelligent power allocation for laptops, phones, and accessories.\",\n  \"specifications\": {\n    \"Output\": \"65 W USB-C PD\",\n    \"Ports\": \"2 USB-C + 1 USB-A\",\n    \"Input\": \"100-240V\",\n    \"Warranty\": \"2 years\"\n  },\n  \"quick_start\": [\n    \"Fit the correct regional plug until it clicks.\",\n    \"Connect highest-power device to USB-C port 1.\",\n    \"Check that the wall outlet is undamaged and compatible.\"\n  ],\n  \"how_to_use\": [\n    \"Disconnect before changing plug heads.\",\n    \"Use certified cables appropriate for device power requirements.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"TRV-E120\",\n      \"meaning\": \"Power negotiation failed\",\n      \"resolution\": \"Reconnect cable and use a certified USB-C PD cable.\"\n    },\n    {\n      \"code\": \"TRV-E236\",\n      \"meaning\": \"Temperature protection active\",\n      \"resolution\": \"Unplug, let charger cool, and reduce connected load.\"\n    },\n    {\n      \"code\": \"TRV-E349\",\n      \"meaning\": \"Plug head not locked\",\n      \"resolution\": \"Remove and refit the plug head until fully engaged.\"\n    }\n  ],\n  \"variants\": [],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Mobility\",\n      \"Travel Accessories\",\n      \"RouteCharge 65\"\n    ],\n    \"has_variant_children\": false\n  }\n}",
+    "metadata": {
+      "product_id": "MOT-702",
+      "product_name": "RouteCharge 65",
+      "category": "Mobility",
+      "subcategory": "Travel Accessories",
+      "manufacturer": "Northline Mobility",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Home Appliances\",\n  \"subcategory\": \"Kitchen\",\n  \"product_id\": \"APK-801\",\n  \"product_name\": \"BrewCraft Duo\",\n  \"manufacturer\": \"Harborline Appliances\",\n  \"starting_price_usd\": \"$189\",\n  \"description\": \"A dual-mode coffee maker with drip and single-serve functions, programmable start, strength control, and cleaning reminders.\",\n  \"specifications\": {\n    \"Capacity\": \"1.5 L carafe\",\n    \"Modes\": \"Drip / single serve\",\n    \"Power\": \"1450 W\",\n    \"Warranty\": \"2 years\"\n  },\n  \"quick_start\": [\n    \"Rinse removable parts and run one water-only cycle.\",\n    \"Set local time and preferred strength.\",\n    \"For scheduled brew, prepare water and grounds before bedtime.\"\n  ],\n  \"how_to_use\": [\n    \"Use single-serve mode with the correct adapter.\",\n    \"Run cleaning cycle when the maintenance alert appears.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"KIT-E101\",\n      \"meaning\": \"Water level too low\",\n      \"resolution\": \"Fill reservoir above the minimum mark.\"\n    },\n    {\n      \"code\": \"KIT-E223\",\n      \"meaning\": \"Carafe not detected\",\n      \"resolution\": \"Center carafe and clean the warming plate.\"\n    },\n    {\n      \"code\": \"KIT-E347\",\n      \"meaning\": \"Descale required\",\n      \"resolution\": \"Run the guided descale cycle before brewing again.\"\n    }\n  ],\n  \"variants\": [\n    {\n      \"variant_id\": \"APK-801-G\",\n      \"variant_name\": \"Glass Carafe\",\n      \"price_usd\": \"$189\",\n      \"description\": \"Heated glass carafe version.\"\n    },\n    {\n      \"variant_id\": \"APK-801-T\",\n      \"variant_name\": \"Thermal Carafe\",\n      \"price_usd\": \"$219\",\n      \"description\": \"Insulated thermal carafe version.\"\n    }\n  ],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Home Appliances\",\n      \"Kitchen\",\n      \"BrewCraft Duo\"\n    ],\n    \"has_variant_children\": true\n  }\n}",
+    "metadata": {
+      "product_id": "APK-801",
+      "product_name": "BrewCraft Duo",
+      "category": "Home Appliances",
+      "subcategory": "Kitchen",
+      "manufacturer": "Harborline Appliances",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Home Appliances\",\n  \"subcategory\": \"Kitchen\",\n  \"product_id\": \"APK-802\",\n  \"product_name\": \"FreshVault 12\",\n  \"manufacturer\": \"Harborline Appliances\",\n  \"starting_price_usd\": \"$599\",\n  \"description\": \"A compact 12-bottle preservation cabinet with adjustable temperature zones, humidity display, and door-open notifications.\",\n  \"specifications\": {\n    \"Capacity\": \"12 bottles\",\n    \"Zones\": \"Dual temperature\",\n    \"Range\": \"5-18 C\",\n    \"Warranty\": \"3 years\"\n  },\n  \"quick_start\": [\n    \"Place on a level surface with rear ventilation clearance.\",\n    \"Allow two hours of stabilization before loading.\",\n    \"Set upper and lower zone targets, then enable door alerts.\"\n  ],\n  \"how_to_use\": [\n    \"Arrange bottles without blocking internal airflow.\",\n    \"Review temperature history after a power interruption.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"KIT-E134\",\n      \"meaning\": \"Door open too long\",\n      \"resolution\": \"Close door fully and inspect gasket alignment.\"\n    },\n    {\n      \"code\": \"KIT-E251\",\n      \"meaning\": \"Zone sensor fault\",\n      \"resolution\": \"Restart appliance and request service if fault returns.\"\n    },\n    {\n      \"code\": \"KIT-E369\",\n      \"meaning\": \"Compressor protection delay\",\n      \"resolution\": \"Wait for delay to finish before changing target again.\"\n    }\n  ],\n  \"variants\": [],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Home Appliances\",\n      \"Kitchen\",\n      \"FreshVault 12\"\n    ],\n    \"has_variant_children\": false\n  }\n}",
+    "metadata": {
+      "product_id": "APK-802",
+      "product_name": "FreshVault 12",
+      "category": "Home Appliances",
+      "subcategory": "Kitchen",
+      "manufacturer": "Harborline Appliances",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Home Appliances\",\n  \"subcategory\": \"Cleaning\",\n  \"product_id\": \"APC-901\",\n  \"product_name\": \"CleanSweep R3\",\n  \"manufacturer\": \"Harborline Appliances\",\n  \"starting_price_usd\": \"$429\",\n  \"description\": \"A robot vacuum for hard floors and low-pile carpets, with room mapping, no-go zones, scheduled runs, and washable filter.\",\n  \"specifications\": {\n    \"Runtime\": \"150 minutes\",\n    \"Bin\": \"0.45 L\",\n    \"Maps\": \"Up to 5 floors\",\n    \"Warranty\": \"2 years\"\n  },\n  \"quick_start\": [\n    \"Place dock against a clear wall and charge fully.\",\n    \"Map each floor with cords and loose objects removed.\",\n    \"Set no-go zones for stairs, cables, and pet areas.\"\n  ],\n  \"how_to_use\": [\n    \"Choose rooms or a whole-floor task.\",\n    \"Empty bin after major runs and dry mop pad after use.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"CLN-E101\",\n      \"meaning\": \"Robot stuck\",\n      \"resolution\": \"Clear obstacle and resume from open floor.\"\n    },\n    {\n      \"code\": \"CLN-E218\",\n      \"meaning\": \"Dock not found\",\n      \"resolution\": \"Check dock power and approach path.\"\n    },\n    {\n      \"code\": \"CLN-E356\",\n      \"meaning\": \"Brush jam\",\n      \"resolution\": \"Remove hair or thread from brush and end caps.\"\n    }\n  ],\n  \"variants\": [\n    {\n      \"variant_id\": \"APC-901-V\",\n      \"variant_name\": \"Vacuum\",\n      \"price_usd\": \"$429\",\n      \"description\": \"Vacuum-only unit.\"\n    },\n    {\n      \"variant_id\": \"APC-901-M\",\n      \"variant_name\": \"Vacuum + Mop\",\n      \"price_usd\": \"$499\",\n      \"description\": \"Adds detachable controlled-flow mop module.\"\n    }\n  ],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Home Appliances\",\n      \"Cleaning\",\n      \"CleanSweep R3\"\n    ],\n    \"has_variant_children\": true\n  }\n}",
+    "metadata": {
+      "product_id": "APC-901",
+      "product_name": "CleanSweep R3",
+      "category": "Home Appliances",
+      "subcategory": "Cleaning",
+      "manufacturer": "Harborline Appliances",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Home Appliances\",\n  \"subcategory\": \"Cleaning\",\n  \"product_id\": \"APC-902\",\n  \"product_name\": \"SteamMate S1\",\n  \"manufacturer\": \"Harborline Appliances\",\n  \"starting_price_usd\": \"$159\",\n  \"description\": \"A compact garment steamer with quick heat-up, removable water tank, and auto-off protection for household clothing care.\",\n  \"specifications\": {\n    \"Heat-up\": \"35 seconds\",\n    \"Tank\": \"220 ml\",\n    \"Steam modes\": \"2\",\n    \"Warranty\": \"1 year\"\n  },\n  \"quick_start\": [\n    \"Fill tank with clean water and lock it in place.\",\n    \"Power on while upright and wait for ready indicator.\",\n    \"Test steam away from garments first.\"\n  ],\n  \"how_to_use\": [\n    \"Keep fabric taut and move slowly from top to bottom.\",\n    \"Empty tank after use and allow unit to cool upright.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"CLN-E125\",\n      \"meaning\": \"Water tank missing\",\n      \"resolution\": \"Refit tank until it clicks.\"\n    },\n    {\n      \"code\": \"CLN-E242\",\n      \"meaning\": \"Mineral buildup\",\n      \"resolution\": \"Use the approved cleaning process; do not use vinegar.\"\n    },\n    {\n      \"code\": \"CLN-E371\",\n      \"meaning\": \"Overheat protection\",\n      \"resolution\": \"Power off, let cool, and inspect air vents.\"\n    }\n  ],\n  \"variants\": [],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Home Appliances\",\n      \"Cleaning\",\n      \"SteamMate S1\"\n    ],\n    \"has_variant_children\": false\n  }\n}",
+    "metadata": {
+      "product_id": "APC-902",
+      "product_name": "SteamMate S1",
+      "category": "Home Appliances",
+      "subcategory": "Cleaning",
+      "manufacturer": "Harborline Appliances",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Home Appliances\",\n  \"subcategory\": \"Wellness\",\n  \"product_id\": \"APW-1001\",\n  \"product_name\": \"AirPure Cube\",\n  \"manufacturer\": \"Harborline Appliances\",\n  \"starting_price_usd\": \"$279\",\n  \"description\": \"A HEPA air purifier for bedrooms and workspaces, with particle sensing, automatic fan speed, and filter-life reporting.\",\n  \"specifications\": {\n    \"Coverage\": \"Up to 55 m2\",\n    \"Filter\": \"HEPA H13 + carbon\",\n    \"Noise\": \"24-52 dB\",\n    \"Warranty\": \"2 years\"\n  },\n  \"quick_start\": [\n    \"Remove filter packaging before first use.\",\n    \"Place 30 cm from walls or furniture.\",\n    \"Select Auto mode and allow 20 minutes for baseline reading.\"\n  ],\n  \"how_to_use\": [\n    \"Use Sleep mode overnight for lower noise.\",\n    \"Replace filter only when prompted or airflow falls noticeably.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"AIR-E101\",\n      \"meaning\": \"Filter not detected\",\n      \"resolution\": \"Remove packaging and reseat filter panel.\"\n    },\n    {\n      \"code\": \"AIR-E231\",\n      \"meaning\": \"Particle sensor dirty\",\n      \"resolution\": \"Clean sensor inlet with dry soft brush.\"\n    },\n    {\n      \"code\": \"AIR-E358\",\n      \"meaning\": \"Airflow reduced\",\n      \"resolution\": \"Inspect filter condition and intake clearance.\"\n    }\n  ],\n  \"variants\": [\n    {\n      \"variant_id\": \"APW-1001-H\",\n      \"variant_name\": \"Home\",\n      \"price_usd\": \"$279\",\n      \"description\": \"Standard filter and display.\"\n    },\n    {\n      \"variant_id\": \"APW-1001-A\",\n      \"variant_name\": \"Allergy\",\n      \"price_usd\": \"$319\",\n      \"description\": \"Adds enhanced carbon filter and pollen mode.\"\n    }\n  ],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Home Appliances\",\n      \"Wellness\",\n      \"AirPure Cube\"\n    ],\n    \"has_variant_children\": true\n  }\n}",
+    "metadata": {
+      "product_id": "APW-1001",
+      "product_name": "AirPure Cube",
+      "category": "Home Appliances",
+      "subcategory": "Wellness",
+      "manufacturer": "Harborline Appliances",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  },
+  {
+    "text": "{\n  \"category\": \"Home Appliances\",\n  \"subcategory\": \"Wellness\",\n  \"product_id\": \"APW-1002\",\n  \"product_name\": \"SleepLight Rhythm\",\n  \"manufacturer\": \"Harborline Appliances\",\n  \"starting_price_usd\": \"$119\",\n  \"description\": \"A bedside circadian light with timed warm-to-cool transitions, wake-up routines, and a simple local control dial.\",\n  \"specifications\": {\n    \"Brightness\": \"1-900 lumens\",\n    \"Color range\": \"1800-6500 K\",\n    \"Power\": \"USB-C\",\n    \"Warranty\": \"2 years\"\n  },\n  \"quick_start\": [\n    \"Place on a stable bedside surface.\",\n    \"Set local time and preferred wake window.\",\n    \"Create a gentle morning routine before enabling it.\"\n  ],\n  \"how_to_use\": [\n    \"Turn the dial for brightness and press to change mode.\",\n    \"Use wind-down routine in the hour before sleep.\"\n  ],\n  \"error_codes\": [\n    {\n      \"code\": \"AIR-E117\",\n      \"meaning\": \"Clock not set\",\n      \"resolution\": \"Set time in the companion app or local menu.\"\n    },\n    {\n      \"code\": \"AIR-E247\",\n      \"meaning\": \"Routine skipped\",\n      \"resolution\": \"Check schedule, time zone, and power connection.\"\n    },\n    {\n      \"code\": \"AIR-E374\",\n      \"meaning\": \"LED temperature warning\",\n      \"resolution\": \"Reduce brightness, allow cooling, and check ventilation.\"\n    }\n  ],\n  \"variants\": [],\n  \"metadata\": {\n    \"hierarchy_path\": [\n      \"Home Appliances\",\n      \"Wellness\",\n      \"SleepLight Rhythm\"\n    ],\n    \"has_variant_children\": false\n  }\n}",
+    "metadata": {
+      "product_id": "APW-1002",
+      "product_name": "SleepLight Rhythm",
+      "category": "Home Appliances",
+      "subcategory": "Wellness",
+      "manufacturer": "Harborline Appliances",
+      "source": "Hierarchical_Product_Catalog.json"
+    }
+  }
+]

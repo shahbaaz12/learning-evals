@@ -1,0 +1,5 @@
+{
+  "id": "ORDER1",
+  "question": "How do I set up AeroTherm X1? Give the quick-start steps in order.",
+  "expected_answer": "Switch off HVAC control power.\nConnect labelled terminals and restore power.\nRun the compatibility and sensor test."
+}

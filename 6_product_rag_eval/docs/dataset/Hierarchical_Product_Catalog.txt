@@ -1,0 +1,676 @@
+HIERARCHICAL PRODUCT CATALOG
+
+This corpus contains 20 products organized as Category > Subcategory > Product > Variant. Some products intentionally have no variant child.
+
+==============================================================================
+AeroTherm X1
+PATH: Home Systems > Climate Control > AeroTherm X1
+PRODUCT ID: HCL-101
+MANUFACTURER: HelioWorks Climate
+STARTING PRICE: $249
+
+DESCRIPTION
+A room-scale smart heat-pump controller for quiet, schedule-based heating and cooling in apartments and small offices.
+
+SPECIFICATIONS
+Coverage: Up to 45 m2
+Power: 24V control circuit
+Connectivity: Wi-Fi 6 / Matter
+Warranty: 3 years
+
+VARIANTS
+HCL-101-S: Standard; $249; Single-zone controller with wall sensor.
+HCL-101-P: Plus; $319; Adds remote occupancy sensor and humidity control.
+
+QUICK START
+1. Switch off HVAC control power.
+2. Connect labelled terminals and restore power.
+3. Run the compatibility and sensor test.
+
+HOW TO USE
+- Choose a schedule or set a temporary target.
+- Review runtime trends before changing limits.
+
+ERROR CODES AND RESOLUTION
+CLM-E101: Sensor unavailable. Resolution: Reseat the wall sensor and run Sensor Test.
+CLM-E214: Safety delay active. Resolution: Wait five minutes; do not switch modes repeatedly.
+CLM-E330: Zone conflict. Resolution: Check schedule overlap and the heating/cooling deadband.
+
+==============================================================================
+BreezeSense V2
+PATH: Home Systems > Climate Control > BreezeSense V2
+PRODUCT ID: HCL-102
+MANUFACTURER: HelioWorks Climate
+STARTING PRICE: $189
+
+DESCRIPTION
+A connected ventilation controller that balances fresh-air intake, fan speed, and humidity targets for a single indoor zone.
+
+SPECIFICATIONS
+Airflow: 90-220 m3/h
+Power: 100-240V AC
+Connectivity: Wi-Fi 5
+Warranty: 2 years
+
+VARIANTS
+HCL-102-B: Base; $189; Manual fan curves and app alerts.
+HCL-102-A: Auto; $239; Adds CO2-driven fan control and weekly reports.
+
+QUICK START
+1. Mount away from direct exhaust flow.
+2. Connect fan and power leads to labelled terminals.
+3. Set preferred CO2 and humidity thresholds.
+
+HOW TO USE
+- Use Auto mode for normal operation.
+- Select Boost mode for short high-occupancy periods.
+
+ERROR CODES AND RESOLUTION
+CLM-E118: Airflow sensor blocked. Resolution: Clean the intake grille and restart calibration.
+CLM-E227: Fan response timeout. Resolution: Check breaker, wiring, and fan service switch.
+CLM-E344: Humidity reading unstable. Resolution: Move the sensor away from steam or open windows.
+
+==============================================================================
+Sentinel Lock S4
+PATH: Home Systems > Security and Access > Sentinel Lock S4
+PRODUCT ID: HSC-201
+MANUFACTURER: Aegis Entry Systems
+STARTING PRICE: $219
+
+DESCRIPTION
+A keypad smart deadbolt for residential and small-office doors, with role-based entry codes and an audit trail.
+
+SPECIFICATIONS
+Codes: Up to 100
+Power: 4 AA batteries
+Door thickness: 35-55 mm
+Warranty: 3 years
+
+VARIANTS
+HSC-201-K: Keypad; $219; Keypad, mechanical key, and mobile unlock.
+HSC-201-F: Keypad + Fob; $269; Adds encrypted fob access for staff or guests.
+
+QUICK START
+1. Install with the door open and bolt fully aligned.
+2. Create owner and backup codes.
+3. Test lock, unlock, and auto-lock before closing the door.
+
+HOW TO USE
+- Use temporary codes for visitors.
+- Review access history after a security event.
+
+ERROR CODES AND RESOLUTION
+SEC-E101: Bolt obstructed. Resolution: Open the door and correct strike alignment.
+SEC-E205: Code rejected. Resolution: Confirm that the code is active and not expired.
+SEC-E318: Battery critical. Resolution: Use the mechanical key and replace all batteries.
+
+==============================================================================
+WatchTower Cam 4K
+PATH: Home Systems > Security and Access > WatchTower Cam 4K
+PRODUCT ID: HSC-202
+MANUFACTURER: Aegis Entry Systems
+STARTING PRICE: $329
+
+DESCRIPTION
+A 4K entry camera with person detection, local recording, privacy masks, and administrator-only clip export.
+
+SPECIFICATIONS
+Video: 4K HDR
+Night vision: Up to 10 m
+Storage: Local microSD / recorder
+Weather rating: IP65
+
+VARIANTS
+HSC-202-I: Indoor; $329; Desk or wall mount with privacy shutter.
+HSC-202-O: Outdoor; $369; Weather-sealed body and PoE option.
+
+QUICK START
+1. Mount with a clear view and stable network signal.
+2. Apply updates before enabling recording.
+3. Draw privacy masks before defining motion zones.
+
+HOW TO USE
+- Review Events for detected activity.
+- Export only required clips and keep access roles current.
+
+ERROR CODES AND RESOLUTION
+SEC-E142: Stream unavailable. Resolution: Check power, network link, and recorder status.
+SEC-E253: Storage nearly full. Resolution: Archive required clips or revise retention policy.
+SEC-E367: Privacy mask conflict. Resolution: Separate the motion zone from masked pixels.
+
+==============================================================================
+AquaGuard Flow
+PATH: Home Systems > Water Protection > AquaGuard Flow
+PRODUCT ID: HWT-301
+MANUFACTURER: ClearFlow Technologies
+STARTING PRICE: $299
+
+DESCRIPTION
+A whole-home flow monitor that identifies sustained unusual water use and can notify designated household members.
+
+SPECIFICATIONS
+Pipe sizes: 15-32 mm
+Detection: Continuous flow analysis
+Power: USB-C / adapter
+Warranty: 2 years
+
+VARIANTS
+HWT-301-M: Monitor; $299; Monitoring and alerting only.
+HWT-301-S: Shutoff Kit; $469; Adds installer-fitted automatic shutoff valve.
+
+QUICK START
+1. Fit the sensor around the labelled supply pipe.
+2. Run a baseline flow calibration with all fixtures closed.
+3. Name the monitored property and alert recipients.
+
+HOW TO USE
+- Review Flow History before classifying a use as unusual.
+- Use Maintenance Mode during planned plumbing work.
+
+ERROR CODES AND RESOLUTION
+WTR-E101: Active flow alert. Resolution: Inspect fixtures and appliances for continuous water use.
+WTR-E238: Calibration incomplete. Resolution: Repeat calibration when no water is running.
+WTR-E355: Valve response failed. Resolution: Use manual override and contact a qualified plumber.
+
+==============================================================================
+LeakNode Mini
+PATH: Home Systems > Water Protection > LeakNode Mini
+PRODUCT ID: HWT-302
+MANUFACTURER: ClearFlow Technologies
+STARTING PRICE: $39
+
+DESCRIPTION
+A compact battery leak sensor for cabinets, water heaters, washing machines, and other localized risk points.
+
+SPECIFICATIONS
+Battery: CR2450 coin cell
+Alert: Local alarm + app
+Temperature: 0-50 C
+Warranty: 1 year
+
+VARIANTS
+No variants.
+
+QUICK START
+1. Place contacts flat on a dry surface.
+2. Label the exact room and appliance in the app.
+3. Test with a few drops of clean water, then dry contacts.
+
+HOW TO USE
+- Treat every wet-sensor alert as urgent.
+- Replace the battery when the app prompts you.
+
+ERROR CODES AND RESOLUTION
+WTR-E109: Sensor wet. Resolution: Resolve the leak, dry contacts, then reset.
+WTR-E219: Battery low. Resolution: Replace with the specified coin cell.
+WTR-E341: Connection weak. Resolution: Move the hub or add a compatible repeater.
+
+==============================================================================
+ViewPanel 55
+PATH: Office Technology > Collaboration > ViewPanel 55
+PRODUCT ID: OFC-401
+MANUFACTURER: Meridian Workplace
+STARTING PRICE: $1,499
+
+DESCRIPTION
+A 55-inch collaboration display for meeting rooms, with wireless presentation, digital whiteboard, and managed guest access.
+
+SPECIFICATIONS
+Display: 55-inch 4K
+Inputs: USB-C, HDMI, Wi-Fi
+Touch: 20-point
+Warranty: 3 years
+
+VARIANTS
+OFC-401-W: Wall; $1,499; Wall-mount package for fixed rooms.
+OFC-401-M: Mobile; $1,699; Adds rolling stand and cable tray.
+
+QUICK START
+1. Mount securely or lock the mobile stand.
+2. Connect network and register the room name.
+3. Set guest-presentation and whiteboard retention policies.
+
+HOW TO USE
+- Start a session from the Room panel.
+- Clear the whiteboard after each confidential meeting.
+
+ERROR CODES AND RESOLUTION
+COL-E101: No display input. Resolution: Check source cable and selected input.
+COL-E212: Wireless pairing failed. Resolution: Confirm guest mode and network isolation settings.
+COL-E329: Touch calibration required. Resolution: Run calibration from Admin Settings.
+
+==============================================================================
+VoiceDock Pro
+PATH: Office Technology > Collaboration > VoiceDock Pro
+PRODUCT ID: OFC-402
+MANUFACTURER: Meridian Workplace
+STARTING PRICE: $279
+
+DESCRIPTION
+A USB and Bluetooth speakerphone for small meeting spaces, with beamforming microphones and call-quality diagnostics.
+
+SPECIFICATIONS
+Microphones: 6 beamforming
+Range: Up to 5 m
+Battery: 18 hours
+Warranty: 2 years
+
+VARIANTS
+No variants.
+
+QUICK START
+1. Place centrally on a stable table.
+2. Connect by USB for managed-room use or pair by Bluetooth.
+3. Run the microphone test before the first meeting.
+
+HOW TO USE
+- Press Mute to disable microphones locally.
+- Use Diagnostics after repeated call-quality complaints.
+
+ERROR CODES AND RESOLUTION
+COL-E115: Microphone muted. Resolution: Check physical Mute button and meeting-app mute state.
+COL-E245: Bluetooth pairing rejected. Resolution: Remove old pairing records and pair again.
+COL-E372: Echo detected. Resolution: Move device away from display speakers and reduce volume.
+
+==============================================================================
+PowerCore Desk 8
+PATH: Office Technology > Power and Connectivity > PowerCore Desk 8
+PRODUCT ID: OFP-501
+MANUFACTURER: Meridian Workplace
+STARTING PRICE: $149
+
+DESCRIPTION
+A managed desk power unit with eight AC outlets, USB-C charging, individual outlet names, and energy-use reporting.
+
+SPECIFICATIONS
+Outlets: 8 AC + 2 USB-C
+Max load: 1800 W
+Monitoring: Per outlet
+Warranty: 2 years
+
+VARIANTS
+OFP-501-D: Desk; $149; Clamp mount and 1.8 m cord.
+OFP-501-R: Rack; $179; 19-inch rack ears and rear outlet layout.
+
+QUICK START
+1. Connect directly to a grounded wall outlet.
+2. Label each outlet by connected equipment.
+3. Set schedules only for devices that can safely lose power.
+
+HOW TO USE
+- Review standby usage weekly.
+- Use remote restart only for approved equipment.
+
+ERROR CODES AND RESOLUTION
+PWR-E101: Overload protection active. Resolution: Remove high-wattage devices and press Reset.
+PWR-E224: Outlet unavailable. Resolution: Enable the named outlet and inspect device power.
+PWR-E339: Surge protection expired. Resolution: Replace the unit; protection is no longer reliable.
+
+==============================================================================
+LinkMesh 6E
+PATH: Office Technology > Power and Connectivity > LinkMesh 6E
+PRODUCT ID: OFP-502
+MANUFACTURER: Meridian Workplace
+STARTING PRICE: $229
+
+DESCRIPTION
+A Wi-Fi 6E mesh node for managed offices, providing wired uplink, guest network support, and device-health reporting.
+
+SPECIFICATIONS
+Wi-Fi: Tri-band Wi-Fi 6E
+Ethernet: 2.5 GbE
+Coverage: Up to 180 m2
+Warranty: 3 years
+
+VARIANTS
+OFP-502-N: Node; $229; Single mesh expansion node.
+OFP-502-2P: 2-Pack; $419; Two nodes for multi-room coverage.
+
+QUICK START
+1. Connect the first node to the router by Ethernet.
+2. Place additional nodes within reliable signal range.
+3. Create separate staff and guest network profiles.
+
+HOW TO USE
+- Check mesh health before moving a node.
+- Run a network test after firmware updates.
+
+ERROR CODES AND RESOLUTION
+NET-E101: Uplink disconnected. Resolution: Check Ethernet connection and router port.
+NET-E216: Node placement poor. Resolution: Move the node closer to a powered mesh node.
+NET-E348: Guest network unavailable. Resolution: Review VLAN and guest-access settings.
+
+==============================================================================
+VoltRide City
+PATH: Mobility > E-Bikes > VoltRide City
+PRODUCT ID: MOB-601
+MANUFACTURER: Northline Mobility
+STARTING PRICE: $1,299
+
+DESCRIPTION
+A commuter e-bike with pedal assist, integrated lights, removable battery, and service reminders for everyday city travel.
+
+SPECIFICATIONS
+Motor: 250 W hub motor
+Range: Up to 65 km
+Battery: 36V 10Ah
+Weight: 22 kg
+
+VARIANTS
+MOB-601-C: City; $1,299; Upright handlebar and rear rack.
+MOB-601-T: Touring; $1,549; Adds suspension fork and extended battery.
+
+QUICK START
+1. Charge the battery indoors using the supplied charger.
+2. Adjust saddle height and test brake levers.
+3. Pair the bike app and record the frame number.
+
+HOW TO USE
+- Start in low assist until familiar with handling.
+- Lock battery and frame when parked.
+
+ERROR CODES AND RESOLUTION
+BIK-E101: Motor assist unavailable. Resolution: Check battery charge and seat the battery fully.
+BIK-E235: Brake sensor active. Resolution: Release brake levers and inspect for damage.
+BIK-E362: Service interval reached. Resolution: Book a service inspection before intensive use.
+
+==============================================================================
+CargoGlide 2
+PATH: Mobility > E-Bikes > CargoGlide 2
+PRODUCT ID: MOB-602
+MANUFACTURER: Northline Mobility
+STARTING PRICE: $2,099
+
+DESCRIPTION
+A long-tail cargo e-bike for shopping, child-seat compatible loads, and short local deliveries, with reinforced frame and load-aware assist.
+
+SPECIFICATIONS
+Motor: 500 W mid-drive
+Load rating: 180 kg total
+Range: Up to 80 km
+Brakes: Hydraulic disc
+
+VARIANTS
+No variants.
+
+QUICK START
+1. Have a dealer check frame, brakes, and cargo rail fittings.
+2. Charge battery fully and calibrate load-aware assist.
+3. Install approved cargo accessories only.
+
+HOW TO USE
+- Secure load low and evenly on the frame.
+- Use lower assist when starting with a heavy load.
+
+ERROR CODES AND RESOLUTION
+BIK-E125: Load sensor unavailable. Resolution: Remove load, restart, and schedule dealer inspection.
+BIK-E248: Battery temperature high. Resolution: Stop riding, shade the battery, and allow it to cool.
+BIK-E381: Brake pad worn. Resolution: Replace pads before further cargo use.
+
+==============================================================================
+PackTrack One
+PATH: Mobility > Travel Accessories > PackTrack One
+PRODUCT ID: MOT-701
+MANUFACTURER: Northline Mobility
+STARTING PRICE: $69
+
+DESCRIPTION
+A compact Bluetooth travel tag with last-seen location, separation alerts, and replaceable battery for luggage and equipment cases.
+
+SPECIFICATIONS
+Network: Bluetooth LE
+Battery: CR2032
+Water rating: IP67
+Warranty: 1 year
+
+VARIANTS
+MOT-701-T: Tag; $69; Single tracking tag.
+MOT-701-4: Four Pack; $229; Four tags with labeled holders.
+
+QUICK START
+1. Remove battery tab and pair from the travel app.
+2. Name the item and set a separation alert distance.
+3. Test the sound function before travel.
+
+HOW TO USE
+- Use Last Seen as an approximate location, not live GPS.
+- Replace battery when low-battery notification appears.
+
+ERROR CODES AND RESOLUTION
+TRV-E101: Tag not found. Resolution: Enable Bluetooth and move within nearby range.
+TRV-E208: Sound unavailable. Resolution: Replace battery and confirm the tag is paired.
+TRV-E326: Location stale. Resolution: Check phone network and wait for a participating device update.
+
+==============================================================================
+RouteCharge 65
+PATH: Mobility > Travel Accessories > RouteCharge 65
+PRODUCT ID: MOT-702
+MANUFACTURER: Northline Mobility
+STARTING PRICE: $79
+
+DESCRIPTION
+A 65 W USB-C travel charger with interchangeable regional plugs and intelligent power allocation for laptops, phones, and accessories.
+
+SPECIFICATIONS
+Output: 65 W USB-C PD
+Ports: 2 USB-C + 1 USB-A
+Input: 100-240V
+Warranty: 2 years
+
+VARIANTS
+No variants.
+
+QUICK START
+1. Fit the correct regional plug until it clicks.
+2. Connect highest-power device to USB-C port 1.
+3. Check that the wall outlet is undamaged and compatible.
+
+HOW TO USE
+- Disconnect before changing plug heads.
+- Use certified cables appropriate for device power requirements.
+
+ERROR CODES AND RESOLUTION
+TRV-E120: Power negotiation failed. Resolution: Reconnect cable and use a certified USB-C PD cable.
+TRV-E236: Temperature protection active. Resolution: Unplug, let charger cool, and reduce connected load.
+TRV-E349: Plug head not locked. Resolution: Remove and refit the plug head until fully engaged.
+
+==============================================================================
+BrewCraft Duo
+PATH: Home Appliances > Kitchen > BrewCraft Duo
+PRODUCT ID: APK-801
+MANUFACTURER: Harborline Appliances
+STARTING PRICE: $189
+
+DESCRIPTION
+A dual-mode coffee maker with drip and single-serve functions, programmable start, strength control, and cleaning reminders.
+
+SPECIFICATIONS
+Capacity: 1.5 L carafe
+Modes: Drip / single serve
+Power: 1450 W
+Warranty: 2 years
+
+VARIANTS
+APK-801-G: Glass Carafe; $189; Heated glass carafe version.
+APK-801-T: Thermal Carafe; $219; Insulated thermal carafe version.
+
+QUICK START
+1. Rinse removable parts and run one water-only cycle.
+2. Set local time and preferred strength.
+3. For scheduled brew, prepare water and grounds before bedtime.
+
+HOW TO USE
+- Use single-serve mode with the correct adapter.
+- Run cleaning cycle when the maintenance alert appears.
+
+ERROR CODES AND RESOLUTION
+KIT-E101: Water level too low. Resolution: Fill reservoir above the minimum mark.
+KIT-E223: Carafe not detected. Resolution: Center carafe and clean the warming plate.
+KIT-E347: Descale required. Resolution: Run the guided descale cycle before brewing again.
+
+==============================================================================
+FreshVault 12
+PATH: Home Appliances > Kitchen > FreshVault 12
+PRODUCT ID: APK-802
+MANUFACTURER: Harborline Appliances
+STARTING PRICE: $599
+
+DESCRIPTION
+A compact 12-bottle preservation cabinet with adjustable temperature zones, humidity display, and door-open notifications.
+
+SPECIFICATIONS
+Capacity: 12 bottles
+Zones: Dual temperature
+Range: 5-18 C
+Warranty: 3 years
+
+VARIANTS
+No variants.
+
+QUICK START
+1. Place on a level surface with rear ventilation clearance.
+2. Allow two hours of stabilization before loading.
+3. Set upper and lower zone targets, then enable door alerts.
+
+HOW TO USE
+- Arrange bottles without blocking internal airflow.
+- Review temperature history after a power interruption.
+
+ERROR CODES AND RESOLUTION
+KIT-E134: Door open too long. Resolution: Close door fully and inspect gasket alignment.
+KIT-E251: Zone sensor fault. Resolution: Restart appliance and request service if fault returns.
+KIT-E369: Compressor protection delay. Resolution: Wait for delay to finish before changing target again.
+
+==============================================================================
+CleanSweep R3
+PATH: Home Appliances > Cleaning > CleanSweep R3
+PRODUCT ID: APC-901
+MANUFACTURER: Harborline Appliances
+STARTING PRICE: $429
+
+DESCRIPTION
+A robot vacuum for hard floors and low-pile carpets, with room mapping, no-go zones, scheduled runs, and washable filter.
+
+SPECIFICATIONS
+Runtime: 150 minutes
+Bin: 0.45 L
+Maps: Up to 5 floors
+Warranty: 2 years
+
+VARIANTS
+APC-901-V: Vacuum; $429; Vacuum-only unit.
+APC-901-M: Vacuum + Mop; $499; Adds detachable controlled-flow mop module.
+
+QUICK START
+1. Place dock against a clear wall and charge fully.
+2. Map each floor with cords and loose objects removed.
+3. Set no-go zones for stairs, cables, and pet areas.
+
+HOW TO USE
+- Choose rooms or a whole-floor task.
+- Empty bin after major runs and dry mop pad after use.
+
+ERROR CODES AND RESOLUTION
+CLN-E101: Robot stuck. Resolution: Clear obstacle and resume from open floor.
+CLN-E218: Dock not found. Resolution: Check dock power and approach path.
+CLN-E356: Brush jam. Resolution: Remove hair or thread from brush and end caps.
+
+==============================================================================
+SteamMate S1
+PATH: Home Appliances > Cleaning > SteamMate S1
+PRODUCT ID: APC-902
+MANUFACTURER: Harborline Appliances
+STARTING PRICE: $159
+
+DESCRIPTION
+A compact garment steamer with quick heat-up, removable water tank, and auto-off protection for household clothing care.
+
+SPECIFICATIONS
+Heat-up: 35 seconds
+Tank: 220 ml
+Steam modes: 2
+Warranty: 1 year
+
+VARIANTS
+No variants.
+
+QUICK START
+1. Fill tank with clean water and lock it in place.
+2. Power on while upright and wait for ready indicator.
+3. Test steam away from garments first.
+
+HOW TO USE
+- Keep fabric taut and move slowly from top to bottom.
+- Empty tank after use and allow unit to cool upright.
+
+ERROR CODES AND RESOLUTION
+CLN-E125: Water tank missing. Resolution: Refit tank until it clicks.
+CLN-E242: Mineral buildup. Resolution: Use the approved cleaning process; do not use vinegar.
+CLN-E371: Overheat protection. Resolution: Power off, let cool, and inspect air vents.
+
+==============================================================================
+AirPure Cube
+PATH: Home Appliances > Wellness > AirPure Cube
+PRODUCT ID: APW-1001
+MANUFACTURER: Harborline Appliances
+STARTING PRICE: $279
+
+DESCRIPTION
+A HEPA air purifier for bedrooms and workspaces, with particle sensing, automatic fan speed, and filter-life reporting.
+
+SPECIFICATIONS
+Coverage: Up to 55 m2
+Filter: HEPA H13 + carbon
+Noise: 24-52 dB
+Warranty: 2 years
+
+VARIANTS
+APW-1001-H: Home; $279; Standard filter and display.
+APW-1001-A: Allergy; $319; Adds enhanced carbon filter and pollen mode.
+
+QUICK START
+1. Remove filter packaging before first use.
+2. Place 30 cm from walls or furniture.
+3. Select Auto mode and allow 20 minutes for baseline reading.
+
+HOW TO USE
+- Use Sleep mode overnight for lower noise.
+- Replace filter only when prompted or airflow falls noticeably.
+
+ERROR CODES AND RESOLUTION
+AIR-E101: Filter not detected. Resolution: Remove packaging and reseat filter panel.
+AIR-E231: Particle sensor dirty. Resolution: Clean sensor inlet with dry soft brush.
+AIR-E358: Airflow reduced. Resolution: Inspect filter condition and intake clearance.
+
+==============================================================================
+SleepLight Rhythm
+PATH: Home Appliances > Wellness > SleepLight Rhythm
+PRODUCT ID: APW-1002
+MANUFACTURER: Harborline Appliances
+STARTING PRICE: $119
+
+DESCRIPTION
+A bedside circadian light with timed warm-to-cool transitions, wake-up routines, and a simple local control dial.
+
+SPECIFICATIONS
+Brightness: 1-900 lumens
+Color range: 1800-6500 K
+Power: USB-C
+Warranty: 2 years
+
+VARIANTS
+No variants.
+
+QUICK START
+1. Place on a stable bedside surface.
+2. Set local time and preferred wake window.
+3. Create a gentle morning routine before enabling it.
+
+HOW TO USE
+- Turn the dial for brightness and press to change mode.
+- Use wind-down routine in the hour before sleep.
+
+ERROR CODES AND RESOLUTION
+AIR-E117: Clock not set. Resolution: Set time in the companion app or local menu.
+AIR-E247: Routine skipped. Resolution: Check schedule, time zone, and power connection.
+AIR-E374: LED temperature warning. Resolution: Reduce brightness, allow cooling, and check ventilation.

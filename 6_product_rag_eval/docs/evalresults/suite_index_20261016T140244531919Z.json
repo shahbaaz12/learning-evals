@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "run_id": "20261016T140244531919Z",
+    "signature": "5f5197e1bb7562d73757e2fef9591050f0b43ee8eae9f01afbcc326d892c608c",
+    "generator": "openai/gpt-oss-120b",
+    "judge": "gemini-3.5-flash-lite",
+    "embedding_model": "nomic-ai/modernbert-embed-base",
+    "k": 1,
+    "question_count": 78,
+    "human_review": "pending",
+    "cached_stage_files_are_reused": true,
+    "minimum_request_pause": 8,
+    "libraries": {
+      "deepeval": "4.2.8",
+      "google-genai": "2.31.0",
+      "langchain-chroma": "1.1.0",
+      "sentence-transformers": "6.1.0"
+    }
+  },
+  "native_metrics_skipped_this_invocation": true,
+  "native_coverage": {
+    "deepeval_pipeline": {
+      "completed": 20,
+      "expected": 27,
+      "complete": false
+    },
+    "deepeval_generator": {
+      "completed": 2,
+      "expected": 6,
+      "complete": false
+    },
+    "deepeval_order": {
+      "completed": 2,
+      "expected": 2,
+      "complete": true
+    }
+  },
+  "reports": [
+    "baseline_judgments_20261016T140244531919Z.json",
+    "baseline_summary_20261016T140244531919Z.json",
+    "candidate_judgments_20261016T140244531919Z.json",
+    "candidate_summary_20261016T140244531919Z.json",
+    "deepeval_generator_20261016T140244531919Z.json",
+    "deepeval_order_20261016T140244531919Z.json",
+    "deepeval_pipeline_20261016T140244531919Z.json",
+    "regression_20261016T140244531919Z.json",
+    "retrieval_catalog_20261016T140244531919Z.json",
+    "retrieval_catalog_before_routing_fix_20261016T140244531919Z.json",
+    "retrieval_semantic_20261016T140244531919Z.json",
+    "safety_20261016T140244531919Z.json",
+    "safety_judgments_20261016T140244531919Z.json"
+  ],
+  "candidate_summary": {
+    "questions": 78,
+    "judged": 78,
+    "quality": {
+      "correctness": 0.9743589743589743,
+      "completeness": 0.976923076923077,
+      "faithfulness": 0.9935897435897436,
+      "answer_relevance": 0.9974358974358974,
+      "context_relevance": 0.9993589743589744,
+      "style": 1.0,
+      "order": 1.0,
+      "toxicity": 0.0,
+      "scope_adherence": 1.0
+    },
+    "api_completion_rate": 1.0,
+    "manual_retry_cases": 1,
+    "initial_completion_rate": 0.9871794871794872,
+    "citation_validity": 0.8717948717948718,
+    "statuses": {
+      "answered": 77,
+      "insufficient_context": 1
+    },
+    "latency_mean": 1.2602420358977189,
+    "latency_p50": 0.8249700000014855,
+    "latency_p95": 3.2224060949993145,
+    "retrieval_mean": 0.05115873589760994,
+    "generation_mean": 1.2075929705128938,
+    "generator_usd": 0.0150678,
+    "judge_usd": 0.0781318,
+    "generator_input_tokens": 67868,
+    "generator_output_tokens": 8146,
+    "judge_input_tokens": 74031,
+    "judge_output_tokens": 22369,
+    "generation_attempts": 79,
+    "judge_attempts": 92,
+    "unscored_judgments": 0,
+    "unknown_cost_calls": 15,
+    "ttft": null,
+    "note": "Sequential offline sample. Not a load test. TTFT is unmeasured because calls do not stream."
+  },
+  "regression": {
+    "passed": true,
+    "metrics": [
+      {
+        "metric": "correctness",
+        "baseline": 0.75,
+        "candidate": 1.0,
+        "direction": "higher",
+        "delta": 0.25,
+        "tolerance": 0.05,
+        "passed": true
+      },
+      {
+        "metric": "completeness",
+        "baseline": 0.57,
+        "candidate": 1.0,
+        "direction": "higher",
+        "delta": 0.43000000000000005,
+        "tolerance": 0.05,
+        "passed": true
+      },
+      {
+        "metric": "faithfulness",
+        "baseline": 1.0,
+        "candidate": 1.0,
+        "direction": "higher",
+        "delta": 0.0,
+        "tolerance": 0.05,
+        "passed": true
+      },
+      {
+        "metric": "answer_relevance",
+        "baseline": 1.0,
+        "candidate": 1.0,
+        "direction": "higher",
+        "delta": 0.0,
+        "tolerance": 0.05,
+        "passed": true
+      },
+      {
+        "metric": "scope_adherence",
+        "baseline": 1.0,
+        "candidate": 1.0,
+        "direction": "higher",
+        "delta": 0.0,
+        "tolerance": 0.05,
+        "passed": true
+      },
+      {
+        "metric": "toxicity",
+        "baseline": 0.0,
+        "candidate": 0.0,
+        "direction": "lower",
+        "delta": 0.0,
+        "tolerance": 0.02,
+        "passed": true
+      },
+      {
+        "metric": "citation_validity",
+        "baseline": 0.6666666666666666,
+        "candidate": 1.0,
+        "direction": "higher",
+        "delta": 0.33333333333333337,
+        "tolerance": 0.0,
+        "passed": true
+      },
+      {
+        "metric": "latency_p95",
+        "baseline": 2.2386823249980807,
+        "candidate": 5.022708649994456,
+        "direction": "lower",
+        "delta": 2.7840263249963755,
+        "tolerance": 3.0,
+        "passed": true
+      },
+      {
+        "metric": "generator_usd",
+        "baseline": 0.00095895,
+        "candidate": 0.0024502499999999997,
+        "direction": "lower",
+        "delta": 0.0014912999999999997,
+        "tolerance": 0.02,
+        "passed": true
+      }
+    ],
+    "note": "Learning tolerances, not calibrated production gates. Judge variance needs repeat-run measurement."
+  },
+  "note": "Completed locally. Hosted online tracing and production deployment are outside this learning run."
+}

@@ -1,0 +1,8 @@
+{
+  "products": 20,
+  "embedding_model": "nomic-ai/modernbert-embed-base",
+  "document_prefix": "search_document: ",
+  "query_prefix": "search_query: ",
+  "chunking": "one product per chunk",
+  "catalog_sha256": "d3ec5a56b0b6a746fe01d975ccdd212b25070f5e266f5acc7b090f8adf6bd9a4"
+}

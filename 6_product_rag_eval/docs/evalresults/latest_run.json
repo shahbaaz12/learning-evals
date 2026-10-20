@@ -1,0 +1,18 @@
+{
+  "run_id": "20261016T140244531919Z",
+  "signature": "5f5197e1bb7562d73757e2fef9591050f0b43ee8eae9f01afbcc326d892c608c",
+  "generator": "openai/gpt-oss-120b",
+  "judge": "gemini-3.5-flash-lite",
+  "embedding_model": "nomic-ai/modernbert-embed-base",
+  "k": 1,
+  "question_count": 78,
+  "human_review": "pending",
+  "cached_stage_files_are_reused": true,
+  "minimum_request_pause": 8,
+  "libraries": {
+    "deepeval": "4.2.8",
+    "google-genai": "2.31.0",
+    "langchain-chroma": "1.1.0",
+    "sentence-transformers": "6.1.0"
+  }
+}

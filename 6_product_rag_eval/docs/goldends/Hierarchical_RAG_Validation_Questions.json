@@ -1,0 +1,552 @@
+{
+  "title": "Hierarchical RAG Validation Questions",
+  "catalog": "Hierarchical_Product_Catalog.json",
+  "questions": [
+    {
+      "id": "Q1",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of AeroTherm X1?",
+      "expected_answer": "HelioWorks Climate; $249.",
+      "expected_retrieval_scope": "HCL-101"
+    },
+    {
+      "id": "Q2",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For AeroTherm X1, what does error code CLM-E101 mean and how should it be resolved?",
+      "expected_answer": "Sensor unavailable Resolution: Reseat the wall sensor and run Sensor Test.",
+      "expected_retrieval_scope": "HCL-101"
+    },
+    {
+      "id": "Q3",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Standard version of AeroTherm X1?",
+      "expected_answer": "HCL-101-S; $249.",
+      "expected_retrieval_scope": "HCL-101-S"
+    },
+    {
+      "id": "Q4",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of BreezeSense V2?",
+      "expected_answer": "HelioWorks Climate; $189.",
+      "expected_retrieval_scope": "HCL-102"
+    },
+    {
+      "id": "Q5",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For BreezeSense V2, what does error code CLM-E118 mean and how should it be resolved?",
+      "expected_answer": "Airflow sensor blocked Resolution: Clean the intake grille and restart calibration.",
+      "expected_retrieval_scope": "HCL-102"
+    },
+    {
+      "id": "Q6",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Base version of BreezeSense V2?",
+      "expected_answer": "HCL-102-B; $189.",
+      "expected_retrieval_scope": "HCL-102-B"
+    },
+    {
+      "id": "Q7",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of Sentinel Lock S4?",
+      "expected_answer": "Aegis Entry Systems; $219.",
+      "expected_retrieval_scope": "HSC-201"
+    },
+    {
+      "id": "Q8",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For Sentinel Lock S4, what does error code SEC-E101 mean and how should it be resolved?",
+      "expected_answer": "Bolt obstructed Resolution: Open the door and correct strike alignment.",
+      "expected_retrieval_scope": "HSC-201"
+    },
+    {
+      "id": "Q9",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Keypad version of Sentinel Lock S4?",
+      "expected_answer": "HSC-201-K; $219.",
+      "expected_retrieval_scope": "HSC-201-K"
+    },
+    {
+      "id": "Q10",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of WatchTower Cam 4K?",
+      "expected_answer": "Aegis Entry Systems; $329.",
+      "expected_retrieval_scope": "HSC-202"
+    },
+    {
+      "id": "Q11",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For WatchTower Cam 4K, what does error code SEC-E142 mean and how should it be resolved?",
+      "expected_answer": "Stream unavailable Resolution: Check power, network link, and recorder status.",
+      "expected_retrieval_scope": "HSC-202"
+    },
+    {
+      "id": "Q12",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Indoor version of WatchTower Cam 4K?",
+      "expected_answer": "HSC-202-I; $329.",
+      "expected_retrieval_scope": "HSC-202-I"
+    },
+    {
+      "id": "Q13",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of AquaGuard Flow?",
+      "expected_answer": "ClearFlow Technologies; $299.",
+      "expected_retrieval_scope": "HWT-301"
+    },
+    {
+      "id": "Q14",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For AquaGuard Flow, what does error code WTR-E101 mean and how should it be resolved?",
+      "expected_answer": "Active flow alert Resolution: Inspect fixtures and appliances for continuous water use.",
+      "expected_retrieval_scope": "HWT-301"
+    },
+    {
+      "id": "Q15",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Monitor version of AquaGuard Flow?",
+      "expected_answer": "HWT-301-M; $299.",
+      "expected_retrieval_scope": "HWT-301-M"
+    },
+    {
+      "id": "Q16",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of LeakNode Mini?",
+      "expected_answer": "ClearFlow Technologies; $39.",
+      "expected_retrieval_scope": "HWT-302"
+    },
+    {
+      "id": "Q17",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For LeakNode Mini, what does error code WTR-E109 mean and how should it be resolved?",
+      "expected_answer": "Sensor wet Resolution: Resolve the leak, dry contacts, then reset.",
+      "expected_retrieval_scope": "HWT-302"
+    },
+    {
+      "id": "Q18",
+      "test_type": "Missing-child test",
+      "question": "Does LeakNode Mini have a variant node?",
+      "expected_answer": "No. The catalog defines HWT-302 as the most specific node.",
+      "expected_retrieval_scope": "HWT-302"
+    },
+    {
+      "id": "Q19",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of ViewPanel 55?",
+      "expected_answer": "Meridian Workplace; $1,499.",
+      "expected_retrieval_scope": "OFC-401"
+    },
+    {
+      "id": "Q20",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For ViewPanel 55, what does error code COL-E101 mean and how should it be resolved?",
+      "expected_answer": "No display input Resolution: Check source cable and selected input.",
+      "expected_retrieval_scope": "OFC-401"
+    },
+    {
+      "id": "Q21",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Wall version of ViewPanel 55?",
+      "expected_answer": "OFC-401-W; $1,499.",
+      "expected_retrieval_scope": "OFC-401-W"
+    },
+    {
+      "id": "Q22",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of VoiceDock Pro?",
+      "expected_answer": "Meridian Workplace; $279.",
+      "expected_retrieval_scope": "OFC-402"
+    },
+    {
+      "id": "Q23",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For VoiceDock Pro, what does error code COL-E115 mean and how should it be resolved?",
+      "expected_answer": "Microphone muted Resolution: Check physical Mute button and meeting-app mute state.",
+      "expected_retrieval_scope": "OFC-402"
+    },
+    {
+      "id": "Q24",
+      "test_type": "Missing-child test",
+      "question": "Does VoiceDock Pro have a variant node?",
+      "expected_answer": "No. The catalog defines OFC-402 as the most specific node.",
+      "expected_retrieval_scope": "OFC-402"
+    },
+    {
+      "id": "Q25",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of PowerCore Desk 8?",
+      "expected_answer": "Meridian Workplace; $149.",
+      "expected_retrieval_scope": "OFP-501"
+    },
+    {
+      "id": "Q26",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For PowerCore Desk 8, what does error code PWR-E101 mean and how should it be resolved?",
+      "expected_answer": "Overload protection active Resolution: Remove high-wattage devices and press Reset.",
+      "expected_retrieval_scope": "OFP-501"
+    },
+    {
+      "id": "Q27",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Desk version of PowerCore Desk 8?",
+      "expected_answer": "OFP-501-D; $149.",
+      "expected_retrieval_scope": "OFP-501-D"
+    },
+    {
+      "id": "Q28",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of LinkMesh 6E?",
+      "expected_answer": "Meridian Workplace; $229.",
+      "expected_retrieval_scope": "OFP-502"
+    },
+    {
+      "id": "Q29",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For LinkMesh 6E, what does error code NET-E101 mean and how should it be resolved?",
+      "expected_answer": "Uplink disconnected Resolution: Check Ethernet connection and router port.",
+      "expected_retrieval_scope": "OFP-502"
+    },
+    {
+      "id": "Q30",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Node version of LinkMesh 6E?",
+      "expected_answer": "OFP-502-N; $229.",
+      "expected_retrieval_scope": "OFP-502-N"
+    },
+    {
+      "id": "Q31",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of VoltRide City?",
+      "expected_answer": "Northline Mobility; $1,299.",
+      "expected_retrieval_scope": "MOB-601"
+    },
+    {
+      "id": "Q32",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For VoltRide City, what does error code BIK-E101 mean and how should it be resolved?",
+      "expected_answer": "Motor assist unavailable Resolution: Check battery charge and seat the battery fully.",
+      "expected_retrieval_scope": "MOB-601"
+    },
+    {
+      "id": "Q33",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the City version of VoltRide City?",
+      "expected_answer": "MOB-601-C; $1,299.",
+      "expected_retrieval_scope": "MOB-601-C"
+    },
+    {
+      "id": "Q34",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of CargoGlide 2?",
+      "expected_answer": "Northline Mobility; $2,099.",
+      "expected_retrieval_scope": "MOB-602"
+    },
+    {
+      "id": "Q35",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For CargoGlide 2, what does error code BIK-E125 mean and how should it be resolved?",
+      "expected_answer": "Load sensor unavailable Resolution: Remove load, restart, and schedule dealer inspection.",
+      "expected_retrieval_scope": "MOB-602"
+    },
+    {
+      "id": "Q36",
+      "test_type": "Missing-child test",
+      "question": "Does CargoGlide 2 have a variant node?",
+      "expected_answer": "No. The catalog defines MOB-602 as the most specific node.",
+      "expected_retrieval_scope": "MOB-602"
+    },
+    {
+      "id": "Q37",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of PackTrack One?",
+      "expected_answer": "Northline Mobility; $69.",
+      "expected_retrieval_scope": "MOT-701"
+    },
+    {
+      "id": "Q38",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For PackTrack One, what does error code TRV-E101 mean and how should it be resolved?",
+      "expected_answer": "Tag not found Resolution: Enable Bluetooth and move within nearby range.",
+      "expected_retrieval_scope": "MOT-701"
+    },
+    {
+      "id": "Q39",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Tag version of PackTrack One?",
+      "expected_answer": "MOT-701-T; $69.",
+      "expected_retrieval_scope": "MOT-701-T"
+    },
+    {
+      "id": "Q40",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of RouteCharge 65?",
+      "expected_answer": "Northline Mobility; $79.",
+      "expected_retrieval_scope": "MOT-702"
+    },
+    {
+      "id": "Q41",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For RouteCharge 65, what does error code TRV-E120 mean and how should it be resolved?",
+      "expected_answer": "Power negotiation failed Resolution: Reconnect cable and use a certified USB-C PD cable.",
+      "expected_retrieval_scope": "MOT-702"
+    },
+    {
+      "id": "Q42",
+      "test_type": "Missing-child test",
+      "question": "Does RouteCharge 65 have a variant node?",
+      "expected_answer": "No. The catalog defines MOT-702 as the most specific node.",
+      "expected_retrieval_scope": "MOT-702"
+    },
+    {
+      "id": "Q43",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of BrewCraft Duo?",
+      "expected_answer": "Harborline Appliances; $189.",
+      "expected_retrieval_scope": "APK-801"
+    },
+    {
+      "id": "Q44",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For BrewCraft Duo, what does error code KIT-E101 mean and how should it be resolved?",
+      "expected_answer": "Water level too low Resolution: Fill reservoir above the minimum mark.",
+      "expected_retrieval_scope": "APK-801"
+    },
+    {
+      "id": "Q45",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Glass Carafe version of BrewCraft Duo?",
+      "expected_answer": "APK-801-G; $189.",
+      "expected_retrieval_scope": "APK-801-G"
+    },
+    {
+      "id": "Q46",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of FreshVault 12?",
+      "expected_answer": "Harborline Appliances; $599.",
+      "expected_retrieval_scope": "APK-802"
+    },
+    {
+      "id": "Q47",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For FreshVault 12, what does error code KIT-E134 mean and how should it be resolved?",
+      "expected_answer": "Door open too long Resolution: Close door fully and inspect gasket alignment.",
+      "expected_retrieval_scope": "APK-802"
+    },
+    {
+      "id": "Q48",
+      "test_type": "Missing-child test",
+      "question": "Does FreshVault 12 have a variant node?",
+      "expected_answer": "No. The catalog defines APK-802 as the most specific node.",
+      "expected_retrieval_scope": "APK-802"
+    },
+    {
+      "id": "Q49",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of CleanSweep R3?",
+      "expected_answer": "Harborline Appliances; $429.",
+      "expected_retrieval_scope": "APC-901"
+    },
+    {
+      "id": "Q50",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For CleanSweep R3, what does error code CLN-E101 mean and how should it be resolved?",
+      "expected_answer": "Robot stuck Resolution: Clear obstacle and resume from open floor.",
+      "expected_retrieval_scope": "APC-901"
+    },
+    {
+      "id": "Q51",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Vacuum version of CleanSweep R3?",
+      "expected_answer": "APC-901-V; $429.",
+      "expected_retrieval_scope": "APC-901-V"
+    },
+    {
+      "id": "Q52",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of SteamMate S1?",
+      "expected_answer": "Harborline Appliances; $159.",
+      "expected_retrieval_scope": "APC-902"
+    },
+    {
+      "id": "Q53",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For SteamMate S1, what does error code CLN-E125 mean and how should it be resolved?",
+      "expected_answer": "Water tank missing Resolution: Refit tank until it clicks.",
+      "expected_retrieval_scope": "APC-902"
+    },
+    {
+      "id": "Q54",
+      "test_type": "Missing-child test",
+      "question": "Does SteamMate S1 have a variant node?",
+      "expected_answer": "No. The catalog defines APC-902 as the most specific node.",
+      "expected_retrieval_scope": "APC-902"
+    },
+    {
+      "id": "Q55",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of AirPure Cube?",
+      "expected_answer": "Harborline Appliances; $279.",
+      "expected_retrieval_scope": "APW-1001"
+    },
+    {
+      "id": "Q56",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For AirPure Cube, what does error code AIR-E101 mean and how should it be resolved?",
+      "expected_answer": "Filter not detected Resolution: Remove packaging and reseat filter panel.",
+      "expected_retrieval_scope": "APW-1001"
+    },
+    {
+      "id": "Q57",
+      "test_type": "Variant lookup",
+      "question": "Which variant ID and price correspond to the Home version of AirPure Cube?",
+      "expected_answer": "APW-1001-H; $279.",
+      "expected_retrieval_scope": "APW-1001-H"
+    },
+    {
+      "id": "Q58",
+      "test_type": "Local product lookup",
+      "question": "What is the manufacturer and starting price of SleepLight Rhythm?",
+      "expected_answer": "Harborline Appliances; $119.",
+      "expected_retrieval_scope": "APW-1002"
+    },
+    {
+      "id": "Q59",
+      "test_type": "Leaf / error-code lookup",
+      "question": "For SleepLight Rhythm, what does error code AIR-E117 mean and how should it be resolved?",
+      "expected_answer": "Clock not set Resolution: Set time in the companion app or local menu.",
+      "expected_retrieval_scope": "APW-1002"
+    },
+    {
+      "id": "Q60",
+      "test_type": "Missing-child test",
+      "question": "Does SleepLight Rhythm have a variant node?",
+      "expected_answer": "No. The catalog defines APW-1002 as the most specific node.",
+      "expected_retrieval_scope": "APW-1002"
+    },
+    {
+      "id": "Q61",
+      "test_type": "Category aggregation",
+      "question": "List all products under the Home Appliances category.",
+      "expected_answer": "BrewCraft Duo; FreshVault 12; CleanSweep R3; SteamMate S1; AirPure Cube; SleepLight Rhythm.",
+      "expected_retrieval_scope": "Home Appliances"
+    },
+    {
+      "id": "Q62",
+      "test_type": "Category aggregation",
+      "question": "List all products under the Home Systems category.",
+      "expected_answer": "AeroTherm X1; BreezeSense V2; Sentinel Lock S4; WatchTower Cam 4K; AquaGuard Flow; LeakNode Mini.",
+      "expected_retrieval_scope": "Home Systems"
+    },
+    {
+      "id": "Q63",
+      "test_type": "Category aggregation",
+      "question": "List all products under the Mobility category.",
+      "expected_answer": "VoltRide City; CargoGlide 2; PackTrack One; RouteCharge 65.",
+      "expected_retrieval_scope": "Mobility"
+    },
+    {
+      "id": "Q64",
+      "test_type": "Category aggregation",
+      "question": "List all products under the Office Technology category.",
+      "expected_answer": "ViewPanel 55; VoiceDock Pro; PowerCore Desk 8; LinkMesh 6E.",
+      "expected_retrieval_scope": "Office Technology"
+    },
+    {
+      "id": "Q65",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Cleaning subcategory?",
+      "expected_answer": "CleanSweep R3; SteamMate S1.",
+      "expected_retrieval_scope": "Cleaning"
+    },
+    {
+      "id": "Q66",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Climate Control subcategory?",
+      "expected_answer": "AeroTherm X1; BreezeSense V2.",
+      "expected_retrieval_scope": "Climate Control"
+    },
+    {
+      "id": "Q67",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Collaboration subcategory?",
+      "expected_answer": "ViewPanel 55; VoiceDock Pro.",
+      "expected_retrieval_scope": "Collaboration"
+    },
+    {
+      "id": "Q68",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the E-Bikes subcategory?",
+      "expected_answer": "VoltRide City; CargoGlide 2.",
+      "expected_retrieval_scope": "E-Bikes"
+    },
+    {
+      "id": "Q69",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Kitchen subcategory?",
+      "expected_answer": "BrewCraft Duo; FreshVault 12.",
+      "expected_retrieval_scope": "Kitchen"
+    },
+    {
+      "id": "Q70",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Power and Connectivity subcategory?",
+      "expected_answer": "PowerCore Desk 8; LinkMesh 6E.",
+      "expected_retrieval_scope": "Power and Connectivity"
+    },
+    {
+      "id": "Q71",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Security and Access subcategory?",
+      "expected_answer": "Sentinel Lock S4; WatchTower Cam 4K.",
+      "expected_retrieval_scope": "Security and Access"
+    },
+    {
+      "id": "Q72",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Travel Accessories subcategory?",
+      "expected_answer": "PackTrack One; RouteCharge 65.",
+      "expected_retrieval_scope": "Travel Accessories"
+    },
+    {
+      "id": "Q73",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Water Protection subcategory?",
+      "expected_answer": "AquaGuard Flow; LeakNode Mini.",
+      "expected_retrieval_scope": "Water Protection"
+    },
+    {
+      "id": "Q74",
+      "test_type": "Subcategory aggregation",
+      "question": "Which products belong to the Wellness subcategory?",
+      "expected_answer": "AirPure Cube; SleepLight Rhythm.",
+      "expected_retrieval_scope": "Wellness"
+    },
+    {
+      "id": "Q75",
+      "test_type": "Cross-category comparison",
+      "question": "Compare the products manufactured by Meridian Workplace with the products manufactured by Northline Mobility.",
+      "expected_answer": "Meridian Workplace: ViewPanel 55, VoiceDock Pro, PowerCore Desk 8, LinkMesh 6E. Northline Mobility: VoltRide City, CargoGlide 2, PackTrack One, RouteCharge 65.",
+      "expected_retrieval_scope": "manufacturer metadata"
+    },
+    {
+      "id": "Q76",
+      "test_type": "Global reasoning",
+      "question": "Which catalog categories contain products with variants and products without variants?",
+      "expected_answer": "All four top-level categories contain both: Home Systems, Office Technology, Mobility, and Home Appliances.",
+      "expected_retrieval_scope": "catalog hierarchy"
+    },
+    {
+      "id": "Q77",
+      "test_type": "Ambiguity test",
+      "question": "Several products use an E101-style error code. Why should a RAG answer use the full error-code prefix and product context?",
+      "expected_answer": "The suffix E101 appears in multiple domains but has different meanings. The prefix and product metadata disambiguate the correct resolution.",
+      "expected_retrieval_scope": "error-code namespace"
+    },
+    {
+      "id": "Q78",
+      "test_type": "Negative retrieval",
+      "question": "Which product has a variant called Enterprise?",
+      "expected_answer": "None. No catalog variant is named Enterprise.",
+      "expected_retrieval_scope": "all variants"
+    }
+  ]
+}

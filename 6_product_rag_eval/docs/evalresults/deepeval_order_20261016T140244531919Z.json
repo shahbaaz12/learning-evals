@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "run_id": "20261016T140244531919Z",
+    "signature": "5f5197e1bb7562d73757e2fef9591050f0b43ee8eae9f01afbcc326d892c608c",
+    "generator": "openai/gpt-oss-120b",
+    "judge": "gemini-3.5-flash-lite",
+    "embedding_model": "nomic-ai/modernbert-embed-base",
+    "k": 1,
+    "question_count": 78,
+    "human_review": "pending",
+    "cached_stage_files_are_reused": true,
+    "minimum_request_pause": 8,
+    "libraries": {
+      "deepeval": "4.2.8",
+      "google-genai": "2.31.0",
+      "langchain-chroma": "1.1.0",
+      "sentence-transformers": "6.1.0"
+    }
+  },
+  "suite": "order",
+  "requested_ids": [
+    "ORDER1",
+    "ORDER_REVERSED"
+  ],
+  "judged_ids": [
+    "ORDER1",
+    "ORDER_REVERSED"
+  ],
+  "judge": "gemini-3.5-flash-lite",
+  "results": [
+    {
+      "id": "ORDER1",
+      "metric": "Procedure order [GEval]",
+      "score": 1.0,
+      "reason": "The actual output matches the exact order of the expected output and places safety prerequisites, such as switching off HVAC control power, before connecting terminals and restoring power, aligning fully with the evaluation criteria.",
+      "estimated_usd": 0.0002479
+    },
+    {
+      "id": "ORDER_REVERSED",
+      "metric": "Procedure order [GEval]",
+      "score": 0.1,
+      "reason": "The actual output completely reverses the expected order, placing safety prerequisites like switching off HVAC control power at the end instead of the beginning. Per the evaluation rules, having correct facts in the wrong action order must receive a low score.",
+      "estimated_usd": 0.0002563
+    }
+  ],
+  "score_direction": "Higher is better for every metric in the installed DeepEval, including Toxicity (non-toxic share).",
+  "note": "Official DeepEval metrics on this sample only. Custom judge toxicity separately means toxic-content share, lower is better. G-Eval does not eliminate judge variance; Gemini does not expose the OpenAI logprob scoring path."
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "Q1",
+    "ok": true,
+    "data": {
+      "correctness": 1.0,
+      "completeness": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 1.0,
+      "style": 1.0,
+      "order": 1.0,
+      "toxicity": 0.0,
+      "scope_adherence": 1.0,
+      "reasons": {
+        "correctness": "The actual answer correctly identifies the manufacturer as HelioWorks Climate and the starting price as $249, matching the expected answer.",
+        "completeness": "All required facts from the expected answer (manufacturer and starting price) are fully covered.",
+        "faithfulness": "All claims are completely supported by the provided context.",
+        "answer_relevance": "The response directly and fully addresses the question asked.",
+        "context_relevance": "The context provides the exact product details required to answer the question.",
+        "style": "The output is clear, concise, and in plain language.",
+        "order": "Not a procedural question, so order defaults to 1.",
+        "toxicity": "No abusive, hateful, threatening, or demeaning content is present.",
+        "scope_adherence": "The answer stays strictly within the catalog topic."
+      }
+    },
+    "http_status": 200,
+    "error": null,
+    "seconds": 9.98175990000891,
+    "input_tokens": 732,
+    "output_tokens": 304,
+    "estimated_usd": 0.0009796,
+    "previous_attempts": []
+  },
+  {
+    "id": "Q3",
+    "ok": true,
+    "data": {
+      "correctness": 1.0,
+      "completeness": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 1.0,
+      "style": 1.0,
+      "order": 1.0,
+      "toxicity": 0.0,
+      "scope_adherence": 1.0,
+      "reasons": {
+        "correctness": "The generated answer correctly provides the variant ID (HCL-101-S) and price ($249) for the Standard version.",
+        "completeness": "All requested facts from the expected answer are fully covered.",
+        "faithfulness": "All claims in the generated answer are supported directly by the provided context.",
+        "answer_relevance": "The response directly and completely answers the user's question.",
+        "context_relevance": "The provided context contains the exact variant ID and price needed to answer the question.",
+        "style": "The response is clear, concise, and written in plain language.",
+        "order": "Not applicable as this is a lookup question rather than a procedural one.",
+        "toxicity": "The response contains no toxic, abusive, or demeaning content.",
+        "scope_adherence": "The response adheres strictly to the provided catalog information."
+      }
+    },
+    "http_status": 200,
+    "error": null,
+    "seconds": 11.906527099999948,
+    "input_tokens": 738,
+    "output_tokens": 314,
+    "estimated_usd": 0.0010064,
+    "previous_attempts": []
+  },
+  {
+    "id": "Q61",
+    "ok": true,
+    "data": {
+      "correctness": 1.0,
+      "completeness": 0.17,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 1.0,
+      "style": 1.0,
+      "order": 1.0,
+      "toxicity": 0.0,
+      "scope_adherence": 1.0,
+      "reasons": {
+        "correctness": "The product listed is indeed under the Home Appliances category.",
+        "completeness": "The expected answer lists six products, but only one is provided in the actual answer due to the limited context supplied.",
+        "faithfulness": "The claim made in the actual answer is fully supported by the context.",
+        "answer_relevance": "The answer directly addresses the question based on the available information.",
+        "context_relevance": "The provided context contains relevant information for the queried category.",
+        "style": "Clear, concise, and respectful plain language.",
+        "order": "Not applicable for a listing task.",
+        "toxicity": "No abusive, hateful, or demeaning content.",
+        "scope_adherence": "Sticks strictly to the catalog topic."
+      }
+    },
+    "http_status": 200,
+    "error": null,
+    "seconds": 5.073868299994501,
+    "input_tokens": 661,
+    "output_tokens": 287,
+    "estimated_usd": 0.0009157999999999999,
+    "previous_attempts": []
+  },
+  {
+    "id": "Q75",
+    "ok": true,
+    "data": {
+      "correctness": 0.5,
+      "completeness": 0.25,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 1.0,
+      "style": 1.0,
+      "order": 1.0,
+      "toxicity": 0.0,
+      "scope_adherence": 1.0,
+      "reasons": {
+        "correctness": "The actual answer correctly identifies that Meridian Workplace products are not in the context, but it incorrectly claims only CargoGlide 2 is present for Northline Mobility based on the provided context.",
+        "completeness": "Missed comparing the manufacturers because the assistant stated it could only find one product, failing to list the expected products that should have been available or providing an incomplete picture based on the context.",
+        "faithfulness": "All claims made by the assistant are supported by the limited context provided.",
+        "answer_relevance": "The assistant directly addresses the comparison question by explaining why it cannot be performed given the available information.",
+        "context_relevance": "The context provides information on one of the requested manufacturers.",
+        "style": "Clear, concise, and professional plain language.",
+        "order": "Not applicable.",
+        "toxicity": "No toxic content present.",
+        "scope_adherence": "Stays within the catalog topic."
+      }
+    },
+    "http_status": 200,
+    "error": null,
+    "seconds": 8.98634740000125,
+    "input_tokens": 736,
+    "output_tokens": 323,
+    "estimated_usd": 0.0010283,
+    "previous_attempts": []
+  },
+  {
+    "id": "Q76",
+    "ok": true,
+    "data": {
+      "correctness": 0.0,
+      "completeness": 0.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 1.0,
+      "style": 1.0,
+      "order": 1.0,
+      "toxicity": 0.0,
+      "scope_adherence": 1.0,
+      "reasons": {
+        "correctness": "The actual answer fails to match the expected answer because it only evaluates the provided partial context instead of the complete catalog expected by the ground truth.",
+        "completeness": "The actual answer misses all categories besides Home Appliances because of the restricted context provided.",
+        "faithfulness": "The statements made are entirely supported by the provided context.",
+        "answer_relevance": "The assistant directly addresses the question using the available data.",
+        "context_relevance": "The provided context is relevant to the product mentioned, though limited.",
+        "style": "The response is clear, concise, and respectful.",
+        "order": "Not applicable to this type of question.",
+        "toxicity": "No toxic content present.",
+        "scope_adherence": "Stays strictly within the provided catalog data."
+      }
+    },
+    "http_status": 200,
+    "error": null,
+    "seconds": 6.418450600001961,
+    "input_tokens": 684,
+    "output_tokens": 292,
+    "estimated_usd": 0.0009352000000000001,
+    "previous_attempts": []
+  },
+  {
+    "id": "Q78",
+    "ok": true,
+    "data": {
+      "correctness": 1.0,
+      "completeness": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_relevance": 1.0,
+      "style": 1.0,
+      "order": 1.0,
+      "toxicity": 0.0,
+      "scope_adherence": 1.0,
+      "reasons": {
+        "correctness": "The actual answer correctly notes that it cannot establish the presence of an Enterprise variant based on the context, which aligns with the expected outcome since the catalog is incomplete and the variant is not present.",
+        "completeness": "All required aspects are covered.",
+        "faithfulness": "The claim is fully supported by the context.",
+        "answer_relevance": "Directly addresses the question.",
+        "context_relevance": "The context provides the product details which allow checking for the variant.",
+        "style": "Clear, concise, and respectful.",
+        "order": "Not applicable; single fact lookup.",
+        "toxicity": "No toxic content present.",
+        "scope_adherence": "Stays strictly within catalog topic bounds."
+      }
+    },
+    "http_status": 200,
+    "error": null,
+    "seconds": 11.8746175999986,
+    "input_tokens": 637,
+    "output_tokens": 280,
+    "estimated_usd": 0.0008911,
+    "previous_attempts": []
+  }
+]

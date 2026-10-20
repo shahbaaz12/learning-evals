@@ -1,0 +1,176 @@
+{
+  "suite": "pipeline",
+  "requested_ids": [
+    "Q1",
+    "Q61",
+    "Q78"
+  ],
+  "judged_ids": [
+    "Q1",
+    "Q61",
+    "Q78"
+  ],
+  "judge": "gemini-3.5-flash-lite",
+  "results": [
+    {
+      "id": "Q1",
+      "metric": "Faithfulness",
+      "score": 1.0,
+      "reason": "The score is 1.00 because the actual output is completely faithful and accurate to the retrieval context with no contradictions found.",
+      "estimated_usd": 0.0012515999999999998
+    },
+    {
+      "id": "Q1",
+      "metric": "Answer Relevancy",
+      "score": 1.0,
+      "reason": "The score is 1.00 because the output directly and accurately addresses the input without containing any irrelevant information.",
+      "estimated_usd": 0.0005802
+    },
+    {
+      "id": "Q1",
+      "metric": "Contextual Relevancy",
+      "score": 0.25,
+      "reason": "The score is 0.25 because while the context includes relevant statements such as 'The manufacturer of AeroTherm X1 is HelioWorks Climate' and 'The starting price of AeroTherm X1 is $249', it is largely diluted by irrelevant details about specifications, quick start steps, and error codes.",
+      "estimated_usd": 0.0024141
+    },
+    {
+      "id": "Q1",
+      "metric": "Contextual Recall",
+      "score": 1.0,
+      "reason": "The score is 1.00 because all information regarding the manufacturer HelioWorks Climate and the starting price of $249 in the expected output is fully supported by the 1st node in retrieval context.",
+      "estimated_usd": 0.0006434
+    },
+    {
+      "id": "Q1",
+      "metric": "Contextual Precision",
+      "score": 1.0,
+      "reason": "The score is 1.00 because the first node in the retrieval contexts successfully and directly provides the required information, stating that 'It explicitly provides the manufacturer 'HelioWorks Climate' and starting price '$249' for the AeroTherm X1.'.",
+      "estimated_usd": 0.0006584
+    },
+    {
+      "id": "Q1",
+      "metric": "Toxicity",
+      "score": 1,
+      "reason": "The score is 1.00 because the actual output is completely free of toxicity, demonstrating a respectful, helpful, and constructive tone throughout.",
+      "estimated_usd": 0.0002576
+    },
+    {
+      "id": "Q1",
+      "metric": "Correctness [GEval]",
+      "score": 1.0,
+      "reason": "The actual output accurately identifies both the manufacturer as HelioWorks Climate and the starting price as $249, perfectly matching the expected output without any contradictions or invented facts.",
+      "estimated_usd": 0.0002187
+    },
+    {
+      "id": "Q1",
+      "metric": "Completeness [GEval]",
+      "score": 1.0,
+      "reason": "The actual output successfully identifies all requested facts from the expected output, specifically including both the manufacturer HelioWorks Climate and the starting price of $249 for the AeroTherm X1, demonstrating complete coverage.",
+      "estimated_usd": 0.00023710000000000002
+    },
+    {
+      "id": "Q1",
+      "metric": "Style [GEval]",
+      "score": 1.0,
+      "reason": "The actual output uses respectful, clear, concise plain language to directly answer the user query regarding the manufacturer and starting price of the AeroTherm X1, aligning well with the evaluation criteria.",
+      "estimated_usd": 0.00022140000000000001
+    },
+    {
+      "id": "Q61",
+      "metric": "Faithfulness",
+      "score": 1.0,
+      "reason": "The score is 1.00 because the actual output is completely faithful and accurate to the retrieval context with no contradictions found.",
+      "estimated_usd": 0.0024669999999999996
+    },
+    {
+      "id": "Q61",
+      "metric": "Answer Relevancy",
+      "score": 1.0,
+      "reason": "The score is 1.00 because the response perfectly addresses the input by listing all products under the Home Appliances category without any irrelevant information.",
+      "estimated_usd": 0.0009783
+    },
+    {
+      "id": "Q61",
+      "metric": "Contextual Relevancy",
+      "score": 1.0,
+      "reason": "The score is 1.00 because the retrieval context perfectly addresses the input by providing a comprehensive list of products under the Home Appliances category, such as the 'BrewCraft Duo', 'FreshVault 12', and '[APC-901] CleanSweep R3'.",
+      "estimated_usd": 0.0023832999999999997
+    },
+    {
+      "id": "Q61",
+      "metric": "Contextual Recall",
+      "score": 1.0,
+      "reason": "The score is 1.00 because all the expected product names are successfully and accurately retrieved from their respective node(s) in retrieval context.",
+      "estimated_usd": 0.0011784
+    },
+    {
+      "id": "Q61",
+      "metric": "Contextual Precision",
+      "score": 1.0,
+      "reason": "The score is 1.00 because all retrieval contexts were relevant and perfectly ranked! The first node 'It contains the product 'BrewCraft Duo' under the Home Appliances category, which is listed in the expected output.', the second node 'It contains the product 'FreshVault 12' under the Home Appliances category, which is included in the expected output.', the third node 'It contains the product 'CleanSweep R3' under the Home Appliances category, which is included in the expected output.', the fourth node 'It contains the product 'SteamMate S1' under the Home Appliances category, which is listed in the expected output.', the fifth node 'It contains the product 'AirPure Cube' under the Home Appliances category, which is part of the expected output.', and the sixth node 'It contains the product 'SleepLight Rhythm' under the Home Appliances category, which is part of the expected output.' are all spot-on.",
+      "estimated_usd": 0.0020776
+    },
+    {
+      "id": "Q61",
+      "metric": "Toxicity",
+      "score": 1,
+      "reason": "The score is 1.00 because the actual output is completely free of toxicity, demonstrating helpful, polite, and constructive language throughout.",
+      "estimated_usd": 0.0002846
+    },
+    {
+      "id": "Q61",
+      "metric": "Correctness [GEval]",
+      "score": 1.0,
+      "reason": "The actual output matches all factual claims and listed products in the expected output without any contradictions or invented facts.",
+      "estimated_usd": 0.0002099
+    },
+    {
+      "id": "Q61",
+      "metric": "Completeness [GEval]",
+      "score": 1.0,
+      "reason": "The actual output successfully identifies and lists all six required products under the Home Appliances category, matching every item specified in the expected output enumeration.",
+      "estimated_usd": 0.0002258
+    },
+    {
+      "id": "Q61",
+      "metric": "Style [GEval]",
+      "score": 1.0,
+      "reason": "The actual output effectively uses respectful, clear, and concise plain language, and appropriately employs a list for the product enumerations under the Home Appliances category as required by the evaluation steps.",
+      "verdicts": [],
+      "estimated_usd": 0.00023720000000000002
+    },
+    {
+      "id": "Q78",
+      "metric": "Faithfulness",
+      "score": 1.0,
+      "reason": null,
+      "verdicts": [
+        {
+          "verdict": "yes",
+          "reason": null
+        }
+      ],
+      "estimated_usd": 0.0019868
+    },
+    {
+      "id": "Q78",
+      "metric": "Answer Relevancy",
+      "score": 1.0,
+      "reason": null,
+      "verdicts": [
+        {
+          "verdict": "yes",
+          "reason": null
+        }
+      ],
+      "estimated_usd": 0.000351
+    }
+  ],
+  "completed_metrics": 20,
+  "expected_metrics": 27,
+  "complete": false,
+  "successful_internal_requests_checkpointed": true,
+  "explanation_mode": "Completed explanations retained. Remaining non-GEval metrics save verdict details without an additional summary-reason call; scoring is unchanged.",
+  "score_direction": "Higher is better for every metric in the installed DeepEval, including Toxicity (non-toxic share).",
+  "note": "Official DeepEval metrics on this sample only. Custom judge toxicity separately means toxic-content share, lower is better. G-Eval does not eliminate judge variance; Gemini does not expose the OpenAI logprob scoring path."
+}

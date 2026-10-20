@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "run_id": "20261016T140244531919Z",
+    "signature": "5f5197e1bb7562d73757e2fef9591050f0b43ee8eae9f01afbcc326d892c608c",
+    "generator": "openai/gpt-oss-120b",
+    "judge": "gemini-3.5-flash-lite",
+    "embedding_model": "nomic-ai/modernbert-embed-base",
+    "k": 1,
+    "question_count": 78,
+    "human_review": "pending",
+    "cached_stage_files_are_reused": true,
+    "minimum_request_pause": 8,
+    "libraries": {
+      "deepeval": "4.2.8",
+      "google-genai": "2.31.0",
+      "langchain-chroma": "1.1.0",
+      "sentence-transformers": "6.1.0"
+    }
+  },
+  "questions": 78,
+  "judged": 78,
+  "quality": {
+    "correctness": 0.9743589743589743,
+    "completeness": 0.976923076923077,
+    "faithfulness": 0.9935897435897436,
+    "answer_relevance": 0.9974358974358974,
+    "context_relevance": 0.9993589743589744,
+    "style": 1.0,
+    "order": 1.0,
+    "toxicity": 0.0,
+    "scope_adherence": 1.0
+  },
+  "api_completion_rate": 1.0,
+  "manual_retry_cases": 1,
+  "initial_completion_rate": 0.9871794871794872,
+  "citation_validity": 0.8717948717948718,
+  "statuses": {
+    "answered": 77,
+    "insufficient_context": 1
+  },
+  "latency_mean": 1.2602420358977189,
+  "latency_p50": 0.8249700000014855,
+  "latency_p95": 3.2224060949993145,
+  "retrieval_mean": 0.05115873589760994,
+  "generation_mean": 1.2075929705128938,
+  "generator_usd": 0.0150678,
+  "judge_usd": 0.0781318,
+  "generator_input_tokens": 67868,
+  "generator_output_tokens": 8146,
+  "judge_input_tokens": 74031,
+  "judge_output_tokens": 22369,
+  "generation_attempts": 79,
+  "judge_attempts": 92,
+  "unscored_judgments": 0,
+  "unknown_cost_calls": 15,
+  "ttft": null,
+  "note": "Sequential offline sample. Not a load test. TTFT is unmeasured because calls do not stream."
+}

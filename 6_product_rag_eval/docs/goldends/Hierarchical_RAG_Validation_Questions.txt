@@ -1,0 +1,391 @@
+HIERARCHICAL RAG VALIDATION QUESTIONS
+
+Q1. [Local product lookup]
+Question: What is the manufacturer and starting price of AeroTherm X1?
+Expected answer: HelioWorks Climate; $249.
+Expected retrieval scope: HCL-101
+
+Q2. [Leaf / error-code lookup]
+Question: For AeroTherm X1, what does error code CLM-E101 mean and how should it be resolved?
+Expected answer: Sensor unavailable Resolution: Reseat the wall sensor and run Sensor Test.
+Expected retrieval scope: HCL-101
+
+Q3. [Variant lookup]
+Question: Which variant ID and price correspond to the Standard version of AeroTherm X1?
+Expected answer: HCL-101-S; $249.
+Expected retrieval scope: HCL-101-S
+
+Q4. [Local product lookup]
+Question: What is the manufacturer and starting price of BreezeSense V2?
+Expected answer: HelioWorks Climate; $189.
+Expected retrieval scope: HCL-102
+
+Q5. [Leaf / error-code lookup]
+Question: For BreezeSense V2, what does error code CLM-E118 mean and how should it be resolved?
+Expected answer: Airflow sensor blocked Resolution: Clean the intake grille and restart calibration.
+Expected retrieval scope: HCL-102
+
+Q6. [Variant lookup]
+Question: Which variant ID and price correspond to the Base version of BreezeSense V2?
+Expected answer: HCL-102-B; $189.
+Expected retrieval scope: HCL-102-B
+
+Q7. [Local product lookup]
+Question: What is the manufacturer and starting price of Sentinel Lock S4?
+Expected answer: Aegis Entry Systems; $219.
+Expected retrieval scope: HSC-201
+
+Q8. [Leaf / error-code lookup]
+Question: For Sentinel Lock S4, what does error code SEC-E101 mean and how should it be resolved?
+Expected answer: Bolt obstructed Resolution: Open the door and correct strike alignment.
+Expected retrieval scope: HSC-201
+
+Q9. [Variant lookup]
+Question: Which variant ID and price correspond to the Keypad version of Sentinel Lock S4?
+Expected answer: HSC-201-K; $219.
+Expected retrieval scope: HSC-201-K
+
+Q10. [Local product lookup]
+Question: What is the manufacturer and starting price of WatchTower Cam 4K?
+Expected answer: Aegis Entry Systems; $329.
+Expected retrieval scope: HSC-202
+
+Q11. [Leaf / error-code lookup]
+Question: For WatchTower Cam 4K, what does error code SEC-E142 mean and how should it be resolved?
+Expected answer: Stream unavailable Resolution: Check power, network link, and recorder status.
+Expected retrieval scope: HSC-202
+
+Q12. [Variant lookup]
+Question: Which variant ID and price correspond to the Indoor version of WatchTower Cam 4K?
+Expected answer: HSC-202-I; $329.
+Expected retrieval scope: HSC-202-I
+
+Q13. [Local product lookup]
+Question: What is the manufacturer and starting price of AquaGuard Flow?
+Expected answer: ClearFlow Technologies; $299.
+Expected retrieval scope: HWT-301
+
+Q14. [Leaf / error-code lookup]
+Question: For AquaGuard Flow, what does error code WTR-E101 mean and how should it be resolved?
+Expected answer: Active flow alert Resolution: Inspect fixtures and appliances for continuous water use.
+Expected retrieval scope: HWT-301
+
+Q15. [Variant lookup]
+Question: Which variant ID and price correspond to the Monitor version of AquaGuard Flow?
+Expected answer: HWT-301-M; $299.
+Expected retrieval scope: HWT-301-M
+
+Q16. [Local product lookup]
+Question: What is the manufacturer and starting price of LeakNode Mini?
+Expected answer: ClearFlow Technologies; $39.
+Expected retrieval scope: HWT-302
+
+Q17. [Leaf / error-code lookup]
+Question: For LeakNode Mini, what does error code WTR-E109 mean and how should it be resolved?
+Expected answer: Sensor wet Resolution: Resolve the leak, dry contacts, then reset.
+Expected retrieval scope: HWT-302
+
+Q18. [Missing-child test]
+Question: Does LeakNode Mini have a variant node?
+Expected answer: No. The catalog defines HWT-302 as the most specific node.
+Expected retrieval scope: HWT-302
+
+Q19. [Local product lookup]
+Question: What is the manufacturer and starting price of ViewPanel 55?
+Expected answer: Meridian Workplace; $1,499.
+Expected retrieval scope: OFC-401
+
+Q20. [Leaf / error-code lookup]
+Question: For ViewPanel 55, what does error code COL-E101 mean and how should it be resolved?
+Expected answer: No display input Resolution: Check source cable and selected input.
+Expected retrieval scope: OFC-401
+
+Q21. [Variant lookup]
+Question: Which variant ID and price correspond to the Wall version of ViewPanel 55?
+Expected answer: OFC-401-W; $1,499.
+Expected retrieval scope: OFC-401-W
+
+Q22. [Local product lookup]
+Question: What is the manufacturer and starting price of VoiceDock Pro?
+Expected answer: Meridian Workplace; $279.
+Expected retrieval scope: OFC-402
+
+Q23. [Leaf / error-code lookup]
+Question: For VoiceDock Pro, what does error code COL-E115 mean and how should it be resolved?
+Expected answer: Microphone muted Resolution: Check physical Mute button and meeting-app mute state.
+Expected retrieval scope: OFC-402
+
+Q24. [Missing-child test]
+Question: Does VoiceDock Pro have a variant node?
+Expected answer: No. The catalog defines OFC-402 as the most specific node.
+Expected retrieval scope: OFC-402
+
+Q25. [Local product lookup]
+Question: What is the manufacturer and starting price of PowerCore Desk 8?
+Expected answer: Meridian Workplace; $149.
+Expected retrieval scope: OFP-501
+
+Q26. [Leaf / error-code lookup]
+Question: For PowerCore Desk 8, what does error code PWR-E101 mean and how should it be resolved?
+Expected answer: Overload protection active Resolution: Remove high-wattage devices and press Reset.
+Expected retrieval scope: OFP-501
+
+Q27. [Variant lookup]
+Question: Which variant ID and price correspond to the Desk version of PowerCore Desk 8?
+Expected answer: OFP-501-D; $149.
+Expected retrieval scope: OFP-501-D
+
+Q28. [Local product lookup]
+Question: What is the manufacturer and starting price of LinkMesh 6E?
+Expected answer: Meridian Workplace; $229.
+Expected retrieval scope: OFP-502
+
+Q29. [Leaf / error-code lookup]
+Question: For LinkMesh 6E, what does error code NET-E101 mean and how should it be resolved?
+Expected answer: Uplink disconnected Resolution: Check Ethernet connection and router port.
+Expected retrieval scope: OFP-502
+
+Q30. [Variant lookup]
+Question: Which variant ID and price correspond to the Node version of LinkMesh 6E?
+Expected answer: OFP-502-N; $229.
+Expected retrieval scope: OFP-502-N
+
+Q31. [Local product lookup]
+Question: What is the manufacturer and starting price of VoltRide City?
+Expected answer: Northline Mobility; $1,299.
+Expected retrieval scope: MOB-601
+
+Q32. [Leaf / error-code lookup]
+Question: For VoltRide City, what does error code BIK-E101 mean and how should it be resolved?
+Expected answer: Motor assist unavailable Resolution: Check battery charge and seat the battery fully.
+Expected retrieval scope: MOB-601
+
+Q33. [Variant lookup]
+Question: Which variant ID and price correspond to the City version of VoltRide City?
+Expected answer: MOB-601-C; $1,299.
+Expected retrieval scope: MOB-601-C
+
+Q34. [Local product lookup]
+Question: What is the manufacturer and starting price of CargoGlide 2?
+Expected answer: Northline Mobility; $2,099.
+Expected retrieval scope: MOB-602
+
+Q35. [Leaf / error-code lookup]
+Question: For CargoGlide 2, what does error code BIK-E125 mean and how should it be resolved?
+Expected answer: Load sensor unavailable Resolution: Remove load, restart, and schedule dealer inspection.
+Expected retrieval scope: MOB-602
+
+Q36. [Missing-child test]
+Question: Does CargoGlide 2 have a variant node?
+Expected answer: No. The catalog defines MOB-602 as the most specific node.
+Expected retrieval scope: MOB-602
+
+Q37. [Local product lookup]
+Question: What is the manufacturer and starting price of PackTrack One?
+Expected answer: Northline Mobility; $69.
+Expected retrieval scope: MOT-701
+
+Q38. [Leaf / error-code lookup]
+Question: For PackTrack One, what does error code TRV-E101 mean and how should it be resolved?
+Expected answer: Tag not found Resolution: Enable Bluetooth and move within nearby range.
+Expected retrieval scope: MOT-701
+
+Q39. [Variant lookup]
+Question: Which variant ID and price correspond to the Tag version of PackTrack One?
+Expected answer: MOT-701-T; $69.
+Expected retrieval scope: MOT-701-T
+
+Q40. [Local product lookup]
+Question: What is the manufacturer and starting price of RouteCharge 65?
+Expected answer: Northline Mobility; $79.
+Expected retrieval scope: MOT-702
+
+Q41. [Leaf / error-code lookup]
+Question: For RouteCharge 65, what does error code TRV-E120 mean and how should it be resolved?
+Expected answer: Power negotiation failed Resolution: Reconnect cable and use a certified USB-C PD cable.
+Expected retrieval scope: MOT-702
+
+Q42. [Missing-child test]
+Question: Does RouteCharge 65 have a variant node?
+Expected answer: No. The catalog defines MOT-702 as the most specific node.
+Expected retrieval scope: MOT-702
+
+Q43. [Local product lookup]
+Question: What is the manufacturer and starting price of BrewCraft Duo?
+Expected answer: Harborline Appliances; $189.
+Expected retrieval scope: APK-801
+
+Q44. [Leaf / error-code lookup]
+Question: For BrewCraft Duo, what does error code KIT-E101 mean and how should it be resolved?
+Expected answer: Water level too low Resolution: Fill reservoir above the minimum mark.
+Expected retrieval scope: APK-801
+
+Q45. [Variant lookup]
+Question: Which variant ID and price correspond to the Glass Carafe version of BrewCraft Duo?
+Expected answer: APK-801-G; $189.
+Expected retrieval scope: APK-801-G
+
+Q46. [Local product lookup]
+Question: What is the manufacturer and starting price of FreshVault 12?
+Expected answer: Harborline Appliances; $599.
+Expected retrieval scope: APK-802
+
+Q47. [Leaf / error-code lookup]
+Question: For FreshVault 12, what does error code KIT-E134 mean and how should it be resolved?
+Expected answer: Door open too long Resolution: Close door fully and inspect gasket alignment.
+Expected retrieval scope: APK-802
+
+Q48. [Missing-child test]
+Question: Does FreshVault 12 have a variant node?
+Expected answer: No. The catalog defines APK-802 as the most specific node.
+Expected retrieval scope: APK-802
+
+Q49. [Local product lookup]
+Question: What is the manufacturer and starting price of CleanSweep R3?
+Expected answer: Harborline Appliances; $429.
+Expected retrieval scope: APC-901
+
+Q50. [Leaf / error-code lookup]
+Question: For CleanSweep R3, what does error code CLN-E101 mean and how should it be resolved?
+Expected answer: Robot stuck Resolution: Clear obstacle and resume from open floor.
+Expected retrieval scope: APC-901
+
+Q51. [Variant lookup]
+Question: Which variant ID and price correspond to the Vacuum version of CleanSweep R3?
+Expected answer: APC-901-V; $429.
+Expected retrieval scope: APC-901-V
+
+Q52. [Local product lookup]
+Question: What is the manufacturer and starting price of SteamMate S1?
+Expected answer: Harborline Appliances; $159.
+Expected retrieval scope: APC-902
+
+Q53. [Leaf / error-code lookup]
+Question: For SteamMate S1, what does error code CLN-E125 mean and how should it be resolved?
+Expected answer: Water tank missing Resolution: Refit tank until it clicks.
+Expected retrieval scope: APC-902
+
+Q54. [Missing-child test]
+Question: Does SteamMate S1 have a variant node?
+Expected answer: No. The catalog defines APC-902 as the most specific node.
+Expected retrieval scope: APC-902
+
+Q55. [Local product lookup]
+Question: What is the manufacturer and starting price of AirPure Cube?
+Expected answer: Harborline Appliances; $279.
+Expected retrieval scope: APW-1001
+
+Q56. [Leaf / error-code lookup]
+Question: For AirPure Cube, what does error code AIR-E101 mean and how should it be resolved?
+Expected answer: Filter not detected Resolution: Remove packaging and reseat filter panel.
+Expected retrieval scope: APW-1001
+
+Q57. [Variant lookup]
+Question: Which variant ID and price correspond to the Home version of AirPure Cube?
+Expected answer: APW-1001-H; $279.
+Expected retrieval scope: APW-1001-H
+
+Q58. [Local product lookup]
+Question: What is the manufacturer and starting price of SleepLight Rhythm?
+Expected answer: Harborline Appliances; $119.
+Expected retrieval scope: APW-1002
+
+Q59. [Leaf / error-code lookup]
+Question: For SleepLight Rhythm, what does error code AIR-E117 mean and how should it be resolved?
+Expected answer: Clock not set Resolution: Set time in the companion app or local menu.
+Expected retrieval scope: APW-1002
+
+Q60. [Missing-child test]
+Question: Does SleepLight Rhythm have a variant node?
+Expected answer: No. The catalog defines APW-1002 as the most specific node.
+Expected retrieval scope: APW-1002
+
+Q61. [Category aggregation]
+Question: List all products under the Home Appliances category.
+Expected answer: BrewCraft Duo; FreshVault 12; CleanSweep R3; SteamMate S1; AirPure Cube; SleepLight Rhythm.
+Expected retrieval scope: Home Appliances
+
+Q62. [Category aggregation]
+Question: List all products under the Home Systems category.
+Expected answer: AeroTherm X1; BreezeSense V2; Sentinel Lock S4; WatchTower Cam 4K; AquaGuard Flow; LeakNode Mini.
+Expected retrieval scope: Home Systems
+
+Q63. [Category aggregation]
+Question: List all products under the Mobility category.
+Expected answer: VoltRide City; CargoGlide 2; PackTrack One; RouteCharge 65.
+Expected retrieval scope: Mobility
+
+Q64. [Category aggregation]
+Question: List all products under the Office Technology category.
+Expected answer: ViewPanel 55; VoiceDock Pro; PowerCore Desk 8; LinkMesh 6E.
+Expected retrieval scope: Office Technology
+
+Q65. [Subcategory aggregation]
+Question: Which products belong to the Cleaning subcategory?
+Expected answer: CleanSweep R3; SteamMate S1.
+Expected retrieval scope: Cleaning
+
+Q66. [Subcategory aggregation]
+Question: Which products belong to the Climate Control subcategory?
+Expected answer: AeroTherm X1; BreezeSense V2.
+Expected retrieval scope: Climate Control
+
+Q67. [Subcategory aggregation]
+Question: Which products belong to the Collaboration subcategory?
+Expected answer: ViewPanel 55; VoiceDock Pro.
+Expected retrieval scope: Collaboration
+
+Q68. [Subcategory aggregation]
+Question: Which products belong to the E-Bikes subcategory?
+Expected answer: VoltRide City; CargoGlide 2.
+Expected retrieval scope: E-Bikes
+
+Q69. [Subcategory aggregation]
+Question: Which products belong to the Kitchen subcategory?
+Expected answer: BrewCraft Duo; FreshVault 12.
+Expected retrieval scope: Kitchen
+
+Q70. [Subcategory aggregation]
+Question: Which products belong to the Power and Connectivity subcategory?
+Expected answer: PowerCore Desk 8; LinkMesh 6E.
+Expected retrieval scope: Power and Connectivity
+
+Q71. [Subcategory aggregation]
+Question: Which products belong to the Security and Access subcategory?
+Expected answer: Sentinel Lock S4; WatchTower Cam 4K.
+Expected retrieval scope: Security and Access
+
+Q72. [Subcategory aggregation]
+Question: Which products belong to the Travel Accessories subcategory?
+Expected answer: PackTrack One; RouteCharge 65.
+Expected retrieval scope: Travel Accessories
+
+Q73. [Subcategory aggregation]
+Question: Which products belong to the Water Protection subcategory?
+Expected answer: AquaGuard Flow; LeakNode Mini.
+Expected retrieval scope: Water Protection
+
+Q74. [Subcategory aggregation]
+Question: Which products belong to the Wellness subcategory?
+Expected answer: AirPure Cube; SleepLight Rhythm.
+Expected retrieval scope: Wellness
+
+Q75. [Cross-category comparison]
+Question: Compare the products manufactured by Meridian Workplace with the products manufactured by Northline Mobility.
+Expected answer: Meridian Workplace: ViewPanel 55, VoiceDock Pro, PowerCore Desk 8, LinkMesh 6E. Northline Mobility: VoltRide City, CargoGlide 2, PackTrack One, RouteCharge 65.
+Expected retrieval scope: manufacturer metadata
+
+Q76. [Global reasoning]
+Question: Which catalog categories contain products with variants and products without variants?
+Expected answer: All four top-level categories contain both: Home Systems, Office Technology, Mobility, and Home Appliances.
+Expected retrieval scope: catalog hierarchy
+
+Q77. [Ambiguity test]
+Question: Several products use an E101-style error code. Why should a RAG answer use the full error-code prefix and product context?
+Expected answer: The suffix E101 appears in multiple domains but has different meanings. The prefix and product metadata disambiguate the correct resolution.
+Expected retrieval scope: error-code namespace
+
+Q78. [Negative retrieval]
+Question: Which product has a variant called Enterprise?
+Expected answer: None. No catalog variant is named Enterprise.
+Expected retrieval scope: all variants

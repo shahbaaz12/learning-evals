@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ORDER1",
+    "answer": "Quick\u2011start steps for the AeroTherm\u202fX1:\n1. Switch off HVAC control power.\n2. Connect the labelled terminals and restore power.\n3. Run the compatibility and sensor test.",
+    "citations": [
+      "HCL-101"
+    ],
+    "status": "answered",
+    "context": [
+      "[HCL-101] {\"category\":\"Home Systems\",\"subcategory\":\"Climate Control\",\"product_id\":\"HCL-101\",\"product_name\":\"AeroTherm X1\",\"manufacturer\":\"HelioWorks Climate\",\"starting_price_usd\":\"$249\",\"description\":\"A room-scale smart heat-pump controller for quiet, schedule-based heating and cooling in apartments and small offices.\",\"specifications\":{\"Coverage\":\"Up to 45 m2\",\"Power\":\"24V control circuit\",\"Connectivity\":\"Wi-Fi 6 / Matter\",\"Warranty\":\"3 years\"},\"quick_start\":[\"Switch off HVAC control power.\",\"Connect labelled terminals and restore power.\",\"Run the compatibility and sensor test.\"],\"how_to_use\":[\"Choose a schedule or set a temporary target.\",\"Review runtime trends before changing limits.\"],\"error_codes\":[{\"code\":\"CLM-E101\",\"meaning\":\"Sensor unavailable\",\"resolution\":\"Reseat the wall sensor and run Sensor Test.\"},{\"code\":\"CLM-E214\",\"meaning\":\"Safety delay active\",\"resolution\":\"Wait five minutes; do not switch modes repeatedly.\"},{\"code\":\"CLM-E330\",\"meaning\":\"Zone conflict\",\"resolution\":\"Check schedule overlap and the heating/cooling deadband.\"}],\"variants\":[{\"variant_id\":\"HCL-101-S\",\"variant_name\":\"Standard\",\"price_usd\":\"$249\",\"description\":\"Single-zone controller with wall sensor.\"},{\"variant_id\":\"HCL-101-P\",\"variant_name\":\"Plus\",\"price_usd\":\"$319\",\"description\":\"Adds remote occupancy sensor and humidity control.\"}]}"
+    ],
+    "provider": {
+      "ok": true,
+      "data": {
+        "answer": "Quick\u2011start steps for the AeroTherm\u202fX1:\n1. Switch off HVAC control power.\n2. Connect the labelled terminals and restore power.\n3. Run the compatibility and sensor test.",
+        "citations": [
+          "HCL-101"
+        ],
+        "status": "answered"
+      },
+      "http_status": 200,
+      "error": null,
+      "seconds": 1.5597382999985712,
+      "input_tokens": 708,
+      "output_tokens": 86,
+      "estimated_usd": 0.00015780000000000001
+    },
+    "question": "How do I set up AeroTherm X1? Give the quick-start steps in order.",
+    "retrieved_ids": [
+      "HCL-101"
+    ],
+    "route": "semantic",
+    "catalog_complete": false,
+    "retrieval_seconds": 0.09358739999879617,
+    "end_to_end_seconds": 1.6548700999992434,
+    "citation_validity": true
+  }
+]
